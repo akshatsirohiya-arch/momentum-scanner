@@ -1,1 +1,48 @@
+# .github/workflows/nightly_scan.yml
+# =====================================
+# Runs the full market scan every weekday at 6pm ET (23:00 UTC)
+# Commits the output CSVs back to the repo so Streamlit reads fresh data.
+#
+# Setup:
+#   1. Push this file to .github/workflows/nightly_scan.yml
+#   2. No secrets needed — yfinance and Wikipedia are public
+#   3. Streamlit Cloud will auto-sync from the repo on next load
+
+name: Nightly Market Scan
+
+on:
+  schedule:
+    - cron: "0 23 * * 1-5"   # 6pm ET, Monday–Friday
+  workflow_dispatch:           # allow manual trigger from GitHub UI
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45        # full scan takes ~20-30 min for 3,500 tickers
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install yfinance pandas requests lxml html5lib beautifulsoup4
+
+      - name: Run nightly scan
+        run: python nightly_scan.py
+
+      - name: Commit updated data files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "🔄 Nightly scan $(date +'%Y-%m-%d')"
+          git push
 
