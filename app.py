@@ -14,6 +14,7 @@ import streamlit as st
 import pandas as pd
 import json
 import os
+import requests
 from datetime import datetime
 from google import genai
 
@@ -26,12 +27,19 @@ RISK_PROFILE = "Aggressive growth — position trades of 2–8 weeks, targeting 
 STRATEGY     = "Higher highs + higher lows trend structure required. Fundamental quality matters. AI/tech tailwinds preferred."
 TODAY        = datetime.today().strftime("%B %d, %Y")
 
-DATA_DIR = "data"
+# ── GitHub raw URL base ───────────────────────
+# Streamlit Cloud cannot read local files committed to GitHub.
+# We fetch CSVs directly from the GitHub raw content URL instead.
+GITHUB_USER   = "akshatsirohiya-arch"
+GITHUB_REPO   = "momentum-scanner"
+GITHUB_BRANCH = "main"
+RAW_BASE      = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/{GITHUB_BRANCH}/data"
+
 FILES = {
-    "main":  f"{DATA_DIR}/enriched_watchlist.csv",
-    "base":  f"{DATA_DIR}/basing_watchlist.csv",
-    "spec":  f"{DATA_DIR}/speculative_watchlist.csv",
-    "meta":  f"{DATA_DIR}/scan_meta.json",
+    "main": f"{RAW_BASE}/enriched_watchlist.csv",
+    "base": f"{RAW_BASE}/basing_watchlist.csv",
+    "spec": f"{RAW_BASE}/speculative_watchlist.csv",
+    "meta": f"{RAW_BASE}/scan_meta.json",
 }
 
 
@@ -66,24 +74,35 @@ def call_ai(prompt: str, model: str = "gemini-2.5-flash-lite") -> str:
 
 
 # ─────────────────────────────────────────────
-# 3. DATA LOADERS
+# 3. DATA LOADERS — reads from GitHub raw URLs
 # ─────────────────────────────────────────────
-@st.cache_data(ttl=3600)
-def load_csv(path: str) -> pd.DataFrame:
-    if not os.path.exists(path):
+@st.cache_data(ttl=3600, show_spinner=False)
+def load_csv(url: str) -> pd.DataFrame:
+    try:
+        resp = requests.get(url, timeout=15)
+        if resp.status_code == 404:
+            return pd.DataFrame()
+        resp.raise_for_status()
+        from io import StringIO
+        df = pd.read_csv(StringIO(resp.text))
+        if "Ticker" in df.columns:
+            df["Chart"] = df["Ticker"].apply(lambda x: f"https://www.tradingview.com/symbols/{x}/")
+        return df
+    except Exception as e:
+        st.warning(f"Could not load data: {e}")
         return pd.DataFrame()
-    df = pd.read_csv(path)
-    if "Ticker" in df.columns:
-        df["Chart"] = df["Ticker"].apply(lambda x: f"https://www.tradingview.com/symbols/{x}/")
-    return df
 
 
-@st.cache_data(ttl=3600)
+@st.cache_data(ttl=3600, show_spinner=False)
 def load_meta() -> dict:
-    if not os.path.exists(FILES["meta"]):
+    try:
+        resp = requests.get(FILES["meta"], timeout=15)
+        if resp.status_code == 404:
+            return {}
+        resp.raise_for_status()
+        return resp.json()
+    except Exception as e:
         return {}
-    with open(FILES["meta"]) as f:
-        return json.load(f)
 
 
 def staleness_warning(meta: dict):
@@ -415,4 +434,3 @@ with tab_pulse:
         st.markdown(st.session_state["pulse_report"])
     else:
         st.info("Hit **Refresh Market Pulse** to get today's macro read.")
-
