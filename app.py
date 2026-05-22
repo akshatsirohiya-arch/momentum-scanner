@@ -244,7 +244,7 @@ def render_stock_table(df: pd.DataFrame):
             "profit_margin_pct": st.column_config.NumberColumn("Margin",   format="%.1f%%"),
             "trailing_pe":       st.column_config.NumberColumn("P/E",      format="%.1f"),
             "RVOL":              st.column_config.NumberColumn("RVOL",     format="%.2fx"),
-            "market_cap":        st.column_config.NumberColumn("Mkt Cap",  format="$%.0f"),
+            "market_cap":        st.column_config.TextColumn("Mkt Cap"),
         },
         hide_index=False,
     )
@@ -323,15 +323,36 @@ tab_main, tab_base, tab_spec, tab_pulse = st.tabs([
 ])
 
 
+def fmt_mktcap(val) -> str:
+    """Convert raw market cap number to readable string e.g. $4.2B, $820M"""
+    try:
+        v = float(val)
+        if v >= 1e12: return f"${v/1e12:.1f}T"
+        if v >= 1e9:  return f"${v/1e9:.1f}B"
+        if v >= 1e6:  return f"${v/1e6:.0f}M"
+        return f"${v:,.0f}"
+    except:
+        return "N/A"
+
 def apply_filters(df: pd.DataFrame) -> pd.DataFrame:
     if df.empty:
         return df
+    # Filter
     if "composite" in df.columns:
-        df = df[df["composite"] >= min_composite]
+        df = df[pd.to_numeric(df["composite"], errors="coerce") >= min_composite]
     if "fund_score" in df.columns:
-        df = df[df["fund_score"] >= min_fund_score]
+        df = df[pd.to_numeric(df["fund_score"], errors="coerce") >= min_fund_score]
     if sector_filter.strip() and "sector" in df.columns:
         df = df[df["sector"].str.contains(sector_filter.strip(), case=False, na=False)]
+    # Sort best to worst by composite score
+    if "composite" in df.columns:
+        df = df.sort_values("composite", ascending=False)
+    # Format market cap as human-readable
+    if "market_cap" in df.columns:
+        df["market_cap"] = df["market_cap"].apply(fmt_mktcap)
+    # Reset rank index starting at 1
+    df = df.reset_index(drop=True)
+    df.index += 1
     return df
 
 
