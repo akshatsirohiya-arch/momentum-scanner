@@ -1,0 +1,42 @@
+# .github/workflows/fetch_universe.yml
+# Runs every Sunday at 8pm ET to refresh the full ticker universe
+# Also runs before every nightly scan as a dependency
+
+name: Refresh Universe
+
+on:
+  schedule:
+    - cron: "0 1 * * 0"    # Sunday 8pm ET (1am UTC Monday)
+  workflow_dispatch:         # manual trigger anytime
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install pandas requests
+
+      - name: Fetch universe
+        run: python fetch_universe.py
+
+      - name: Commit tickers.csv
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "🌐 Universe refresh $(date +'%Y-%m-%d')"
+          git push
