@@ -16,20 +16,18 @@ import json
 import os
 import requests
 from datetime import datetime
-from google import genai
 
 # ─────────────────────────────────────────────
 # 1. CONFIG
 # ─────────────────────────────────────────────
 st.set_page_config(layout="wide", page_title="Momentum Command v4", page_icon="🏹")
 
-RISK_PROFILE = "Aggressive growth — position trades of 2–8 weeks, targeting 15–40% moves."
-STRATEGY     = "Higher highs + higher lows trend structure required. Fundamental quality matters. AI/tech tailwinds preferred."
-TODAY        = datetime.today().strftime("%B %d, %Y")
+RISK_PROFILE  = "Aggressive growth — position trades of 2–8 weeks, targeting 15–40% moves."
+STRATEGY      = "Higher highs + higher lows trend structure required. Fundamental quality matters. AI/tech tailwinds preferred."
+TODAY         = datetime.today().strftime("%B %d, %Y")
+CLAUDE_MODEL  = "claude-sonnet-4-5"   # fast + smart — best for this use case
 
 # ── GitHub raw URL base ───────────────────────
-# Streamlit Cloud cannot read local files committed to GitHub.
-# We fetch CSVs directly from the GitHub raw content URL instead.
 GITHUB_USER   = "akshatsirohiya-arch"
 GITHUB_REPO   = "momentum-scanner"
 GITHUB_BRANCH = "main"
@@ -44,33 +42,34 @@ FILES = {
 
 
 # ─────────────────────────────────────────────
-# 2. GEMINI CLIENT
+# 2. CLAUDE CLIENT
 # ─────────────────────────────────────────────
-@st.cache_resource
-def get_client():
-    if "GEMINI_API_KEY" not in st.secrets:
-        return None
+def call_ai(prompt: str) -> str:
+    """Calls Claude API directly via HTTP — no SDK needed."""
+    api_key = st.secrets.get("ANTHROPIC_API_KEY", "")
+    if not api_key:
+        return "⚠️ ANTHROPIC_API_KEY not found in Streamlit secrets."
     try:
-        return genai.Client(
-            api_key=st.secrets["GEMINI_API_KEY"],
-            http_options={"api_version": "v1beta"}
+        resp = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key":         api_key,
+                "anthropic-version": "2023-06-01",
+                "content-type":      "application/json",
+            },
+            json={
+                "model":      CLAUDE_MODEL,
+                "max_tokens": 2048,
+                "messages":   [{"role": "user", "content": prompt}],
+            },
+            timeout=60,
         )
+        resp.raise_for_status()
+        return resp.json()["content"][0]["text"]
+    except requests.exceptions.Timeout:
+        return "⚠️ Request timed out. Try again."
     except Exception as e:
-        st.sidebar.error(f"Gemini init error: {e}")
-        return None
-
-client = get_client()
-
-def call_ai(prompt: str, model: str = "gemini-2.5-flash-lite") -> str:
-    if not client:
-        return "⚠️ AI Client not initialized. Check GEMINI_API_KEY in secrets."
-    try:
-        response = client.models.generate_content(model=model, contents=prompt)
-        return response.text
-    except Exception as e:
-        if "429" in str(e):
-            return "⚠️ Rate limit hit. Wait or upgrade to Gemini Tier 1."
-        return f"AI Error: {str(e)}"
+        return f"⚠️ Claude API error: {str(e)}"
 
 
 # ─────────────────────────────────────────────
