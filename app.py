@@ -59,12 +59,14 @@ def call_ai(prompt: str) -> str:
             },
             json={
                 "model":      CLAUDE_MODEL,
-                "max_tokens": 2048,
+                "max_tokens": 1024,
                 "messages":   [{"role": "user", "content": prompt}],
             },
             timeout=60,
         )
-        resp.raise_for_status()
+        # Show full error body — critical for debugging
+        if not resp.ok:
+            return f"⚠️ Claude API {resp.status_code}: {resp.text}"
         return resp.json()["content"][0]["text"]
     except requests.exceptions.Timeout:
         return "⚠️ Request timed out. Try again."
