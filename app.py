@@ -25,7 +25,7 @@ st.set_page_config(layout="wide", page_title="Momentum Command v4", page_icon="�
 RISK_PROFILE  = "Aggressive growth — position trades of 2–8 weeks, targeting 15–40% moves."
 STRATEGY      = "Higher highs + higher lows trend structure required. Fundamental quality matters. AI/tech tailwinds preferred."
 TODAY         = datetime.today().strftime("%B %d, %Y")
-CLAUDE_MODEL  = "claude-sonnet-4-5"   # fast + smart — best for this use case
+CLAUDE_MODEL  = "claude-sonnet-4-6"   # Claude Sonnet 4.6 — correct API model string
 
 # ── GitHub raw URL base ───────────────────────
 GITHUB_USER   = "akshatsirohiya-arch"
