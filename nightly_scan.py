@@ -1,4 +1,3 @@
-
 """
 NIGHTLY MARKET SCANNER
 ======================
@@ -46,80 +45,98 @@ TODAY            = datetime.today().strftime("%B %d, %Y")
 
 
 # ─────────────────────────────────────────────
-# 1. UNIVERSE BUILDER — no CSV needed
+# 1. UNIVERSE BUILDER — iShares ETF CSV sources
+#    Wikipedia blocks GitHub IPs (403). iShares
+#    ETF holdings CSVs are public and reliable.
 # ─────────────────────────────────────────────
-def get_sp500() -> list:
-    """S&P 500 from Wikipedia."""
-    try:
-        tables = pd.read_html("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")
-        return tables[0]["Symbol"].str.replace(".", "-", regex=False).tolist()
-    except Exception as e:
-        log.warning(f"S&P 500 fetch failed: {e}")
-        return []
 
+# iShares ETF holdings URLs — updated daily by BlackRock, no auth needed
+ISHARES_URLS = {
+    "SP500":    "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund",
+    "SP400":    "https://www.ishares.com/us/products/239763/ishares-sp-midcap-400-etf/1467271812596.ajax?fileType=csv&fileName=IJH_holdings&dataType=fund",
+    "SP600":    "https://www.ishares.com/us/products/239774/ishares-sp-smallcap-600-etf/1467271812596.ajax?fileType=csv&fileName=IJR_holdings&dataType=fund",
+    "RUSSELL2000": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/1467271812596.ajax?fileType=csv&fileName=IWM_holdings&dataType=fund",
+    "NASDAQ100": "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/1467271812596.ajax?fileType=csv&fileName=QQQ_holdings&dataType=fund",
+}
 
-def get_nasdaq100() -> list:
-    """Nasdaq 100 from Wikipedia."""
-    try:
-        tables = pd.read_html("https://en.wikipedia.org/wiki/Nasdaq-100")
-        # Try multiple table indices — Wikipedia layout can shift
-        for t in tables:
-            if "Ticker" in t.columns:
-                return t["Ticker"].tolist()
-            if "Symbol" in t.columns:
-                return t["Symbol"].tolist()
-        return []
-    except Exception as e:
-        log.warning(f"Nasdaq 100 fetch failed: {e}")
-        return []
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+}
 
-
-def get_russell2000() -> list:
+def fetch_ishares_etf(name: str, url: str) -> list:
     """
-    Russell 2000 from iShares IWM ETF holdings (free, no auth).
-    Falls back to a curated small-cap list if unavailable.
+    Fetches tickers from an iShares ETF holdings CSV.
+    iShares CSVs have metadata rows at the top — we skip until we find 'Ticker'.
     """
     try:
-        url = "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/1467271812596.ajax?fileType=csv&fileName=IWM_holdings&dataType=fund"
-        resp = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+        resp = requests.get(url, timeout=45, headers=HEADERS)
+        resp.raise_for_status()
         lines = resp.text.splitlines()
-        # Find the header row
-        start = next(i for i, l in enumerate(lines) if l.startswith("Ticker"))
-        df = pd.read_csv(pd.io.common.StringIO("\n".join(lines[start:])))
-        tickers = df["Ticker"].dropna().astype(str).str.strip()
-        tickers = tickers[tickers.str.match(r'^[A-Z]{1,5}$')]
-        return tickers.tolist()
+
+        # Find the row that starts with 'Ticker' — that's the header
+        header_idx = None
+        for i, line in enumerate(lines):
+            if line.strip().startswith("Ticker"):
+                header_idx = i
+                break
+
+        if header_idx is None:
+            log.warning(f"{name}: Could not find 'Ticker' header row in CSV")
+            return []
+
+        from io import StringIO
+        df = pd.read_csv(StringIO("\n".join(lines[header_idx:])))
+
+        # Clean tickers — only plain alpha symbols, no cash/options rows
+        tickers = (
+            df["Ticker"]
+            .dropna()
+            .astype(str)
+            .str.strip()
+            .str.upper()
+            .str.replace(".", "-", regex=False)
+        )
+        tickers = tickers[tickers.str.match(r'^[A-Z]{1,5}(-[A-Z])?$')]
+        tickers = tickers[tickers != "TICKER"]  # drop header artifact
+        result = tickers.tolist()
+        log.info(f"{name}: {len(result)} tickers fetched")
+        return result
+
     except Exception as e:
-        log.warning(f"Russell 2000 fetch failed: {e}. Using fallback list.")
+        log.warning(f"{name} fetch failed: {e}")
         return []
 
 
-def get_sp400() -> list:
-    """S&P 400 Mid-cap from Wikipedia."""
-    try:
-        tables = pd.read_html("https://en.wikipedia.org/wiki/List_of_S%26P_400_companies")
-        for t in tables:
-            if "Ticker symbol" in t.columns:
-                return t["Ticker symbol"].tolist()
-            if "Symbol" in t.columns:
-                return t["Symbol"].tolist()
-        return []
-    except Exception as e:
-        log.warning(f"S&P 400 fetch failed: {e}")
-        return []
+# Hardcoded fallback — top 100 liquid US stocks
+# Used only if ALL iShares sources fail (extremely rare)
+FALLBACK_TICKERS = [
+    "AAPL","MSFT","NVDA","AMZN","GOOGL","META","TSLA","BRK-B","LLY","AVGO",
+    "JPM","UNH","XOM","V","MA","HD","PG","COST","MRK","ABBV","CVX","CRM",
+    "BAC","NFLX","KO","AMD","PEP","TMO","ACN","MCD","CSCO","ABT","WMT","LIN",
+    "DHR","TXN","PM","ADBE","NKE","NEE","RTX","UPS","HON","QCOM","LOW","AMGN",
+    "IBM","SBUX","GS","CAT","BLK","SPGI","ELV","MDT","AXP","PLD","DE","GILD",
+    "ADI","REGN","VRTX","PANW","KLAC","LRCX","AMAT","MRVL","MU","INTC","ON",
+    "CRWD","DDOG","SNOW","NET","ZS","OKTA","MDB","GTLB","BILL","HUBS","VEEV",
+    "AXON","CELH","DUOL","ASTS","RKLB","SOFI","IONQ","RGTI","QUBT","ACHR",
+    "FTAI","GEV","VST","CEG","NRG","WFRD","NOG","CIVI","MTDR","OVV","FANG",
+]
 
 
 def build_universe() -> list:
     """
-    Combines all sources into a deduplicated universe.
-    Typical size: 2,800–3,500 unique tickers.
+    Pulls tickers from 4 iShares ETFs covering the full US market.
+    Falls back to top-100 list only if all sources fail.
+    Typical size: 2,500–3,200 unique tickers.
     """
-    log.info("Building market universe...")
+    log.info("Building market universe from iShares ETF holdings...")
 
-    sp500   = get_sp500()
-    ndx100  = get_nasdaq100()
-    sp400   = get_sp400()
-    russ2k  = get_russell2000()
+    sp500  = fetch_ishares_etf("SP500",      ISHARES_URLS["SP500"])
+    sp400  = fetch_ishares_etf("SP400",      ISHARES_URLS["SP400"])
+    sp600  = fetch_ishares_etf("SP600",      ISHARES_URLS["SP600"])
+    russ2k = fetch_ishares_etf("RUSSELL2000",ISHARES_URLS["RUSSELL2000"])
+
+    all_tickers = sp500 + sp400 + sp600 + russ2k
 
     all_tickers = sp500 + ndx100 + sp400 + russ2k
 
@@ -137,7 +154,12 @@ def build_universe() -> list:
         seen.add(t)
         clean.append(t)
 
-    log.info(f"Universe: {len(sp500)} SP500 + {len(ndx100)} NDX100 + {len(sp400)} SP400 + {len(russ2k)} Russell2000 = {len(clean)} unique tickers")
+    # Fallback if everything failed
+    if not clean:
+        log.warning("All iShares sources failed — using hardcoded fallback ticker list.")
+        clean = FALLBACK_TICKERS
+
+    log.info(f"Universe: {len(sp500)} SP500 + {len(sp400)} SP400 + {len(sp600)} SP600 + {len(russ2k)} Russell2000 = {len(clean)} unique tickers")
     return clean
 
 
