@@ -67,38 +67,81 @@ HEADERS = {
 def fetch_ishares_etf(name: str, url: str) -> list:
     """
     Fetches tickers from an iShares ETF holdings CSV.
-    iShares CSVs have metadata rows at the top — we skip until we find 'Ticker'.
+    iShares CSVs have several metadata rows at the top before the actual data.
+    Strategy: scan every row to find the one that contains a ticker-like column,
+    then parse from there. Handles any column name variation.
     """
     try:
         resp = requests.get(url, timeout=45, headers=HEADERS)
         resp.raise_for_status()
+
+        # Log first 300 chars so we can debug if it fails again
+        preview = resp.text[:300].replace("\n", " | ")
+        log.info(f"{name} CSV preview: {preview}")
+
         lines = resp.text.splitlines()
 
-        # Find the row that starts with 'Ticker' — that's the header
+        # Strategy: find the header row by looking for common ticker column names
+        # iShares uses 'Ticker', 'Symbol', or the first column of the data block
+        TICKER_COL_NAMES = {"ticker", "symbol", "fund ticker"}
         header_idx = None
+
         for i, line in enumerate(lines):
-            if line.strip().startswith("Ticker"):
+            # Lowercase, strip quotes, check first cell
+            cells = [c.strip().strip('"').lower() for c in line.split(",")]
+            if cells and cells[0] in TICKER_COL_NAMES:
                 header_idx = i
+                log.info(f"{name}: Found header at row {i}: {line[:80]}")
                 break
 
+        # Fallback: if no named header found, try to parse every row as CSV
+        # and find the first row where col 0 looks like a real ticker
         if header_idx is None:
-            log.warning(f"{name}: Could not find 'Ticker' header row in CSV")
+            log.warning(f"{name}: No named header found — scanning for data rows")
+            from io import StringIO
+            tickers_found = []
+            for line in lines:
+                cells = line.split(",")
+                if not cells:
+                    continue
+                candidate = cells[0].strip().strip('"').upper()
+                # Valid ticker: 1-5 uppercase letters, optionally dash + letter
+                if candidate and __import__("re").match(r'^[A-Z]{1,5}(-[A-Z])?$', candidate):
+                    tickers_found.append(candidate)
+            if tickers_found:
+                log.info(f"{name}: Extracted {len(tickers_found)} tickers by row scanning")
+                return tickers_found
+            log.warning(f"{name}: Could not extract any tickers")
             return []
 
         from io import StringIO
         df = pd.read_csv(StringIO("\n".join(lines[header_idx:])))
 
-        # Clean tickers — only plain alpha symbols, no cash/options rows
+        # Find the ticker column regardless of exact name
+        ticker_col = None
+        for col in df.columns:
+            if col.strip().lower() in TICKER_COL_NAMES:
+                ticker_col = col
+                break
+
+        if ticker_col is None:
+            # Use first column as fallback
+            ticker_col = df.columns[0]
+            log.warning(f"{name}: Using first column '{ticker_col}' as ticker column")
+
         tickers = (
-            df["Ticker"]
+            df[ticker_col]
             .dropna()
             .astype(str)
             .str.strip()
+            .str.strip('"')
             .str.upper()
             .str.replace(".", "-", regex=False)
         )
-        tickers = tickers[tickers.str.match(r'^[A-Z]{1,5}(-[A-Z])?$')]
-        tickers = tickers[tickers != "TICKER"]  # drop header artifact
+        # Only keep valid ticker symbols
+        import re
+        tickers = tickers[tickers.apply(lambda x: bool(re.match(r'^[A-Z]{1,5}(-[A-Z])?$', x)))]
+        tickers = tickers[~tickers.isin(["TICKER", "SYMBOL", ""])]
         result = tickers.tolist()
         log.info(f"{name}: {len(result)} tickers fetched")
         return result
@@ -137,8 +180,6 @@ def build_universe() -> list:
     russ2k = fetch_ishares_etf("RUSSELL2000",ISHARES_URLS["RUSSELL2000"])
 
     all_tickers = sp500 + sp400 + sp600 + russ2k
-
-    all_tickers = sp500 + ndx100 + sp400 + russ2k
 
     # Deduplicate, clean, remove obvious bad symbols
     seen = set()
