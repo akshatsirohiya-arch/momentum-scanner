@@ -6,3 +6,7 @@ lxml
 html5lib
 beautifulsoup4
 google-genai
+streamlit>=1.35.0
+pandas>=2.0.0
+requests>=2.31.0
+yfinance>=0.2.40
