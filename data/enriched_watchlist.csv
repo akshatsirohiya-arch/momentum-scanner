@@ -1,8 +1,5 @@
 Rank,Ticker,Chart,hh,hl,trend_structure,trend_score,current_price,high_6m,low_6m,pct_from_6m_high,RVOL,Velocity %,momentum_score,sector,industry,market_cap,rev_growth_pct,earnings_growth_pct,profit_margin_pct,trailing_pe,forward_pe,analyst_rec,short_ratio,fund_score,rvol_score,composite
-1,TD,https://www.tradingview.com/symbols/TD/,True,True,STRONG UPTREND,10,113.34,113.51,82.35,-0.1,0.86,41.6,1.0,N/A,N/A,187243446272,,,,12.6,15.0,,,5,2.1,5.2
-2,XPO,https://www.tradingview.com/symbols/XPO/,True,True,STRONG UPTREND,8,214.03,231.46,130.02,-7.5,0.8,103.3,2.1,N/A,N/A,25129259008,,,,73.3,35.8,,,5,2.0,4.7
-3,FN,https://www.tradingview.com/symbols/FN/,True,True,STRONG UPTREND,8,667.95,748.89,412.08,-10.8,0.82,98.0,2.0,N/A,N/A,23932475392,,,,57.5,38.7,,,5,2.0,4.7
-4,PKX,https://www.tradingview.com/symbols/PKX/,True,True,STRONG UPTREND,8,71.88,92.4,51.0,-22.2,1.05,79.7,1.6,N/A,N/A,21742485504,,,,47.3,12.7,,,5,2.6,4.7
-5,XOM,https://www.tradingview.com/symbols/XOM/,True,True,STRONG UPTREND,8,146.96,175.22,113.08,-16.1,0.71,68.5,1.4,N/A,N/A,609141456896,,,,24.7,13.8,,,5,1.8,4.5
-6,CVX,https://www.tradingview.com/symbols/CVX/,True,True,STRONG UPTREND,8,183.03,212.76,143.75,-14.0,0.8,62.1,1.2,N/A,N/A,364522110976,,,,31.8,14.7,,,5,2.0,4.5
-7,KEY,https://www.tradingview.com/symbols/KEY/,True,False,UPTREND,6,21.34,23.12,17.93,-7.7,0.63,11.3,1.0,N/A,N/A,23137376256,,,,13.2,9.9,,,5,1.6,3.7
+1,CMBT,https://www.tradingview.com/symbols/CMBT/,True,True,STRONG UPTREND,8,15.47,17.72,9.25,-12.7,1.01,90.7,1.8,N/A,N/A,4488926208,,,,8.9,10.3,,,5,2.5,4.8
+2,HASI,https://www.tradingview.com/symbols/HASI/,True,True,STRONG UPTREND,8,41.0,44.13,30.72,-7.1,0.92,61.2,1.2,N/A,N/A,5239843840,,,,102.5,12.3,,,5,2.3,4.6
+3,SXT,https://www.tradingview.com/symbols/SXT/,True,False,UPTREND,6,113.85,128.9,82.31,-11.7,0.73,38.0,1.0,N/A,N/A,4846475776,,,,33.6,24.0,,,5,1.8,3.7
+4,SIM,https://www.tradingview.com/symbols/SIM/,True,False,UPTREND,6,30.02,34.35,26.0,-12.6,0.0,5.4,1.0,N/A,N/A,4605283328,,,,7.9,28.1,,,5,1.0,3.5
