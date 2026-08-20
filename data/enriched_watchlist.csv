@@ -1,19 +1,489 @@
 Rank,Ticker,Chart,hh,hl,trend_structure,trend_score,current_price,high_6m,low_6m,pct_from_6m_high,RVOL,Velocity %,momentum_score,sector,industry,market_cap,rev_growth_pct,earnings_growth_pct,profit_margin_pct,trailing_pe,forward_pe,analyst_rec,short_ratio,fund_score,rvol_score,composite
-1,TWLO,https://www.tradingview.com/symbols/TWLO/,True,True,STRONG UPTREND,8,232.1,258.35,106.12,-10.2,1.09,150.7,3.0,Technology,Software - Infrastructure,35644809216,22.0,4671.5,20.6,32.0,34.2,1.62,2.6,9,2.7,5.9
-2,EC,https://www.tradingview.com/symbols/EC/,True,True,STRONG UPTREND,10,17.68,17.82,11.01,-0.8,0.5,68.8,1.4,Energy,Oil & Gas Integrated,36347158528,35.5,234.5,10.2,11.5,11.6,3.64,2.8,7,1.2,5.5
-3,RJF,https://www.tradingview.com/symbols/RJF/,True,True,STRONG UPTREND,10,179.3,182.73,138.33,-1.9,0.59,37.3,1.0,Financial Services,Asset Management,34443530240,15.1,42.0,15.1,15.6,12.6,,6.8,7,1.5,5.4
-4,WAT,https://www.tradingview.com/symbols/WAT/,True,True,STRONG UPTREND,10,401.25,420.26,282.77,-4.5,0.65,63.4,1.3,N/A,N/A,39397072896,,,,101.3,24.2,,,5,1.6,5.2
-5,EQR,https://www.tradingview.com/symbols/EQR/,True,True,STRONG UPTREND,10,69.0,71.5,56.3,-3.5,0.8,40.3,1.0,N/A,N/A,24611481600,,,,28.7,41.1,,,5,2.0,5.2
-6,JHX,https://www.tradingview.com/symbols/JHX/,True,True,STRONG UPTREND,8,29.29,31.36,17.36,-6.6,0.69,69.5,1.4,Basic Materials,Building Materials,17003504640,63.9,23.4,2.7,133.1,18.2,1.25,1.8,8,1.7,5.1
-7,RBC,https://www.tradingview.com/symbols/RBC/,True,True,STRONG UPTREND,8,545.65,667.69,520.68,-18.3,0.61,9.5,1.0,Industrials,Tools & Accessories,17274867712,19.2,47.5,16.4,54.1,32.7,1.88,2.1,8,1.5,5.0
-8,HMC,https://www.tradingview.com/symbols/HMC/,True,True,STRONG UPTREND,10,31.95,32.22,23.25,-0.8,0.51,29.3,1.0,N/A,N/A,41460629504,,,,,6.4,,,5,1.3,5.0
-9,IRM,https://www.tradingview.com/symbols/IRM/,True,True,STRONG UPTREND,8,126.67,134.68,96.25,-5.9,0.6,45.9,1.0,Real Estate,REIT - Specialty,37710016512,18.5,,5.5,89.2,46.4,1.73,4.0,7,1.5,4.8
-10,BEN,https://www.tradingview.com/symbols/BEN/,True,True,STRONG UPTREND,8,33.99,36.28,22.03,-6.3,0.54,83.9,1.7,Financial Services,Asset Management,17269534720,14.3,106.7,8.7,23.1,10.8,2.73,4.3,6,1.4,4.7
-11,ADM,https://www.tradingview.com/symbols/ADM/,True,True,STRONG UPTREND,8,82.45,88.46,64.64,-6.8,0.86,44.2,1.0,Consumer Defensive,Farm Products,39737565184,7.2,315.6,2.2,22.5,14.5,3.0,4.7,6,2.1,4.7
-12,KVUE,https://www.tradingview.com/symbols/KVUE/,True,True,STRONG UPTREND,8,18.8,19.91,16.26,-5.6,0.86,22.3,1.0,Consumer Defensive,Household & Personal Products,36110540800,3.0,8.5,10.8,22.1,15.2,2.79,3.4,5,2.1,4.5
-13,EXR,https://www.tradingview.com/symbols/EXR/,True,True,STRONG UPTREND,8,146.92,158.88,126.28,-7.5,0.6,16.8,1.0,Real Estate,REIT - Industrial,32425617408,3.8,6.0,27.3,32.5,30.9,2.38,3.8,6,1.5,4.5
-14,DHI,https://www.tradingview.com/symbols/DHI/,True,True,STRONG UPTREND,8,145.68,170.28,130.96,-14.4,0.74,5.9,1.0,N/A,N/A,40746881024,,,,13.9,12.4,,,5,1.9,4.4
-15,KIM,https://www.tradingview.com/symbols/KIM/,True,True,STRONG UPTREND,8,24.22,26.65,21.87,-9.1,0.64,28.8,1.0,Real Estate,REIT - Retail,16246517760,4.9,-5.8,27.8,28.2,27.1,2.33,7.8,5,1.6,4.4
-16,IFF,https://www.tradingview.com/symbols/IFF/,True,True,STRONG UPTREND,8,81.0,89.32,64.76,-9.3,0.55,24.3,1.0,N/A,N/A,20667148288,,,,,20.5,,,5,1.4,4.3
-17,JBL,https://www.tradingview.com/symbols/JBL/,True,False,UPTREND,6,338.62,428.84,234.86,-21.0,0.78,64.8,1.3,Technology,Electronic Components,35483004928,11.8,27.6,2.6,42.4,20.2,,3.0,6,2.0,4.0
-18,MSCI,https://www.tradingview.com/symbols/MSCI/,True,False,UPTREND,6,562.77,642.47,516.28,-12.4,0.91,14.8,1.0,N/A,N/A,40913379328,,,,30.8,25.0,,,5,2.3,3.8
+1,WBS,https://www.tradingview.com/symbols/WBS/,True,True,STRONG UPTREND,10,77.57,79.4,66.35,-2.3,4.7,29.6,1.0,Financial Services,Banks - Regional,12568934400,5.8,2.8,36.8,12.6,10.8,2.75,,6,10.0,7.0
+2,FTK,https://www.tradingview.com/symbols/FTK/,True,True,STRONG UPTREND,8,25.0,39.67,14.63,-37.0,3.02,149.7,3.0,Energy,Oil & Gas Equipment & Services,905510720,70.3,420.0,13.0,24.8,30.9,1.0,8.8,9,7.5,6.9
+3,ANDG,https://www.tradingview.com/symbols/ANDG/,True,True,STRONG UPTREND,10,50.32,50.76,19.72,-0.9,2.26,155.3,3.1,Consumer Cyclical,Personal Services,5685579264,23.7,,4.7,111.8,22.1,1.57,6.7,7,5.6,6.8
+4,GEO,https://www.tradingview.com/symbols/GEO/,True,True,STRONG UPTREND,10,31.72,32.62,12.8,-2.8,1.22,192.4,3.8,Industrials,Security & Protection Services,4174973184,15.1,71.4,10.3,15.0,18.5,1.0,6.0,8,3.0,6.7
+5,ALH,https://www.tradingview.com/symbols/ALH/,True,True,STRONG UPTREND,8,23.18,28.23,18.64,-17.9,4.58,51.0,1.0,Consumer Cyclical,"Furnishings, Fixtures & Appliances",4607930880,6.6,88.9,10.1,24.9,15.6,1.5,7.7,7,10.0,6.4
+6,AGL,https://www.tradingview.com/symbols/AGL/,True,True,STRONG UPTREND,8,92.73,133.04,7.48,-30.3,0.69,584.1,10.0,Healthcare,Medical Care Facilities,1557048960,7.2,,-3.9,,45.1,2.56,2.8,4,1.7,6.4
+7,PBT,https://www.tradingview.com/symbols/PBT/,True,True,STRONG UPTREND,10,34.07,35.5,18.88,-4.0,0.9,104.2,2.1,Energy,Oil & Gas Midstream,1587961728,34.4,61.5,91.6,97.3,,,3.0,9,2.2,6.3
+8,INSW,https://www.tradingview.com/symbols/INSW/,True,True,STRONG UPTREND,10,99.36,100.5,59.96,-1.1,0.81,84.0,1.7,Energy,Oil & Gas Midstream,4921431040,140.1,373.1,61.8,6.4,15.8,1.33,4.3,10,2.0,6.3
+9,BOW,https://www.tradingview.com/symbols/BOW/,True,True,STRONG UPTREND,10,33.49,35.07,21.21,-4.5,1.7,87.1,1.7,Financial Services,Insurance - Property & Casualty,1103261312,23.0,33.3,10.1,18.1,13.7,2.71,4.3,7,4.2,6.2
+10,KNTK,https://www.tradingview.com/symbols/KNTK/,True,True,STRONG UPTREND,10,54.39,56.06,41.2,-3.0,0.94,29.9,1.0,Energy,Oil & Gas Midstream,9202781184,36.3,95.2,29.2,19.0,26.1,1.76,6.7,10,2.3,6.2
+11,CXW,https://www.tradingview.com/symbols/CXW/,True,True,STRONG UPTREND,10,33.51,34.86,15.74,-3.9,1.1,149.3,3.0,Industrials,Security & Protection Services,3313920512,27.3,5.7,5.1,26.6,14.7,1.0,3.1,7,2.8,6.2
+12,CMBT,https://www.tradingview.com/symbols/CMBT/,True,True,STRONG UPTREND,10,17.62,17.99,11.23,-2.1,0.71,70.8,1.4,Energy,Oil & Gas Midstream,5112791552,121.1,460.6,24.9,10.1,13.2,1.75,1.2,10,1.8,6.2
+13,OBK,https://www.tradingview.com/symbols/OBK/,True,True,STRONG UPTREND,10,52.76,55.32,39.07,-4.6,1.11,67.8,1.4,Financial Services,Banks - Regional,1627628928,33.3,132.1,26.4,16.5,12.1,,4.3,9,2.8,6.2
+14,SUNC,https://www.tradingview.com/symbols/SUNC/,True,True,STRONG UPTREND,10,76.7,78.85,55.14,-2.7,1.39,57.8,1.2,Energy,Oil & Gas Midstream,3951368960,164.5,,0.8,12.4,6.2,1.25,3.1,8,3.5,6.1
+15,DINO,https://www.tradingview.com/symbols/DINO/,True,True,STRONG UPTREND,10,92.72,96.77,45.92,-4.2,0.89,114.6,2.3,Energy,Oil & Gas Refining & Marketing,16484119552,53.2,350.2,6.1,8.8,9.9,2.62,3.1,8,2.2,6.1
+16,NMM,https://www.tradingview.com/symbols/NMM/,True,True,STRONG UPTREND,10,85.32,87.66,58.21,-2.7,1.42,38.2,1.0,Industrials,Marine Shipping,2425188608,17.4,163.2,25.0,7.2,4.9,,2.9,8,3.5,6.1
+17,SUN,https://www.tradingview.com/symbols/SUN/,True,True,STRONG UPTREND,10,75.41,78.0,59.5,-3.3,1.07,38.0,1.0,Energy,Oil & Gas Refining & Marketing,14208289792,164.5,185.0,2.9,16.6,18.7,1.43,5.6,9,2.7,6.1
+18,ESTC,https://www.tradingview.com/symbols/ESTC/,True,True,STRONG UPTREND,10,85.9,88.21,42.05,-2.6,1.36,82.4,1.6,Technology,Software - Application,8929444864,16.0,,21.1,25.0,22.2,2.03,3.6,7,3.4,6.0
+19,AAMI,https://www.tradingview.com/symbols/AAMI/,True,True,STRONG UPTREND,10,90.85,93.82,48.89,-3.2,0.58,125.3,2.5,Financial Services,Asset Management,3224278016,45.3,171.4,15.2,32.1,13.9,3.0,2.2,8,1.4,6.0
+20,U,https://www.tradingview.com/symbols/U/,True,True,STRONG UPTREND,10,46.54,48.09,16.78,-3.2,1.12,150.9,3.0,Technology,Software - Application,20481738752,23.9,,-29.0,,26.7,1.46,4.7,6,2.8,6.0
+21,GNK,https://www.tradingview.com/symbols/GNK/,True,True,STRONG UPTREND,10,26.09,26.53,18.3,-1.7,1.21,35.8,1.0,Industrials,Marine Shipping,1137174528,68.5,,9.1,28.7,14.4,1.83,3.8,8,3.0,6.0
+22,WT,https://www.tradingview.com/symbols/WT/,True,True,STRONG UPTREND,10,22.65,23.47,13.16,-3.5,0.6,72.1,1.4,Financial Services,Asset Management,3431749376,57.3,64.7,13.3,41.2,17.4,1.71,6.0,9,1.5,6.0
+23,KLAR,https://www.tradingview.com/symbols/KLAR/,True,True,STRONG UPTREND,8,14.0,22.09,12.06,-36.6,3.05,89.0,1.8,Financial Services,Credit Services,5293588480,26.6,,-3.5,,16.9,1.95,8.2,6,7.6,6.0
+24,FRO,https://www.tradingview.com/symbols/FRO/,True,True,STRONG UPTREND,10,43.56,45.17,28.58,-3.6,0.72,48.1,1.0,Energy,Oil & Gas Midstream,9697454080,66.9,1579.7,40.2,10.7,10.7,2.0,4.1,9,1.8,5.9
+25,TBBB,https://www.tradingview.com/symbols/TBBB/,True,True,STRONG UPTREND,10,49.77,50.2,30.1,-0.9,1.3,57.7,1.2,Consumer Defensive,Discount Stores,6000409600,38.7,,-3.7,,838.2,1.69,6.4,7,3.2,5.9
+26,AMBQ,https://www.tradingview.com/symbols/AMBQ/,True,True,STRONG UPTREND,8,57.82,91.61,22.75,-36.9,0.65,275.1,5.5,Technology,Semiconductors,1398349824,89.7,,-37.8,,-250.1,1.83,3.2,7,1.6,5.9
+27,NLY,https://www.tradingview.com/symbols/NLY/,True,True,STRONG UPTREND,10,23.29,23.91,19.3,-2.6,0.63,22.7,1.0,Real Estate,REIT - Mortgage,17554010112,479.4,3426.0,90.7,5.6,7.5,,,9,1.6,5.9
+28,OSCR,https://www.tradingview.com/symbols/OSCR/,True,True,STRONG UPTREND,8,31.57,33.48,10.69,-5.7,0.89,230.9,4.6,Healthcare,Healthcare Plans,9743922176,70.4,,3.6,24.3,16.8,2.82,3.8,7,2.2,5.8
+29,MTRN,https://www.tradingview.com/symbols/MTRN/,True,True,STRONG UPTREND,8,232.72,304.58,129.46,-23.6,0.83,155.0,3.1,Basic Materials,Other Industrial Metals & Mining,4848424448,42.2,52.1,4.3,54.2,27.7,1.75,1.6,9,2.1,5.8
+30,BB,https://www.tradingview.com/symbols/BB/,True,True,STRONG UPTREND,8,8.14,13.59,3.12,-40.1,0.29,276.5,5.5,Technology,Software - Infrastructure,4770857472,25.6,216.3,10.3,81.4,35.6,,1.7,7,1.0,5.8
+31,UCB,https://www.tradingview.com/symbols/UCB/,True,True,STRONG UPTREND,10,35.53,37.18,28.93,-4.4,0.89,34.5,1.0,Financial Services,Banks - Regional,4255208448,24.4,50.8,34.1,11.6,11.0,2.29,4.0,8,2.2,5.8
+32,ECO,https://www.tradingview.com/symbols/ECO/,True,True,STRONG UPTREND,10,64.1,65.87,38.39,-2.7,1.1,59.0,1.2,Industrials,Marine Shipping,2502762496,239.4,606.3,-8.6,5.9,10.8,,1.8,7,2.8,5.8
+33,MAN,https://www.tradingview.com/symbols/MAN/,True,True,STRONG UPTREND,10,60.74,61.0,24.58,-0.4,0.85,166.8,3.3,Industrials,Staffing & Employment Services,2824856064,7.5,,0.6,27.4,12.5,,3.0,5,2.1,5.8
+34,JHX,https://www.tradingview.com/symbols/JHX/,True,True,STRONG UPTREND,10,30.03,31.36,17.36,-4.2,0.7,77.2,1.5,Basic Materials,Building Materials,17433090048,63.9,23.4,2.7,136.5,18.6,1.25,1.8,8,1.8,5.8
+35,CON,https://www.tradingview.com/symbols/CON/,True,True,STRONG UPTREND,10,34.81,35.9,20.49,-3.0,0.83,104.8,2.1,Healthcare,Medical Care Facilities,4438892544,10.0,47.0,8.7,22.5,19.0,1.22,3.4,7,2.1,5.8
+36,OPLN,https://www.tradingview.com/symbols/OPLN/,True,True,STRONG UPTREND,8,34.19,42.9,25.81,-20.3,1.91,88.8,1.8,Consumer Cyclical,Auto & Truck Dealerships,4173568512,15.1,113.3,9.7,,19.8,1.89,2.4,8,4.8,5.8
+37,ENVA,https://www.tradingview.com/symbols/ENVA/,True,True,STRONG UPTREND,8,237.39,267.45,129.25,-11.2,0.89,154.5,3.1,Financial Services,Credit Services,5910624768,31.1,39.9,21.0,17.6,11.5,,5.1,9,2.2,5.8
+38,GKOS,https://www.tradingview.com/symbols/GKOS/,True,True,STRONG UPTREND,10,184.89,191.55,95.87,-3.5,0.66,104.8,2.1,Healthcare,Medical Devices,10905539584,49.5,,-30.7,,366.6,1.36,4.1,7,1.7,5.8
+39,RGA,https://www.tradingview.com/symbols/RGA/,True,True,STRONG UPTREND,10,242.55,250.0,194.33,-3.0,1.03,34.8,1.0,Financial Services,Insurance - Reinsurance,15838918656,18.5,159.6,5.8,10.7,8.2,2.2,2.3,7,2.6,5.7
+40,ETW,https://www.tradingview.com/symbols/ETW/,True,True,STRONG UPTREND,10,9.8,9.87,8.17,-0.7,1.07,23.5,1.0,Financial Services,Asset Management,1064258304,4.6,195.5,928.0,5.7,,,0.6,7,2.7,5.7
+41,EQBK,https://www.tradingview.com/symbols/EQBK/,True,True,STRONG UPTREND,10,49.88,52.27,42.4,-4.6,0.7,34.2,1.0,Financial Services,Banks - Regional,1027153408,38.1,47.7,14.7,31.8,9.5,,2.9,8,1.8,5.7
+42,UMH,https://www.tradingview.com/symbols/UMH/,True,True,STRONG UPTREND,10,16.6,16.74,13.54,-0.8,1.03,17.0,1.0,Real Estate,REIT - Residential,1413758848,7.7,66.7,11.6,138.3,97.6,1.67,0.0,7,2.6,5.7
+43,HNGE,https://www.tradingview.com/symbols/HNGE/,True,True,STRONG UPTREND,8,85.62,93.13,34.64,-8.1,0.65,198.5,4.0,Healthcare,Health Information Services,6909056000,53.0,,15.1,10.4,27.4,1.56,3.8,8,1.6,5.7
+44,EXPD,https://www.tradingview.com/symbols/EXPD/,True,True,STRONG UPTREND,10,186.4,189.99,134.73,-1.9,0.54,58.8,1.2,Industrials,Integrated Freight & Logistics,24230252544,32.1,51.5,7.6,27.2,23.5,3.18,4.1,8,1.4,5.7
+45,NTST,https://www.tradingview.com/symbols/NTST/,True,True,STRONG UPTREND,8,20.61,22.47,18.27,-8.3,2.05,17.6,1.0,Real Estate,REIT - Retail,2100780928,26.9,52.7,6.3,147.2,50.3,1.5,21.0,8,5.1,5.7
+46,CLM,https://www.tradingview.com/symbols/CLM/,True,True,STRONG UPTREND,8,6.8,7.45,6.38,-8.7,2.14,15.7,1.0,Financial Services,Asset Management,2122567296,147.3,23.8,1196.5,6.2,,,18.2,8,5.4,5.7
+47,HTGC,https://www.tradingview.com/symbols/HTGC/,True,True,STRONG UPTREND,10,17.03,17.1,12.93,-0.4,1.07,39.3,1.0,Financial Services,Asset Management,3187403008,8.5,54.7,67.7,8.4,8.7,,7.6,7,2.7,5.7
+48,DBRG,https://www.tradingview.com/symbols/DBRG/,True,True,STRONG UPTREND,10,15.91,15.97,15.3,-0.4,0.91,8.0,1.0,Financial Services,Asset Management,2941449728,,1099.3,54.3,10.0,39.8,2.83,3.8,7,2.3,5.6
+49,WES,https://www.tradingview.com/symbols/WES/,True,True,STRONG UPTREND,10,48.65,50.07,38.28,-2.8,0.99,42.9,1.0,Energy,Oil & Gas Midstream,20100943872,30.0,13.8,29.0,15.4,12.6,2.5,10.2,7,2.5,5.6
+50,PD,https://www.tradingview.com/symbols/PD/,True,True,STRONG UPTREND,10,12.12,12.41,5.7,-2.3,0.53,130.1,2.6,Technology,Software - Application,934725504,1.0,,38.6,5.9,8.6,2.67,4.7,6,1.3,5.6
+51,VPG,https://www.tradingview.com/symbols/VPG/,True,True,STRONG UPTREND,8,62.26,151.78,39.16,-59.0,1.11,214.7,4.3,Technology,Scientific & Technical Instruments,828120256,11.7,,1.2,207.5,34.8,1.0,2.3,6,2.8,5.6
+52,DCOM,https://www.tradingview.com/symbols/DCOM/,True,True,STRONG UPTREND,10,40.3,41.97,30.18,-4.0,0.8,58.8,1.2,Financial Services,Banks - Regional,1779510784,12.0,17.6,29.4,14.6,9.3,1.8,11.9,7,2.0,5.6
+53,BY,https://www.tradingview.com/symbols/BY/,True,True,STRONG UPTREND,10,38.33,40.03,29.5,-4.2,0.83,56.6,1.1,Financial Services,Banks - Regional,1731995520,11.7,36.4,34.4,11.5,11.2,,2.7,7,2.1,5.6
+54,TRIN,https://www.tradingview.com/symbols/TRIN/,True,True,STRONG UPTREND,10,18.27,18.39,13.44,-0.7,0.72,61.5,1.2,Financial Services,Asset Management,1642247424,19.3,-22.0,45.2,10.5,8.7,1.78,5.2,7,1.8,5.6
+55,ALX,https://www.tradingview.com/symbols/ALX/,True,True,STRONG UPTREND,10,272.26,284.73,217.62,-4.4,0.86,43.7,1.0,Real Estate,REIT - Retail,1390510848,6.1,2441.2,79.1,8.2,20.9,,9.8,7,2.1,5.6
+56,FCF,https://www.tradingview.com/symbols/FCF/,True,True,STRONG UPTREND,10,21.25,22.19,16.1,-4.3,0.78,54.0,1.1,Financial Services,Banks - Regional,2147438464,9.6,37.5,33.2,13.0,10.8,2.17,3.9,7,2.0,5.6
+57,RAMP,https://www.tradingview.com/symbols/RAMP/,True,True,STRONG UPTREND,10,37.65,38.23,24.24,-1.5,0.81,96.9,1.9,Technology,Software - Infrastructure,2288931328,9.8,136.6,18.7,15.8,11.7,2.33,4.5,6,2.0,5.6
+58,ADX,https://www.tradingview.com/symbols/ADX/,True,True,STRONG UPTREND,10,25.82,26.56,20.11,-2.8,0.8,44.0,1.0,Financial Services,Asset Management,3225618432,9.4,54.2,1747.0,5.3,,,4.7,7,2.0,5.6
+59,NHC,https://www.tradingview.com/symbols/NHC/,True,True,STRONG UPTREND,10,236.75,239.29,151.06,-1.1,0.87,87.3,1.7,Healthcare,Medical Care Facilities,3707835392,8.8,67.1,9.0,26.6,550.6,,7.0,6,2.2,5.6
+60,MUC,https://www.tradingview.com/symbols/MUC/,True,True,STRONG UPTREND,10,10.6,11.05,9.95,-4.1,1.23,7.6,1.0,Financial Services,Asset Management,998349568,7.3,,25.2,46.1,,,0.1,6,3.1,5.6
+61,PAYC,https://www.tradingview.com/symbols/PAYC/,True,True,STRONG UPTREND,10,226.72,227.3,110.19,-0.3,0.62,85.5,1.7,Technology,Software - Application,10218637312,9.8,48.1,22.8,24.0,16.4,2.45,4.1,7,1.6,5.6
+62,INVH,https://www.tradingview.com/symbols/INVH/,True,True,STRONG UPTREND,10,30.27,30.89,23.72,-2.0,0.61,49.4,1.0,Real Estate,REIT - Residential,17981650944,10.1,60.5,23.2,27.8,44.6,2.2,3.0,7,1.5,5.5
+63,EFC,https://www.tradingview.com/symbols/EFC/,True,True,STRONG UPTREND,10,13.62,13.82,10.73,-1.4,0.72,42.9,1.0,Real Estate,REIT - Mortgage,1788627584,33.8,-3.3,51.5,8.5,6.9,2.0,5.9,7,1.8,5.5
+64,AWR,https://www.tradingview.com/symbols/AWR/,True,True,STRONG UPTREND,10,89.31,90.42,71.0,-1.2,0.6,39.7,1.0,Utilities,Utilities - Regulated Water,3539857408,11.2,25.8,20.5,24.4,23.5,3.33,3.0,7,1.5,5.5
+65,GDV,https://www.tradingview.com/symbols/GDV/,True,True,STRONG UPTREND,10,30.14,30.85,25.48,-2.3,0.68,25.5,1.0,Financial Services,Asset Management,2635631360,14.2,54.1,678.9,6.2,,,0.1,7,1.7,5.5
+66,KYN,https://www.tradingview.com/symbols/KYN/,True,True,STRONG UPTREND,10,14.63,15.08,12.62,-3.0,0.74,15.0,1.0,Financial Services,Asset Management,2474313984,17.9,,475.2,5.0,5.1,,0.8,7,1.9,5.5
+67,DNP,https://www.tradingview.com/symbols/DNP/,True,True,STRONG UPTREND,10,11.0,11.09,9.56,-0.8,0.64,21.9,1.0,Financial Services,Asset Management,4166828800,4.3,95.9,424.5,5.9,,,1.4,7,1.6,5.5
+68,STVN,https://www.tradingview.com/symbols/STVN/,True,True,STRONG UPTREND,10,22.35,22.39,12.84,-0.2,1.23,83.2,1.7,Healthcare,Medical Instruments & Supplies,6104370176,7.8,-26.5,11.0,39.2,26.6,1.67,3.0,5,3.1,5.5
+69,CDP,https://www.tradingview.com/symbols/CDP/,True,True,STRONG UPTREND,10,37.12,38.9,29.98,-4.6,0.73,47.2,1.0,Real Estate,REIT - Office,4300146176,3.9,19.2,20.8,25.8,25.4,1.75,7.5,7,1.8,5.5
+70,RNST,https://www.tradingview.com/symbols/RNST/,True,True,STRONG UPTREND,8,41.83,44.54,33.71,-6.1,0.89,43.2,1.0,Financial Services,Banks - Regional,3823448832,45.3,9300.0,29.6,12.2,10.6,1.57,5.9,10,2.2,5.5
+71,PB,https://www.tradingview.com/symbols/PB/,True,True,STRONG UPTREND,10,72.58,75.87,62.68,-4.3,0.73,25.7,1.0,Financial Services,Banks - Regional,8722429952,25.9,17.7,40.4,12.6,9.9,2.47,3.1,7,1.8,5.5
+72,BROS,https://www.tradingview.com/symbols/BROS/,True,True,STRONG UPTREND,8,49.37,74.02,44.58,-33.3,1.21,46.5,1.0,Consumer Cyclical,Restaurants,8624119808,32.5,37.3,4.9,68.6,37.6,1.24,5.2,9,3.0,5.5
+73,JEF,https://www.tradingview.com/symbols/JEF/,True,True,STRONG UPTREND,8,51.78,63.51,35.0,-18.5,1.05,78.8,1.6,Financial Services,Capital Markets,10531637248,35.0,159.8,23.0,14.5,11.4,2.33,2.7,9,2.6,5.5
+74,NRK,https://www.tradingview.com/symbols/NRK/,True,True,STRONG UPTREND,10,10.21,10.67,9.65,-4.3,1.52,11.4,1.0,Financial Services,Asset Management,890672448,-1.8,3547.0,35.7,31.9,,,1.5,5,3.8,5.5
+75,COMP,https://www.tradingview.com/symbols/COMP/,True,True,STRONG UPTREND,8,11.92,13.6,6.37,-12.4,0.72,103.0,2.1,Real Estate,Real Estate Services,9150323712,109.0,60.3,0.6,198.7,14.1,1.75,3.7,9,1.8,5.5
+76,ARW,https://www.tradingview.com/symbols/ARW/,True,True,STRONG UPTREND,8,206.64,237.33,132.62,-12.9,1.04,103.5,2.1,Technology,Electronics & Computer Distribution,10519096320,31.8,46.5,2.3,13.2,8.6,2.75,2.4,8,2.6,5.4
+77,BFLY,https://www.tradingview.com/symbols/BFLY/,True,True,STRONG UPTREND,8,9.17,10.05,2.82,-8.8,0.51,197.4,3.9,Healthcare,Medical Devices,2441835264,39.5,,-66.7,,-152.8,1.0,4.0,7,1.3,5.4
+78,SXT,https://www.tradingview.com/symbols/SXT/,True,True,STRONG UPTREND,10,132.58,136.58,82.59,-2.9,0.59,84.7,1.7,Basic Materials,Specialty Chemicals,5642977792,11.6,36.4,9.3,35.8,26.7,2.0,2.5,6,1.5,5.4
+79,OGN,https://www.tradingview.com/symbols/OGN/,True,True,STRONG UPTREND,10,13.74,13.74,5.67,0.0,1.05,193.7,3.9,Healthcare,Drug Manufacturers - General,3608253696,-2.3,-28.3,3.4,17.6,3.8,,6.5,2,2.6,5.4
+80,HZO,https://www.tradingview.com/symbols/HZO/,True,True,STRONG UPTREND,10,52.25,52.46,24.22,-0.4,1.54,104.7,2.1,Consumer Cyclical,Specialty Retail,1154032000,-7.0,,0.2,326.6,33.2,2.56,10.4,3,3.9,5.4
+81,SLG,https://www.tradingview.com/symbols/SLG/,True,True,STRONG UPTREND,10,58.1,59.5,33.77,-2.4,0.79,102.8,2.1,Real Estate,REIT - Office,4457909760,27.3,,-16.7,,-45.6,2.53,11.0,5,2.0,5.4
+82,MANE,https://www.tradingview.com/symbols/MANE/,True,True,STRONG UPTREND,8,105.32,131.24,39.73,-19.8,0.85,196.6,3.9,Healthcare,Biotechnology,4400284160,,,,,-39.2,1.14,7.6,6,2.1,5.4
+83,AUB,https://www.tradingview.com/symbols/AUB/,True,True,STRONG UPTREND,8,41.02,43.24,32.75,-5.1,0.79,45.4,1.0,Financial Services,Banks - Regional,5858267136,35.8,834.8,32.3,12.0,10.2,1.78,6.3,10,2.0,5.4
+84,SOBO,https://www.tradingview.com/symbols/SOBO/,True,True,STRONG UPTREND,10,38.41,38.94,30.29,-1.4,0.56,38.2,1.0,Energy,Oil & Gas Midstream,8011870208,4.2,39.1,23.0,17.5,19.7,3.5,14.2,7,1.4,5.4
+85,OFG,https://www.tradingview.com/symbols/OFG/,True,True,STRONG UPTREND,10,51.78,54.47,36.98,-4.9,0.74,70.3,1.4,Financial Services,Banks - Regional,2188507392,10.4,20.9,33.9,10.2,10.1,2.6,5.0,6,1.9,5.4
+86,GBCI,https://www.tradingview.com/symbols/GBCI/,True,True,STRONG UPTREND,8,47.25,54.58,41.31,-13.4,0.7,29.9,1.0,Financial Services,Banks - Regional,6152514560,41.5,66.7,27.6,19.4,13.1,1.83,7.0,10,1.8,5.4
+87,CHE,https://www.tradingview.com/symbols/CHE/,True,True,STRONG UPTREND,10,534.88,556.27,364.23,-3.8,0.73,70.0,1.4,Healthcare,Medical Care Facilities,6990860800,8.8,43.7,10.6,26.9,19.4,,2.7,6,1.8,5.4
+88,ACA,https://www.tradingview.com/symbols/ACA/,True,True,STRONG UPTREND,10,145.4,146.87,99.78,-1.0,0.72,76.9,1.5,Industrials,Engineering & Construction,7140129792,1.7,448.6,16.8,32.5,28.4,2.67,1.1,6,1.8,5.4
+89,SMA,https://www.tradingview.com/symbols/SMA/,True,True,STRONG UPTREND,10,34.44,35.77,28.8,-3.7,0.82,20.4,1.0,Real Estate,REIT - Industrial,1906904960,11.4,,10.2,57.4,57.0,1.64,5.8,6,2.0,5.4
+90,RVT,https://www.tradingview.com/symbols/RVT/,True,True,STRONG UPTREND,10,18.55,19.12,15.62,-3.0,0.56,22.4,1.0,Financial Services,Asset Management,2304813568,11.9,49.9,962.1,6.4,,,0.0,7,1.4,5.4
+91,RBRK,https://www.tradingview.com/symbols/RBRK/,True,True,STRONG UPTREND,8,97.52,106.5,42.25,-8.4,0.83,142.8,2.9,Technology,Software - Infrastructure,20072400896,39.0,,-20.3,,150.8,1.11,4.7,7,2.1,5.3
+92,ESNT,https://www.tradingview.com/symbols/ESNT/,True,True,STRONG UPTREND,10,68.53,70.37,55.34,-2.6,0.72,30.8,1.0,Financial Services,Insurance - Specialty,6159202304,13.6,7.8,51.5,9.6,8.7,2.29,4.5,6,1.8,5.3
+93,BSTZ,https://www.tradingview.com/symbols/BSTZ/,True,True,STRONG UPTREND,10,30.39,31.89,19.99,-4.7,0.63,87.9,1.8,Financial Services,Asset Management,2089134720,,,,6.5,,,0.4,5,1.6,5.3
+94,ETV,https://www.tradingview.com/symbols/ETV/,True,True,STRONG UPTREND,10,15.16,15.25,12.7,-0.6,1.16,22.7,1.0,Financial Services,Asset Management,1769999232,-8.1,36.2,1110.8,8.0,,,1.1,5,2.9,5.3
+95,LTH,https://www.tradingview.com/symbols/LTH/,True,True,STRONG UPTREND,8,44.72,47.24,25.2,-5.3,0.88,136.3,2.7,Consumer Cyclical,Leisure,9993219072,13.7,40.6,13.0,24.4,21.9,1.14,3.5,7,2.2,5.3
+96,SCL,https://www.tradingview.com/symbols/SCL/,True,True,STRONG UPTREND,10,63.67,66.75,43.82,-4.6,0.69,60.7,1.2,Basic Materials,Specialty Chemicals,1446157312,15.0,101.6,-0.1,,17.3,1.0,4.0,6,1.7,5.3
+97,AFG,https://www.tradingview.com/symbols/AFG/,True,True,STRONG UPTREND,10,143.65,148.71,121.7,-3.4,0.72,29.7,1.0,Financial Services,Insurance - Property & Casualty,11911667712,5.8,44.3,11.8,12.6,11.8,2.43,3.9,6,1.8,5.3
+98,STEW,https://www.tradingview.com/symbols/STEW/,True,True,STRONG UPTREND,10,18.22,19.05,16.19,-4.4,0.71,18.5,1.0,Financial Services,Asset Management,1757164160,3.5,,446.8,11.9,,,0.1,6,1.8,5.3
+99,YETI,https://www.tradingview.com/symbols/YETI/,True,True,STRONG UPTREND,8,44.0,53.99,34.9,-18.5,1.52,66.7,1.3,Consumer Cyclical,Leisure,3211507200,8.5,54.1,9.2,19.3,13.1,1.88,8.0,7,3.8,5.3
+100,DK,https://www.tradingview.com/symbols/DK/,True,True,STRONG UPTREND,8,64.04,68.66,32.11,-6.7,1.15,108.8,2.2,Energy,Oil & Gas Refining & Marketing,3921308672,47.8,,1.9,17.4,15.7,2.17,5.0,7,2.9,5.3
+101,YPF,https://www.tradingview.com/symbols/YPF/,True,True,STRONG UPTREND,8,50.92,57.49,33.42,-11.4,0.78,66.7,1.3,Energy,Oil & Gas Integrated,19964461056,72.2,2550.7,4.0,25.7,9.0,1.77,3.9,9,2.0,5.3
+102,MGA,https://www.tradingview.com/symbols/MGA/,True,True,STRONG UPTREND,10,70.39,71.99,50.69,-2.2,0.73,47.0,1.0,Consumer Cyclical,Auto Parts,18830721024,3.3,27.8,1.8,25.9,9.1,2.45,7.2,6,1.8,5.3
+103,KFRC,https://www.tradingview.com/symbols/KFRC/,True,True,STRONG UPTREND,8,58.13,61.68,24.69,-5.8,1.04,205.0,4.1,Industrials,Staffing & Employment Services,1041050176,4.5,23.8,2.7,27.4,18.8,,4.5,5,2.6,5.3
+104,BTX,https://www.tradingview.com/symbols/BTX/,True,True,STRONG UPTREND,10,8.99,9.35,5.89,-3.9,0.75,80.1,1.6,Financial Services,Asset Management,1049225536,,,,24.3,,,0.3,5,1.9,5.3
+105,IEX,https://www.tradingview.com/symbols/IEX/,True,True,STRONG UPTREND,10,233.75,243.8,181.76,-4.1,0.77,44.5,1.0,Industrials,Specialty Industrial Machinery,17232025600,6.4,10.9,14.5,33.7,24.4,1.87,2.5,6,1.9,5.3
+106,OII,https://www.tradingview.com/symbols/OII/,True,True,STRONG UPTREND,10,52.49,54.25,32.75,-3.2,0.95,71.8,1.4,Energy,Oil & Gas Equipment & Services,5224311296,10.0,20.4,12.2,15.2,22.6,3.25,5.1,5,2.4,5.3
+107,APLE,https://www.tradingview.com/symbols/APLE/,True,True,STRONG UPTREND,10,16.5,17.28,11.12,-4.5,0.71,97.1,1.9,Real Estate,REIT - Hotel & Motel,3895364608,4.7,4.6,12.2,22.3,22.7,2.45,6.1,5,1.8,5.3
+108,CFR,https://www.tradingview.com/symbols/CFR/,True,True,STRONG UPTREND,10,164.81,170.8,127.68,-3.5,0.79,48.5,1.0,Financial Services,Banks - Regional,10242741248,6.1,12.8,30.2,15.6,14.1,2.8,0.0,6,2.0,5.3
+109,CUBE,https://www.tradingview.com/symbols/CUBE/,True,True,STRONG UPTREND,10,41.18,43.26,34.71,-4.8,0.79,23.5,1.0,Real Estate,REIT - Industrial,9321379840,1.5,8.3,29.3,28.0,26.7,2.33,4.5,6,2.0,5.3
+110,CBL,https://www.tradingview.com/symbols/CBL/,True,True,STRONG UPTREND,8,57.17,60.4,35.55,-5.3,0.67,108.7,2.2,Real Estate,REIT - Retail,1768997248,4.0,1737.5,37.0,8.2,,1.0,3.3,8,1.7,5.3
+111,SVV,https://www.tradingview.com/symbols/SVV/,True,True,STRONG UPTREND,8,10.47,12.69,6.91,-17.5,1.89,63.5,1.3,Consumer Cyclical,Specialty Retail,1604365824,7.4,16.7,1.4,69.8,17.2,1.55,10.8,6,4.7,5.3
+112,BMEZ,https://www.tradingview.com/symbols/BMEZ/,True,True,STRONG UPTREND,10,16.97,17.25,13.21,-1.6,1.02,32.8,1.0,Financial Services,Asset Management,1060648768,,,,6.7,,,0.4,5,2.5,5.3
+113,DKL,https://www.tradingview.com/symbols/DKL/,True,True,STRONG UPTREND,8,53.71,60.0,46.72,-10.5,1.97,22.0,1.0,Energy,Oil & Gas Refining & Marketing,3104292864,56.2,-34.9,12.8,18.6,14.0,3.0,7.5,6,4.9,5.2
+114,AIR,https://www.tradingview.com/symbols/AIR/,True,True,STRONG UPTREND,8,132.39,154.0,99.18,-14.0,1.44,62.9,1.3,Industrials,Aerospace & Defense,5329867776,23.0,32.3,5.7,27.2,20.2,,2.8,7,3.6,5.2
+115,NUVB,https://www.tradingview.com/symbols/NUVB/,True,True,STRONG UPTREND,8,6.83,7.58,4.05,-9.9,1.23,78.8,1.6,Healthcare,Biotechnology,2398171648,555.6,,-88.2,,-455.3,1.5,7.8,7,3.1,5.2
+116,GAM,https://www.tradingview.com/symbols/GAM/,True,True,STRONG UPTREND,10,67.1,68.57,56.85,-2.1,0.36,21.0,1.0,Financial Services,Asset Management,1599134720,0.9,22.5,1542.3,4.2,,,0.1,6,1.0,5.2
+117,WBI,https://www.tradingview.com/symbols/WBI/,True,True,STRONG UPTREND,8,32.49,36.85,23.14,-11.8,0.45,70.4,1.4,Energy,Oil & Gas Equipment & Services,4011092480,128.0,80.1,1.4,,27.3,1.86,6.8,9,1.1,5.2
+118,ECAT,https://www.tradingview.com/symbols/ECAT/,True,True,STRONG UPTREND,10,15.06,15.67,12.24,-3.9,0.8,41.7,1.0,Financial Services,Asset Management,1497992704,,,,7.0,,,0.7,5,2.0,5.2
+119,PDM,https://www.tradingview.com/symbols/PDM/,True,True,STRONG UPTREND,10,9.73,10.13,6.32,-3.9,0.87,84.8,1.7,Real Estate,REIT - Office,1217542272,2.7,,-14.2,,-32.4,2.5,4.6,4,2.2,5.2
+120,FDS,https://www.tradingview.com/symbols/FDS/,True,True,STRONG UPTREND,10,300.06,304.3,187.19,-1.4,0.84,63.5,1.3,Financial Services,Financial Data & Stock Exchanges,10671797248,6.4,-9.6,23.2,19.8,15.2,3.33,3.9,5,2.1,5.2
+121,PDX,https://www.tradingview.com/symbols/PDX/,True,True,STRONG UPTREND,10,21.75,21.99,19.16,-1.1,1.0,15.3,1.0,Financial Services,Asset Management,972376128,,,,,,,0.6,5,2.5,5.2
+122,BCAT,https://www.tradingview.com/symbols/BCAT/,True,True,STRONG UPTREND,10,15.74,16.04,12.72,-1.8,0.86,39.9,1.0,Financial Services,Asset Management,1649162752,,,,7.4,,,1.5,5,2.1,5.2
+123,LOMA,https://www.tradingview.com/symbols/LOMA/,True,True,STRONG UPTREND,8,9.32,12.76,9.11,-27.0,1.13,7.3,1.0,Basic Materials,Building Materials,1087612544,21.9,319.7,5.1,37.3,12.1,1.4,4.3,8,2.8,5.2
+124,PK,https://www.tradingview.com/symbols/PK/,True,True,STRONG UPTREND,10,15.82,15.97,9.76,-0.9,0.77,101.6,2.0,Real Estate,REIT - Hotel & Motel,3185172480,1.0,,-6.4,,28.0,2.72,8.4,4,1.9,5.2
+125,PAG,https://www.tradingview.com/symbols/PAG/,True,True,STRONG UPTREND,10,216.55,225.51,138.0,-4.0,0.88,87.6,1.8,Consumer Cyclical,Auto & Truck Dealerships,14219294720,6.0,-1.7,2.8,15.7,15.0,2.7,3.9,4,2.2,5.2
+126,LXP,https://www.tradingview.com/symbols/LXP/,True,True,STRONG UPTREND,10,60.88,61.61,43.93,-1.2,0.84,62.1,1.2,Real Estate,REIT - Industrial,3589318400,0.4,,18.7,61.5,-3044.0,2.38,,5,2.1,5.2
+127,RS,https://www.tradingview.com/symbols/RS/,True,True,STRONG UPTREND,8,380.31,432.62,287.24,-12.1,1.11,78.4,1.6,Basic Materials,Steel,19416557568,26.5,42.3,5.7,22.1,16.5,,2.9,7,2.8,5.2
+128,BNL,https://www.tradingview.com/symbols/BNL/,True,True,STRONG UPTREND,8,21.21,23.1,17.85,-8.2,1.16,38.8,1.0,Real Estate,REIT - Diversified,4515536896,8.3,95.7,30.6,27.9,26.8,1.82,6.0,8,2.9,5.2
+129,MICC,https://www.tradingview.com/symbols/MICC/,True,True,STRONG UPTREND,10,19.74,20.1,12.94,-1.8,0.72,64.4,1.3,Consumer Defensive,Packaged Foods,12087348224,4.2,,2.2,58.1,15.6,,9.4,5,1.8,5.2
+130,CURB,https://www.tradingview.com/symbols/CURB/,True,True,STRONG UPTREND,8,29.47,32.15,25.14,-8.3,1.56,37.5,1.0,Real Estate,REIT - Retail,3390170368,52.9,-38.6,13.1,109.1,392.9,1.89,11.4,7,3.9,5.2
+131,VIRT,https://www.tradingview.com/symbols/VIRT/,True,True,STRONG UPTREND,8,61.19,68.02,38.51,-10.0,1.94,95.7,1.9,Financial Services,Capital Markets,5403118592,29.1,-1.2,16.9,10.2,8.8,,4.0,5,4.8,5.2
+132,RVTY,https://www.tradingview.com/symbols/RVTY/,True,True,STRONG UPTREND,10,124.13,124.42,81.17,-0.2,0.85,64.0,1.3,Healthcare,Diagnostics & Research,13851219968,1.3,1.2,8.2,59.7,21.1,2.29,5.1,5,2.1,5.2
+133,IVZ,https://www.tradingview.com/symbols/IVZ/,True,True,STRONG UPTREND,10,31.36,32.8,21.51,-4.4,0.79,61.7,1.2,Financial Services,Asset Management,13845440512,20.5,,-0.9,,9.6,2.46,3.3,5,2.0,5.2
+134,ETG,https://www.tradingview.com/symbols/ETG/,True,True,STRONG UPTREND,10,23.88,24.58,18.81,-2.8,0.94,34.1,1.0,Financial Services,Asset Management,1822567040,-3.5,18361.6,567.9,3.7,,,0.8,5,2.3,5.2
+135,ARMK,https://www.tradingview.com/symbols/ARMK/,True,True,STRONG UPTREND,8,59.37,62.53,38.51,-5.0,0.97,98.2,2.0,Industrials,Specialty Business Services,15651418112,9.3,33.3,1.9,41.5,21.2,1.5,3.7,7,2.4,5.2
+136,PNFP,https://www.tradingview.com/symbols/PNFP/,True,True,STRONG UPTREND,8,101.99,109.81,80.29,-7.1,0.73,42.8,1.0,Financial Services,Banks - Regional,15411978240,137.0,3.5,24.9,14.0,8.9,1.7,4.1,9,1.8,5.2
+137,DT,https://www.tradingview.com/symbols/DT/,True,True,STRONG UPTREND,8,49.18,53.28,31.64,-7.7,1.47,64.7,1.3,Technology,Software - Application,14273456128,16.2,-24.9,7.2,98.4,21.4,1.72,2.7,6,3.7,5.1
+138,KFY,https://www.tradingview.com/symbols/KFY/,True,True,STRONG UPTREND,10,84.59,85.97,57.98,-1.6,0.55,70.9,1.4,Industrials,Staffing & Employment Services,4344215040,6.7,15.0,9.5,16.2,13.4,,4.5,5,1.4,5.1
+139,MOG-A,https://www.tradingview.com/symbols/MOG-A/,True,True,STRONG UPTREND,8,381.52,448.85,282.04,-15.0,0.94,80.9,1.6,Industrials,Aerospace & Defense,12083183616,15.2,159.0,8.7,32.5,32.3,,1.5,7,2.3,5.1
+140,RBC,https://www.tradingview.com/symbols/RBC/,True,True,STRONG UPTREND,8,504.61,667.69,503.82,-24.4,0.93,7.2,1.0,Industrials,Tools & Accessories,15975570432,19.2,47.5,16.4,50.0,30.3,1.88,2.1,8,2.3,5.1
+141,MMI,https://www.tradingview.com/symbols/MMI/,True,True,STRONG UPTREND,10,32.7,33.13,24.85,-1.3,0.67,49.7,1.0,Real Estate,Real Estate Services,1238381824,17.8,,1.8,88.4,35.2,4.0,7.9,5,1.7,5.1
+142,SWX,https://www.tradingview.com/symbols/SWX/,True,True,STRONG UPTREND,10,91.3,93.81,80.17,-2.7,0.67,11.0,1.0,Utilities,Utilities - Regulated Gas,6614306816,-9.6,,31.4,23.5,18.5,1.12,4.0,5,1.7,5.1
+143,RHP,https://www.tradingview.com/symbols/RHP/,True,True,STRONG UPTREND,8,128.64,137.46,87.62,-6.4,0.9,86.7,1.7,Real Estate,REIT - Hotel & Motel,8874138624,13.6,26.4,9.9,31.5,27.2,1.21,3.6,7,2.2,5.1
+144,AERO,https://www.tradingview.com/symbols/AERO/,True,True,STRONG UPTREND,8,13.28,20.5,12.26,-35.2,1.64,7.4,1.0,Industrials,Airlines,1937597184,12.6,,3.8,0.9,6.6,1.67,2.6,6,4.1,5.1
+145,NAD,https://www.tradingview.com/symbols/NAD/,True,True,STRONG UPTREND,10,11.66,12.0,10.78,-2.8,1.04,5.6,1.0,Financial Services,Asset Management,2722193408,-0.6,,80.5,14.8,,,1.2,4,2.6,5.1
+146,BHE,https://www.tradingview.com/symbols/BHE/,True,True,STRONG UPTREND,8,73.36,100.41,50.5,-26.9,0.7,106.2,2.1,Technology,Electronic Components,2635086336,17.7,1936.6,1.9,50.2,22.2,,3.0,7,1.8,5.1
+147,JAN,https://www.tradingview.com/symbols/JAN/,True,True,STRONG UPTREND,8,30.59,32.78,22.55,-6.7,0.72,71.4,1.4,Real Estate,REIT - Residential,9491794944,45.4,,1.8,,108.5,1.67,5.1,8,1.8,5.1
+148,MUSA,https://www.tradingview.com/symbols/MUSA/,True,True,STRONG UPTREND,8,570.2,636.05,378.39,-10.4,0.64,69.1,1.4,Consumer Cyclical,Specialty Retail,10480475136,40.8,53.1,3.2,17.5,18.6,2.0,3.3,8,1.6,5.1
+149,NFJ,https://www.tradingview.com/symbols/NFJ/,True,True,STRONG UPTREND,10,15.55,15.75,12.0,-1.3,0.63,55.1,1.1,Financial Services,Asset Management,1463282432,-19.8,177.7,530.6,9.8,,,0.0,5,1.6,5.1
+150,BDJ,https://www.tradingview.com/symbols/BDJ/,True,True,STRONG UPTREND,10,9.75,9.94,8.15,-1.9,0.69,26.3,1.0,Financial Services,Asset Management,1725210752,-4.0,237.4,627.3,6.2,,,0.4,5,1.7,5.1
+151,MCS,https://www.tradingview.com/symbols/MCS/,True,True,STRONG UPTREND,8,29.61,32.42,15.3,-8.7,0.97,127.9,2.6,Communication Services,Entertainment,912940288,12.8,119.1,3.0,40.0,35.2,,3.0,6,2.4,5.1
+152,MSGS,https://www.tradingview.com/symbols/MSGS/,True,True,STRONG UPTREND,8,398.52,438.93,303.92,-9.2,1.06,62.6,1.3,Communication Services,Entertainment,9596337152,36.7,,0.7,1245.4,-2077.8,2.0,7.0,7,2.7,5.1
+153,SOLV,https://www.tradingview.com/symbols/SOLV/,True,True,STRONG UPTREND,10,88.61,90.0,62.38,-1.5,0.73,55.4,1.1,Healthcare,Medical Instruments & Supplies,15083525120,2.2,3.9,17.3,10.8,12.3,2.2,3.3,5,1.8,5.1
+154,GNW,https://www.tradingview.com/symbols/GNW/,True,True,STRONG UPTREND,10,9.86,10.28,7.84,-4.1,0.71,42.6,1.0,Financial Services,Insurance - Life,3725611008,5.3,,2.9,19.3,9.0,2.0,2.7,5,1.8,5.1
+155,NP,https://www.tradingview.com/symbols/NP/,True,True,STRONG UPTREND,8,32.56,35.15,18.12,-7.4,0.52,94.7,1.9,Financial Services,Insurance Brokers,4468309504,32.8,,21.5,155.0,48.3,2.0,2.9,8,1.3,5.1
+156,PLGO,https://www.tradingview.com/symbols/PLGO/,True,True,STRONG UPTREND,8,23.89,26.34,17.8,-9.3,1.54,73.0,1.5,Financial Services,Insurance - Diversified,2042517504,10.3,188.9,15.9,5.9,6.1,2.89,8.5,6,3.9,5.1
+157,VSXY,https://www.tradingview.com/symbols/VSXY/,True,True,STRONG UPTREND,8,86.8,102.46,41.99,-15.3,0.62,157.1,3.1,Consumer Cyclical,Apparel Retail,6899881472,15.3,,3.1,34.6,15.5,2.18,6.6,6,1.6,5.1
+158,HTH,https://www.tradingview.com/symbols/HTH/,True,True,STRONG UPTREND,10,38.63,40.14,33.67,-3.8,0.75,20.1,1.0,Financial Services,Financial Conglomerates,2212974336,5.2,11.1,12.7,14.4,15.5,,8.6,5,1.9,5.1
+159,CNS,https://www.tradingview.com/symbols/CNS/,True,True,STRONG UPTREND,8,80.79,86.56,59.14,-6.7,0.82,69.9,1.4,Financial Services,Asset Management,4154345728,12.2,31.9,28.8,24.9,20.3,2.67,4.0,7,2.0,5.0
+160,CUZ,https://www.tradingview.com/symbols/CUZ/,True,True,STRONG UPTREND,8,29.58,32.95,20.66,-10.2,0.8,86.5,1.7,Real Estate,REIT - Office,4868929024,11.6,84.4,0.6,739.5,74.0,1.36,6.5,7,2.0,5.0
+161,RHI,https://www.tradingview.com/symbols/RHI/,True,True,STRONG UPTREND,10,43.88,45.32,21.36,-3.2,0.8,139.2,2.8,Industrials,Staffing & Employment Services,4491636736,-2.4,-36.3,2.2,38.2,22.3,2.91,8.9,2,2.0,5.0
+162,CSW,https://www.tradingview.com/symbols/CSW/,True,True,STRONG UPTREND,8,322.62,355.48,248.09,-9.2,0.62,31.5,1.0,Industrials,Specialty Industrial Machinery,5256604672,33.0,25.1,10.3,44.1,23.6,,8.1,8,1.6,5.0
+163,GHC,https://www.tradingview.com/symbols/GHC/,True,True,STRONG UPTREND,8,1152.5,1262.35,1013.06,-8.7,1.42,27.5,1.0,Industrials,Conglomerates,4880754688,7.1,676.5,10.7,9.3,17.2,,6.9,6,3.5,5.0
+164,CBZ,https://www.tradingview.com/symbols/CBZ/,True,True,STRONG UPTREND,10,55.01,55.56,24.29,-1.0,0.7,141.1,2.8,Industrials,Specialty Business Services,2985056000,-0.2,-53.0,4.4,26.4,13.0,,2.1,2,1.8,5.0
+165,AIZ,https://www.tradingview.com/symbols/AIZ/,True,True,STRONG UPTREND,8,282.0,303.94,209.72,-7.2,0.93,68.2,1.4,Financial Services,Insurance - Property & Casualty,13909302272,9.4,30.5,7.9,13.5,12.1,1.43,3.5,7,2.3,5.0
+166,BBAR,https://www.tradingview.com/symbols/BBAR/,True,True,STRONG UPTREND,8,14.08,22.38,12.53,-37.1,1.71,63.3,1.3,Financial Services,Banks - Regional,2875652608,0.8,-24.6,7.1,14.8,12.8,1.5,2.1,5,4.3,5.0
+167,AGM,https://www.tradingview.com/symbols/AGM/,True,True,STRONG UPTREND,8,220.85,248.29,135.37,-11.1,0.61,97.9,2.0,Financial Services,Credit Services,2396931584,24.9,20.8,56.0,12.1,9.5,,0.3,7,1.5,5.0
+168,CTOS,https://www.tradingview.com/symbols/CTOS/,True,True,STRONG UPTREND,8,9.82,12.23,5.5,-19.7,0.74,127.2,2.5,Industrials,Rental & Leasing Services,2234104320,10.2,,1.1,109.1,31.7,1.33,3.2,6,1.9,5.0
+169,RSI,https://www.tradingview.com/symbols/RSI/,True,True,STRONG UPTREND,8,25.61,34.53,18.06,-25.8,0.66,89.6,1.8,Consumer Cyclical,Gambling,6255166464,46.3,-18.7,2.3,82.6,30.5,1.36,3.1,7,1.7,5.0
+170,WTTR,https://www.tradingview.com/symbols/WTTR/,True,True,STRONG UPTREND,8,19.96,22.47,12.53,-11.2,0.55,92.9,1.9,Energy,Oil & Gas Equipment & Services,2848965632,8.7,62.0,2.2,71.3,29.2,1.33,3.3,7,1.4,5.0
+171,WKC,https://www.tradingview.com/symbols/WKC/,True,True,STRONG UPTREND,8,35.92,41.2,21.87,-12.8,0.72,124.9,2.5,Energy,Oil & Gas Refining & Marketing,1837366144,50.3,,-0.4,,14.0,,5.0,6,1.8,5.0
+172,HIW,https://www.tradingview.com/symbols/HIW/,True,True,STRONG UPTREND,8,31.47,34.88,19.73,-9.8,0.5,112.1,2.2,Real Estate,REIT - Office,3534819072,7.5,400.2,20.1,20.8,45.0,2.8,6.8,7,1.2,5.0
+173,TMP,https://www.tradingview.com/symbols/TMP/,True,True,STRONG UPTREND,8,97.12,102.59,70.53,-5.3,0.91,64.7,1.3,Financial Services,Banks - Regional,1396867712,7.2,36.0,39.3,7.9,11.7,,2.9,7,2.3,5.0
+174,DEA,https://www.tradingview.com/symbols/DEA/,True,True,STRONG UPTREND,10,24.78,25.49,20.2,-2.8,0.84,36.4,1.0,Real Estate,REIT - Office,1214363904,9.2,-31.3,2.8,130.4,95.3,2.71,4.8,4,2.1,5.0
+175,PRSU,https://www.tradingview.com/symbols/PRSU/,True,True,STRONG UPTREND,8,48.02,56.52,32.41,-15.0,0.76,90.3,1.8,Consumer Cyclical,Travel Services,1318113664,14.3,169.6,7.9,32.4,25.4,1.0,4.9,7,1.9,5.0
+176,AVTR,https://www.tradingview.com/symbols/AVTR/,True,True,STRONG UPTREND,10,14.25,14.62,7.26,-2.5,0.57,113.0,2.3,Healthcare,Medical Instruments & Supplies,9638113280,0.5,-37.4,-8.8,,16.2,,4.3,3,1.4,5.0
+177,RYZ,https://www.tradingview.com/symbols/RYZ/,True,True,STRONG UPTREND,8,24.17,32.0,19.21,-24.5,1.1,45.7,1.0,Industrials,Metal Fabrication,1254390400,71.6,406.2,-0.6,,10.2,,4.1,7,2.8,5.0
+178,CTRE,https://www.tradingview.com/symbols/CTRE/,True,True,STRONG UPTREND,8,39.76,43.62,34.93,-8.8,1.19,13.0,1.0,Real Estate,REIT - Healthcare Facilities,9395017728,3.2,5.0,62.2,24.8,22.4,1.31,11.0,7,3.0,5.0
+179,PRMB,https://www.tradingview.com/symbols/PRMB/,True,True,STRONG UPTREND,8,23.1,26.21,17.74,-11.9,1.03,53.2,1.1,Consumer Defensive,Beverages - Non-Alcoholic,8360900096,3.8,162.8,1.5,77.0,15.5,1.75,12.1,7,2.6,5.0
+180,HMN,https://www.tradingview.com/symbols/HMN/,True,True,STRONG UPTREND,8,50.41,55.56,40.91,-9.3,1.0,56.4,1.1,Financial Services,Insurance - Property & Casualty,2041658240,7.7,42.3,10.2,11.8,9.4,1.67,3.8,7,2.5,5.0
+181,HIMS,https://www.tradingview.com/symbols/HIMS/,True,True,STRONG UPTREND,8,31.86,39.05,13.74,-18.4,0.82,123.8,2.5,Healthcare,Drug Manufacturers - Specialty & Generic,7433365504,38.2,,-5.5,,28.6,2.73,4.1,6,2.0,5.0
+182,LOB,https://www.tradingview.com/symbols/LOB/,True,True,STRONG UPTREND,8,40.73,44.53,31.09,-8.5,0.96,54.3,1.1,Financial Services,Banks - Regional,1885131776,12.2,45.1,26.5,14.2,9.6,2.4,8.2,7,2.4,5.0
+183,GENI,https://www.tradingview.com/symbols/GENI/,True,True,STRONG UPTREND,8,7.93,8.59,3.83,-7.7,0.64,101.1,2.0,Communication Services,Internet Content & Information,2201581568,64.7,,-23.0,,7.4,1.4,6.4,7,1.6,5.0
+184,S,https://www.tradingview.com/symbols/S/,True,True,STRONG UPTREND,8,20.94,23.95,11.81,-12.6,0.97,101.5,2.0,Technology,Software - Infrastructure,7178310144,20.8,,-30.4,,42.5,1.91,2.6,6,2.4,5.0
+185,ATEN,https://www.tradingview.com/symbols/ATEN/,True,True,STRONG UPTREND,8,25.53,38.41,18.64,-33.5,1.0,107.2,2.1,Technology,Software - Infrastructure,1853708416,15.5,-14.3,13.9,44.0,21.5,1.83,6.1,6,2.5,5.0
+186,SAFE,https://www.tradingview.com/symbols/SAFE/,True,True,STRONG UPTREND,8,15.37,17.45,12.94,-11.9,0.83,23.3,1.0,Real Estate,REIT - Diversified,1088446208,20.0,7.8,26.6,9.5,9.0,2.64,11.5,7,2.1,4.9
+187,CRBG,https://www.tradingview.com/symbols/CRBG/,True,True,STRONG UPTREND,8,31.81,34.81,21.9,-8.6,0.71,71.4,1.4,Financial Services,Asset Management,14179899392,25.9,,4.6,20.4,5.5,1.64,5.0,7,1.8,4.9
+188,PKG,https://www.tradingview.com/symbols/PKG/,True,True,STRONG UPTREND,10,249.56,259.98,199.93,-4.0,0.71,36.2,1.0,Consumer Cyclical,Packaging & Containers,22235371520,14.7,-19.5,7.3,32.5,19.3,2.0,4.5,4,1.8,4.9
+189,FBP,https://www.tradingview.com/symbols/FBP/,True,True,STRONG UPTREND,8,28.22,29.88,19.48,-5.6,0.69,79.0,1.6,Financial Services,Banks - Regional,4308298752,9.4,24.4,39.0,11.9,11.1,1.57,4.0,7,1.7,4.9
+190,CVSA,https://www.tradingview.com/symbols/CVSA/,True,True,STRONG UPTREND,8,128.04,141.92,94.11,-9.8,0.86,50.2,1.0,Consumer Defensive,Education & Training Services,4358330368,9.7,43.2,12.9,17.1,12.8,1.25,4.7,7,2.1,4.9
+191,RDN,https://www.tradingview.com/symbols/RDN/,True,True,STRONG UPTREND,8,36.66,41.05,31.86,-10.7,0.6,30.3,1.0,Financial Services,Insurance - Specialty,4850166272,93.5,-16.2,32.5,9.1,7.0,1.8,4.0,8,1.5,4.9
+192,DNOW,https://www.tradingview.com/symbols/DNOW/,True,True,STRONG UPTREND,8,15.54,17.2,10.94,-9.7,0.92,56.0,1.1,Industrials,Industrial Distribution,2809412608,108.1,,-4.6,,18.9,1.0,6.9,7,2.3,4.9
+193,PRM,https://www.tradingview.com/symbols/PRM/,True,True,STRONG UPTREND,8,31.07,38.17,20.38,-18.6,0.82,100.6,2.0,Basic Materials,Specialty Chemicals,5085752832,31.5,,-44.9,,16.9,,3.2,6,2.0,4.9
+194,SJM,https://www.tradingview.com/symbols/SJM/,True,True,STRONG UPTREND,10,123.05,126.46,86.47,-2.7,0.68,42.4,1.0,Consumer Defensive,Packaged Foods,13151669248,5.8,,-1.5,,11.4,2.11,3.6,4,1.7,4.9
+195,CR,https://www.tradingview.com/symbols/CR/,True,True,STRONG UPTREND,8,206.5,230.5,159.36,-10.4,0.97,48.2,1.0,Industrials,Specialty Industrial Machinery,11935773696,25.6,10.6,13.0,36.0,26.5,1.3,2.1,7,2.4,4.9
+196,KN,https://www.tradingview.com/symbols/KN/,True,True,STRONG UPTREND,8,34.01,42.93,23.75,-20.8,0.72,103.8,2.1,Technology,Electronic Components,2904805120,14.3,146.6,10.6,40.5,21.0,,4.8,6,1.8,4.9
+197,OHI,https://www.tradingview.com/symbols/OHI/,True,True,STRONG UPTREND,8,46.75,52.39,42.87,-10.8,0.85,13.1,1.0,Real Estate,REIT - Healthcare Facilities,14927148032,11.2,161.3,68.1,16.6,22.9,2.4,6.9,7,2.1,4.9
+198,IIPR,https://www.tradingview.com/symbols/IIPR/,True,True,STRONG UPTREND,8,56.73,65.38,42.32,-13.2,0.82,55.9,1.1,Real Estate,REIT - Industrial,1564122496,0.7,57.7,52.3,12.8,12.4,2.83,11.4,7,2.0,4.9
+199,WAL,https://www.tradingview.com/symbols/WAL/,True,True,STRONG UPTREND,8,79.15,92.47,65.12,-14.4,0.97,24.9,1.0,Financial Services,Banks - Regional,8635333632,13.6,14.0,28.2,8.9,7.0,1.8,0.0,7,2.4,4.9
+200,AMN,https://www.tradingview.com/symbols/AMN/,True,True,STRONG UPTREND,8,34.79,37.22,17.45,-6.5,0.51,160.6,3.2,Healthcare,Medical Care Facilities,1347416448,2.3,,3.1,12.9,37.1,2.56,4.4,5,1.3,4.9
+201,OPY,https://www.tradingview.com/symbols/OPY/,True,True,STRONG UPTREND,8,111.75,123.03,81.32,-9.2,1.3,61.4,1.2,Financial Services,Capital Markets,1196619520,24.1,24.6,6.0,12.4,43.7,,0.6,6,3.2,4.9
+202,MYE,https://www.tradingview.com/symbols/MYE/,True,True,STRONG UPTREND,8,33.51,37.45,19.51,-10.5,0.67,120.9,2.4,Consumer Cyclical,Packaging & Containers,1260581504,9.8,105.5,4.3,25.0,16.8,,1.9,6,1.7,4.9
+203,HRI,https://www.tradingview.com/symbols/HRI/,True,True,STRONG UPTREND,8,161.66,176.0,88.0,-8.1,0.54,89.4,1.8,Industrials,Rental & Leasing Services,5404527104,20.2,,1.0,95.1,15.9,1.91,3.6,7,1.4,4.9
+204,PRLB,https://www.tradingview.com/symbols/PRLB/,True,True,STRONG UPTREND,8,78.79,93.0,53.53,-15.3,0.82,92.6,1.9,Industrials,Metal Fabrication,1884806144,10.6,105.6,5.4,62.5,33.0,,3.4,6,2.0,4.9
+205,EVT,https://www.tradingview.com/symbols/EVT/,True,True,STRONG UPTREND,10,28.91,29.57,23.03,-2.2,0.73,38.5,1.0,Financial Services,Asset Management,2155031808,-12.7,,754.8,4.5,,,0.7,4,1.8,4.9
+206,BHVN,https://www.tradingview.com/symbols/BHVN/,True,True,STRONG UPTREND,8,13.5,17.28,8.03,-21.9,0.76,110.4,2.2,Healthcare,Biotechnology,2039090944,,,,,-6.8,1.76,8.0,6,1.9,4.9
+207,ASAN,https://www.tradingview.com/symbols/ASAN/,True,True,STRONG UPTREND,10,9.5,9.88,5.38,-3.8,0.68,55.8,1.1,Technology,Software - Application,2189843456,9.5,,-20.2,,20.2,2.67,5.0,4,1.7,4.9
+208,HESM,https://www.tradingview.com/symbols/HESM/,True,True,STRONG UPTREND,10,39.1,40.97,35.05,-4.6,1.09,12.3,1.0,Energy,Oil & Gas Midstream,8061573632,-3.7,1.4,23.2,13.5,12.6,3.57,7.8,3,2.7,4.9
+209,SPXC,https://www.tradingview.com/symbols/SPXC/,True,True,STRONG UPTREND,8,204.48,251.08,182.99,-18.6,0.45,9.5,1.0,Industrials,Building Products & Equipment,10241556480,22.9,41.0,11.3,35.9,20.9,1.25,2.2,8,1.1,4.9
+210,TY,https://www.tradingview.com/symbols/TY/,True,True,STRONG UPTREND,10,35.54,36.55,29.82,-2.8,0.69,32.0,1.0,Financial Services,Asset Management,1891914496,-3.1,16.5,372.7,7.2,,,0.0,4,1.7,4.9
+211,LPG,https://www.tradingview.com/symbols/LPG/,True,False,UPTREND,6,49.65,50.56,27.57,-1.8,0.71,78.2,1.6,Energy,Oil & Gas Midstream,2124160128,124.0,1263.5,55.6,6.6,11.6,1.6,3.6,10,1.8,4.9
+212,PACS,https://www.tradingview.com/symbols/PACS/,True,True,STRONG UPTREND,8,43.58,49.49,29.35,-11.9,0.77,67.5,1.3,Healthcare,Medical Care Facilities,6900266496,9.1,51.6,4.8,25.5,16.1,1.33,4.2,7,1.9,4.9
+213,NSP,https://www.tradingview.com/symbols/NSP/,True,True,STRONG UPTREND,8,52.14,55.9,18.24,-6.7,0.46,209.3,4.2,Industrials,Staffing & Employment Services,1991501440,1.7,,-0.2,,19.3,,5.0,4,1.2,4.9
+214,STUB,https://www.tradingview.com/symbols/STUB/,True,True,STRONG UPTREND,8,6.83,14.02,5.74,-51.3,1.1,63.4,1.3,Communication Services,Internet Content & Information,2609674240,33.2,,-91.3,,9.4,2.07,5.5,6,2.8,4.9
+215,MATX,https://www.tradingview.com/symbols/MATX/,True,True,STRONG UPTREND,8,216.77,230.31,143.09,-5.9,0.62,72.3,1.4,Industrials,Marine Shipping,6482172928,16.7,46.2,13.4,14.6,13.0,,3.0,7,1.6,4.9
+216,HLIO,https://www.tradingview.com/symbols/HLIO/,True,True,STRONG UPTREND,8,76.31,94.91,61.85,-19.6,0.8,56.7,1.1,Industrials,Specialty Industrial Machinery,2514458368,9.1,94.1,8.0,35.7,21.2,1.33,3.1,7,2.0,4.9
+217,SGHC,https://www.tradingview.com/symbols/SGHC/,True,True,STRONG UPTREND,8,13.22,15.82,9.47,-16.4,0.64,72.0,1.4,Consumer Cyclical,Gambling,6716775424,18.1,,15.1,18.4,14.9,1.25,9.6,7,1.6,4.9
+218,WLY,https://www.tradingview.com/symbols/WLY/,True,True,STRONG UPTREND,8,52.08,57.45,28.35,-9.3,0.75,104.7,2.1,Communication Services,Publishing,2643768064,1.2,108.4,13.2,12.5,9.8,,8.2,6,1.9,4.9
+219,FLG,https://www.tradingview.com/symbols/FLG/,True,True,STRONG UPTREND,8,13.49,15.44,12.06,-12.6,0.86,27.2,1.0,Financial Services,Banks - Regional,5599602176,15.3,,2.4,449.7,9.8,1.94,0.0,7,2.1,4.9
+220,SWK,https://www.tradingview.com/symbols/SWK/,True,True,STRONG UPTREND,8,98.85,104.68,65.06,-5.6,0.85,71.4,1.4,Industrials,Tools & Accessories,14927994880,0.4,247.8,4.1,24.2,15.5,2.47,4.6,6,2.1,4.8
+221,FR,https://www.tradingview.com/symbols/FR/,True,True,STRONG UPTREND,8,62.62,69.88,55.73,-10.4,0.68,20.0,1.0,Real Estate,REIT - Industrial,8580128256,8.4,39.3,47.9,22.8,33.6,2.0,2.8,7,1.7,4.8
+222,PRG,https://www.tradingview.com/symbols/PRG/,True,True,STRONG UPTREND,8,38.2,47.57,27.04,-19.7,0.99,96.7,1.9,Industrials,Rental & Leasing Services,1521568384,22.3,-4.2,5.6,12.3,6.8,,4.7,5,2.5,4.8
+223,CPF,https://www.tradingview.com/symbols/CPF/,True,True,STRONG UPTREND,8,37.5,40.99,29.78,-8.5,1.06,54.9,1.1,Financial Services,Banks - Regional,965528704,7.7,19.4,28.8,12.1,10.5,,4.0,6,2.7,4.8
+224,ACVA,https://www.tradingview.com/symbols/ACVA/,True,True,STRONG UPTREND,8,7.67,8.38,4.07,-8.4,1.08,124.9,2.5,Consumer Cyclical,Auto & Truck Dealerships,1302427264,10.4,,-7.9,,22.4,2.23,5.3,4,2.7,4.8
+225,RLJ,https://www.tradingview.com/symbols/RLJ/,True,True,STRONG UPTREND,8,11.48,12.89,7.06,-10.9,0.75,125.7,2.5,Real Estate,REIT - Hotel & Motel,1758125184,5.6,9.4,2.0,1148.0,861.2,2.92,6.2,5,1.9,4.8
+226,DVA,https://www.tradingview.com/symbols/DVA/,True,True,STRONG UPTREND,8,175.24,247.49,143.07,-29.2,0.56,95.9,1.9,Healthcare,Medical Care Facilities,11180312576,5.2,55.8,6.0,14.8,10.3,2.38,6.3,6,1.4,4.8
+227,EGP,https://www.tradingview.com/symbols/EGP/,True,True,STRONG UPTREND,8,201.14,226.71,178.55,-11.3,0.74,27.1,1.0,Real Estate,REIT - Industrial,10815965184,9.1,16.7,40.6,35.4,36.2,1.8,4.6,7,1.9,4.8
+228,CRI,https://www.tradingview.com/symbols/CRI/,True,True,STRONG UPTREND,8,36.24,44.28,31.25,-18.2,1.05,30.5,1.0,Consumer Cyclical,Apparel Retail,1330413312,5.2,47146.4,6.5,6.8,10.0,2.57,3.3,6,2.6,4.8
+229,ONTO,https://www.tradingview.com/symbols/ONTO/,True,False,UPTREND,6,298.84,386.46,175.49,-22.7,0.85,91.4,1.8,Technology,Semiconductor Equipment & Materials,18266128384,35.3,75.4,11.8,111.9,25.6,1.18,2.0,9,2.1,4.8
+230,PFGC,https://www.tradingview.com/symbols/PFGC/,True,True,STRONG UPTREND,8,103.98,117.47,80.82,-11.5,0.99,64.2,1.3,Consumer Defensive,Food Distribution,16332395520,7.3,22.7,0.6,45.4,15.6,1.57,2.2,6,2.5,4.8
+231,LNC,https://www.tradingview.com/symbols/LNC/,True,True,STRONG UPTREND,8,41.98,47.67,31.4,-11.9,0.94,58.7,1.2,Financial Services,Insurance - Life,8036958720,12.6,76.8,12.2,3.5,4.9,2.54,0.1,6,2.3,4.8
+232,GRDN,https://www.tradingview.com/symbols/GRDN/,True,True,STRONG UPTREND,8,37.48,47.02,30.61,-20.3,0.77,40.9,1.0,Healthcare,Medical Care Facilities,2374069504,2.2,139.8,4.5,36.0,26.2,1.17,7.9,7,1.9,4.8
+233,ETSY,https://www.tradingview.com/symbols/ETSY/,True,True,STRONG UPTREND,8,81.21,87.97,46.9,-7.7,0.8,116.2,2.3,Consumer Cyclical,Internet Retail,7453595136,6.2,,7.1,25.7,11.9,2.61,3.8,5,2.0,4.8
+234,HRB,https://www.tradingview.com/symbols/HRB/,True,True,STRONG UPTREND,8,53.04,58.67,27.69,-9.6,0.99,107.0,2.1,Consumer Cyclical,Personal Services,6538024448,3.0,4.5,18.6,9.3,7.7,3.2,9.2,5,2.5,4.8
+235,BEN,https://www.tradingview.com/symbols/BEN/,True,True,STRONG UPTREND,8,33.97,36.28,22.03,-6.4,0.67,86.9,1.7,Financial Services,Asset Management,17259372544,14.3,106.7,8.7,23.1,10.7,2.73,4.3,6,1.7,4.8
+236,M,https://www.tradingview.com/symbols/M/,True,True,STRONG UPTREND,8,22.58,26.59,16.56,-15.1,0.86,79.4,1.6,Consumer Cyclical,Department Stores,5939397120,2.1,76.9,2.9,9.3,9.6,2.92,6.7,6,2.1,4.8
+237,IFS,https://www.tradingview.com/symbols/IFS/,True,True,STRONG UPTREND,8,53.74,61.38,40.96,-12.4,1.02,66.2,1.3,Financial Services,Banks - Regional,5932772864,3.8,2.4,35.7,9.9,8.1,,1.8,6,2.5,4.8
+238,GTES,https://www.tradingview.com/symbols/GTES/,True,True,STRONG UPTREND,8,25.89,30.34,20.88,-14.7,0.7,31.1,1.0,Industrials,Specialty Industrial Machinery,6554083840,6.6,205.8,10.4,18.4,13.4,1.73,5.9,7,1.8,4.8
+239,FNB,https://www.tradingview.com/symbols/FNB/,True,True,STRONG UPTREND,8,18.53,19.59,15.5,-5.4,0.65,36.9,1.0,Financial Services,Banks - Regional,6596012032,6.8,16.2,34.6,11.0,9.9,1.62,4.2,7,1.6,4.8
+240,BOH,https://www.tradingview.com/symbols/BOH/,True,True,STRONG UPTREND,8,77.59,86.31,69.74,-10.1,0.72,21.7,1.0,Financial Services,Banks - Regional,3060956160,12.9,38.7,31.4,14.4,11.6,3.0,0.1,7,1.8,4.8
+241,BXSL,https://www.tradingview.com/symbols/BXSL/,True,True,STRONG UPTREND,10,24.67,25.07,21.77,-1.6,0.82,12.3,1.0,Financial Services,Asset Management,5747371520,-7.1,-94.0,21.5,19.4,9.6,2.5,7.3,3,2.0,4.8
+242,SNDR,https://www.tradingview.com/symbols/SNDR/,True,True,STRONG UPTREND,8,35.14,39.24,23.14,-10.5,0.55,93.9,1.9,Industrials,Trucking,6160073216,10.4,40.0,1.9,54.9,20.5,2.44,6.3,6,1.4,4.8
+243,KWR,https://www.tradingview.com/symbols/KWR/,True,True,STRONG UPTREND,8,164.83,175.14,111.37,-5.9,1.01,56.2,1.1,Basic Materials,Specialty Chemicals,2836345600,10.2,,4.9,29.5,17.5,1.29,11.9,6,2.5,4.8
+244,CNO,https://www.tradingview.com/symbols/CNO/,True,True,STRONG UPTREND,8,53.11,56.59,38.85,-6.1,0.85,75.8,1.5,Financial Services,Insurance - Life,4913809920,11.6,46.2,6.0,18.3,10.6,3.0,0.0,6,2.1,4.8
+245,DCO,https://www.tradingview.com/symbols/DCO/,True,True,STRONG UPTREND,8,189.08,210.39,115.06,-10.1,0.62,103.2,2.1,Industrials,Aerospace & Defense,2855066368,11.8,56.0,-2.5,,35.3,1.4,2.6,6,1.6,4.8
+246,RXO,https://www.tradingview.com/symbols/RXO/,True,True,STRONG UPTREND,8,21.67,29.86,11.68,-27.4,0.64,145.8,2.9,Industrials,Trucking,3573949184,25.0,,-1.7,,35.5,2.67,8.0,5,1.6,4.8
+247,PRK,https://www.tradingview.com/symbols/PRK/,True,True,STRONG UPTREND,8,202.14,215.0,149.14,-6.0,0.74,52.4,1.0,Financial Services,Banks - Regional,3651489280,25.7,8.8,31.3,18.1,15.3,,6.3,7,1.9,4.8
+248,ZGN,https://www.tradingview.com/symbols/ZGN/,True,True,STRONG UPTREND,8,13.63,15.95,9.07,-14.5,0.85,83.6,1.7,Consumer Cyclical,Apparel Manufacturing,3657093120,0.3,4.5,5.1,31.0,21.1,1.92,5.1,6,2.1,4.8
+249,BFH,https://www.tradingview.com/symbols/BFH/,True,True,STRONG UPTREND,8,103.18,114.53,68.35,-9.9,0.69,100.6,2.0,Financial Services,Credit Services,3964100096,3.8,21.2,21.4,8.0,7.7,2.18,0.0,6,1.7,4.8
+250,UVE,https://www.tradingview.com/symbols/UVE/,True,True,STRONG UPTREND,8,42.33,45.11,29.86,-6.2,0.96,59.0,1.2,Financial Services,Insurance - Property & Casualty,1178059008,6.7,68.6,13.5,5.6,9.4,,5.5,6,2.4,4.8
+251,WST,https://www.tradingview.com/symbols/WST/,True,True,STRONG UPTREND,8,353.77,385.75,228.08,-8.3,0.56,97.4,1.9,Healthcare,Medical Instruments & Supplies,24896831488,13.8,18.1,17.0,45.4,35.5,1.44,3.0,6,1.4,4.8
+252,CPAC,https://www.tradingview.com/symbols/CPAC/,True,True,STRONG UPTREND,8,11.78,12.7,9.4,-7.2,0.51,36.1,1.0,Basic Materials,Building Materials,1008619712,15.4,61.5,9.5,16.1,13.9,3.0,0.8,7,1.3,4.7
+253,GFF,https://www.tradingview.com/symbols/GFF/,True,True,STRONG UPTREND,8,100.13,108.57,67.34,-7.8,0.84,61.6,1.2,Industrials,Building Products & Equipment,4592625664,7.0,,7.0,20.9,16.3,1.14,5.5,6,2.1,4.7
+254,VAC,https://www.tradingview.com/symbols/VAC/,True,True,STRONG UPTREND,8,110.28,131.34,52.83,-16.0,0.84,136.4,2.7,Consumer Cyclical,Resorts & Casinos,3793115904,9.7,19.5,-9.8,,11.5,2.33,5.4,4,2.1,4.7
+255,VRTS,https://www.tradingview.com/symbols/VRTS/,True,True,STRONG UPTREND,10,168.08,171.9,117.82,-2.2,0.67,57.7,1.2,Financial Services,Asset Management,1123131136,-4.4,9.2,14.5,9.6,6.8,3.5,3.1,3,1.7,4.7
+256,DKS,https://www.tradingview.com/symbols/DKS/,True,False,UPTREND,6,179.34,244.38,176.07,-26.6,1.46,13.6,1.0,Consumer Cyclical,Specialty Retail,16051384320,62.7,9.3,4.7,17.5,11.0,1.92,6.8,8,3.6,4.7
+257,MSGE,https://www.tradingview.com/symbols/MSGE/,True,True,STRONG UPTREND,8,79.83,90.41,54.3,-11.7,0.67,81.2,1.6,Communication Services,Entertainment,3776376832,27.4,,6.2,57.8,27.5,2.11,3.1,6,1.7,4.7
+258,TNET,https://www.tradingview.com/symbols/TNET/,True,True,STRONG UPTREND,8,68.7,73.08,33.15,-6.0,0.77,149.0,3.0,Industrials,Staffing & Employment Services,3153655296,-4.4,49.4,3.6,18.2,14.0,,3.8,4,1.9,4.7
+259,SPHR,https://www.tradingview.com/symbols/SPHR/,True,True,STRONG UPTREND,8,156.23,181.63,104.45,-14.0,0.98,81.9,1.6,Communication Services,Entertainment,5610782720,11.0,,-5.7,,-76.2,1.42,9.2,5,2.5,4.7
+260,CPA,https://www.tradingview.com/symbols/CPA/,True,True,STRONG UPTREND,8,128.29,160.47,106.15,-20.1,0.9,50.0,1.0,Industrials,Airlines,5802065920,25.7,-53.8,15.7,8.4,6.6,1.47,4.5,6,2.2,4.7
+261,GL,https://www.tradingview.com/symbols/GL/,True,True,STRONG UPTREND,8,170.49,191.55,134.51,-11.0,0.77,66.3,1.3,Financial Services,Insurance - Life,13102062592,8.0,19.7,19.6,11.3,10.3,1.91,0.1,6,1.9,4.7
+262,FG,https://www.tradingview.com/symbols/FG/,True,True,STRONG UPTREND,8,22.64,33.46,20.16,-32.3,1.22,51.0,1.0,Financial Services,Insurance - Life,2964372992,4.2,,6.9,7.4,4.6,3.0,5.0,5,3.0,4.7
+263,FNF,https://www.tradingview.com/symbols/FNF/,True,True,STRONG UPTREND,8,47.44,54.8,42.32,-13.4,0.89,9.3,1.0,Financial Services,Insurance - Specialty,12723067904,10.5,5.8,5.0,16.5,8.2,1.6,3.5,6,2.2,4.7
+264,ALLY,https://www.tradingview.com/symbols/ALLY/,True,True,STRONG UPTREND,8,42.29,46.96,35.43,-10.0,0.83,35.7,1.0,Financial Services,Credit Services,12864605184,11.0,13.5,18.4,10.0,6.6,1.67,4.1,6,2.1,4.7
+265,WRBY,https://www.tradingview.com/symbols/WRBY/,True,True,STRONG UPTREND,8,27.46,30.93,19.8,-11.2,0.84,39.0,1.0,Healthcare,Medical Instruments & Supplies,3394277120,9.8,,0.8,457.7,45.0,1.71,7.2,6,2.1,4.7
+266,HOG,https://www.tradingview.com/symbols/HOG/,True,True,STRONG UPTREND,10,27.63,28.18,16.96,-2.0,0.71,87.0,1.7,Consumer Cyclical,Recreational Vehicles,2875523072,-5.9,-15.0,4.8,15.3,13.9,2.5,6.9,2,1.8,4.7
+267,TNK,https://www.tradingview.com/symbols/TNK/,True,False,UPTREND,6,91.12,92.11,61.82,-1.1,1.08,19.2,1.0,Energy,Oil & Gas Midstream,3160051968,63.0,259.4,51.3,5.4,8.4,2.2,2.6,9,2.7,4.7
+268,NBHC,https://www.tradingview.com/symbols/NBHC/,True,True,STRONG UPTREND,8,41.66,47.28,37.14,-11.9,0.96,27.6,1.0,Financial Services,Banks - Regional,1855517568,22.1,-34.1,21.8,17.5,10.6,2.25,3.9,6,2.4,4.7
+269,NEU,https://www.tradingview.com/symbols/NEU/,True,True,STRONG UPTREND,8,927.61,981.66,574.98,-5.5,0.99,89.3,1.8,Basic Materials,Specialty Chemicals,8530678272,7.0,22.9,15.8,20.0,35.9,,4.9,5,2.5,4.7
+270,LAD,https://www.tradingview.com/symbols/LAD/,True,True,STRONG UPTREND,8,370.67,438.67,238.86,-15.5,0.64,78.2,1.6,Consumer Cyclical,Auto & Truck Dealerships,8148482048,2.2,16.9,1.9,12.3,8.8,1.88,6.0,6,1.6,4.7
+271,TFIN,https://www.tradingview.com/symbols/TFIN/,True,True,STRONG UPTREND,8,73.93,81.75,53.48,-9.6,0.61,76.7,1.5,Financial Services,Banks - Regional,1766523008,11.9,193.3,8.5,50.0,23.4,,7.4,6,1.5,4.7
+272,SHO,https://www.tradingview.com/symbols/SHO/,True,True,STRONG UPTREND,8,11.28,11.98,8.7,-5.8,0.79,64.8,1.3,Real Estate,REIT - Hotel & Motel,2097447552,6.2,365.2,5.3,51.3,80.6,2.42,0.0,6,2.0,4.7
+273,MD,https://www.tradingview.com/symbols/MD/,True,True,STRONG UPTREND,8,26.22,27.94,18.56,-6.2,1.07,68.1,1.4,Healthcare,Medical Care Facilities,2130460800,4.0,6.5,9.0,12.5,10.7,2.71,5.5,5,2.7,4.7
+274,EQR,https://www.tradingview.com/symbols/EQR/,True,True,STRONG UPTREND,8,63.66,71.5,56.3,-11.0,1.38,38.5,1.0,N/A,N/A,24611481600,,,,28.7,41.1,,,5,3.4,4.7
+275,GHM,https://www.tradingview.com/symbols/GHM/,True,True,STRONG UPTREND,8,99.99,125.82,74.7,-20.5,0.57,72.9,1.5,Industrials,Specialty Industrial Machinery,1173585920,28.6,-21.4,4.5,97.1,44.1,1.6,2.9,6,1.4,4.7
+276,JXN,https://www.tradingview.com/symbols/JXN/,True,True,STRONG UPTREND,8,129.14,137.99,99.8,-6.4,0.82,38.3,1.0,Financial Services,Insurance - Life,8746489856,,291.6,1.6,143.5,4.2,2.25,5.5,6,2.0,4.7
+277,HPP,https://www.tradingview.com/symbols/HPP/,True,True,STRONG UPTREND,8,14.83,17.2,5.26,-13.8,0.6,239.9,4.8,Real Estate,REIT - Office,1644215680,-1.3,,-67.9,,-5.3,2.5,0.6,2,1.5,4.7
+278,PRI,https://www.tradingview.com/symbols/PRI/,True,True,STRONG UPTREND,8,297.86,327.28,242.76,-9.0,0.81,51.9,1.0,Financial Services,Insurance - Life,9167340544,8.7,19.5,22.8,12.0,11.0,2.25,6.7,6,2.0,4.7
+279,BV,https://www.tradingview.com/symbols/BV/,True,True,STRONG UPTREND,8,11.15,15.0,10.42,-25.7,0.82,10.9,1.0,Industrials,Specialty Business Services,1032489984,1.3,,0.7,,18.3,1.82,4.1,6,2.0,4.7
+280,SBSI,https://www.tradingview.com/symbols/SBSI/,True,True,STRONG UPTREND,8,31.97,36.2,28.71,-11.7,0.94,22.8,1.0,Financial Services,Banks - Regional,952961088,8.3,25.0,31.0,12.5,9.9,,5.2,6,2.3,4.7
+281,BRX,https://www.tradingview.com/symbols/BRX/,True,True,STRONG UPTREND,8,29.48,32.78,27.72,-10.1,0.86,17.4,1.0,Real Estate,REIT - Retail,9046595584,4.3,-14.1,30.8,21.1,29.2,1.5,7.8,6,2.1,4.7
+282,RBA,https://www.tradingview.com/symbols/RBA/,True,False,UPTREND,6,87.39,117.5,82.03,-25.6,1.97,7.3,1.0,Industrials,Specialty Business Services,16184628224,11.1,34.0,10.0,37.7,18.1,1.58,13.3,7,4.9,4.7
+283,LEVI,https://www.tradingview.com/symbols/LEVI/,True,True,STRONG UPTREND,8,21.23,25.7,17.61,-17.4,0.91,50.4,1.0,Consumer Cyclical,Apparel Manufacturing,8170377216,8.0,31.1,9.7,15.2,12.4,,2.2,6,2.3,4.7
+284,FSS,https://www.tradingview.com/symbols/FSS/,True,True,STRONG UPTREND,8,121.99,134.35,101.07,-9.2,0.59,25.3,1.0,Industrials,Farm & Heavy Construction Machinery,7446466048,18.7,20.7,11.7,26.3,21.1,1.57,7.4,7,1.5,4.7
+285,STAG,https://www.tradingview.com/symbols/STAG/,True,True,STRONG UPTREND,8,36.37,42.61,35.03,-14.6,0.8,6.3,1.0,Real Estate,REIT - Industrial,7157895168,8.1,3.3,28.1,28.0,41.3,2.5,4.0,6,2.0,4.7
+286,ARR,https://www.tradingview.com/symbols/ARR/,True,True,STRONG UPTREND,8,16.32,17.35,14.28,-5.9,0.89,6.1,1.0,Real Estate,REIT - Mortgage,2310145536,,,87.8,3.7,5.6,,,6,2.2,4.7
+287,FAF,https://www.tradingview.com/symbols/FAF/,True,True,STRONG UPTREND,8,71.99,79.87,55.74,-9.9,0.54,34.7,1.0,Financial Services,Insurance - Specialty,7350178816,15.0,50.4,9.3,10.0,9.7,1.33,7.0,7,1.4,4.7
+288,SAH,https://www.tradingview.com/symbols/SAH/,True,True,STRONG UPTREND,8,77.78,113.67,57.7,-31.6,0.89,94.6,1.9,Consumer Cyclical,Auto & Truck Dealerships,2458999296,7.6,,1.4,12.4,10.2,2.42,7.4,5,2.2,4.7
+289,NTB,https://www.tradingview.com/symbols/NTB/,True,True,STRONG UPTREND,8,58.66,64.17,47.86,-8.6,1.23,49.5,1.0,Financial Services,Banks - Diversified,2306903552,8.2,-7.2,37.5,10.3,8.1,,4.0,5,3.1,4.7
+290,DAO,https://www.tradingview.com/symbols/DAO/,True,True,STRONG UPTREND,8,16.86,18.94,9.34,-11.0,1.04,115.4,2.3,Consumer Defensive,Education & Training Services,2033900032,3.8,-50.0,1.2,187.3,39.7,,14.8,4,2.6,4.7
+291,BMA,https://www.tradingview.com/symbols/BMA/,True,True,STRONG UPTREND,8,72.87,103.0,63.07,-29.3,1.36,54.8,1.1,Financial Services,Banks - Regional,4659237376,-99.6,,7.6,18.7,6.9,1.44,2.1,4,3.4,4.6
+292,CBU,https://www.tradingview.com/symbols/CBU/,True,True,STRONG UPTREND,8,63.13,71.11,54.51,-11.2,0.65,31.5,1.0,Financial Services,Banks - Regional,3321641984,12.0,19.8,27.2,14.6,12.2,2.67,6.3,6,1.6,4.6
+293,ASH,https://www.tradingview.com/symbols/ASH/,True,True,STRONG UPTREND,8,72.82,78.25,47.84,-6.9,0.47,69.1,1.4,Basic Materials,Specialty Chemicals,3334673152,7.3,,2.8,46.7,16.9,1.58,6.2,6,1.2,4.6
+294,DOC,https://www.tradingview.com/symbols/DOC/,True,True,STRONG UPTREND,8,21.2,22.84,15.39,-7.2,0.54,73.2,1.5,Real Estate,REIT - Healthcare Facilities,15029682176,11.1,68.2,8.2,60.6,-141.3,2.41,3.9,6,1.4,4.6
+295,PINS,https://www.tradingview.com/symbols/PINS/,True,True,STRONG UPTREND,8,23.23,25.73,16.49,-9.7,0.5,61.2,1.2,Communication Services,Internet Content & Information,13155450880,18.2,,5.5,68.3,9.7,2.08,4.8,6,1.2,4.6
+296,LION,https://www.tradingview.com/symbols/LION/,True,True,STRONG UPTREND,8,11.46,16.7,8.16,-31.4,0.61,90.9,1.8,N/A,N/A,3410033920,,,,,26.3,2.0,,5,1.5,4.6
+297,CUBI,https://www.tradingview.com/symbols/CUBI/,True,True,STRONG UPTREND,8,79.57,84.38,63.75,-5.7,0.77,37.4,1.0,Financial Services,Banks - Regional,2687285760,10.1,18.5,35.2,9.6,8.3,2.1,7.6,6,1.9,4.6
+298,TEX,https://www.tradingview.com/symbols/TEX/,True,True,STRONG UPTREND,8,64.2,74.5,53.88,-13.8,0.69,20.0,1.0,Industrials,Farm & Heavy Construction Machinery,7338059776,50.5,-11.9,2.2,30.7,10.8,2.0,4.5,6,1.7,4.6
+299,THG,https://www.tradingview.com/symbols/THG/,True,True,STRONG UPTREND,8,223.11,236.07,167.59,-5.5,1.0,66.5,1.3,Financial Services,Insurance - Property & Casualty,7768739328,4.3,24.9,11.2,10.7,11.4,2.62,2.2,5,2.5,4.6
+300,XHR,https://www.tradingview.com/symbols/XHR/,True,True,STRONG UPTREND,8,19.39,22.06,13.89,-12.1,0.78,86.2,1.7,Real Estate,REIT - Hotel & Motel,1918219264,2.8,,-0.7,,30.5,1.67,5.7,5,2.0,4.6
+301,NPO,https://www.tradingview.com/symbols/NPO/,True,True,STRONG UPTREND,8,312.75,390.42,233.47,-19.9,0.55,75.7,1.5,Industrials,Specialty Industrial Machinery,6620191744,17.6,1.6,3.6,152.6,28.7,,1.8,6,1.4,4.6
+302,SSD,https://www.tradingview.com/symbols/SSD/,True,True,STRONG UPTREND,8,187.88,213.18,163.09,-11.9,0.78,21.8,1.0,Basic Materials,Lumber & Wood Production,7700201984,6.3,25.1,15.6,20.6,19.3,,3.7,6,2.0,4.6
+303,ZWS,https://www.tradingview.com/symbols/ZWS/,True,True,STRONG UPTREND,8,48.82,55.0,42.96,-11.2,0.62,12.2,1.0,Industrials,Pollution & Treatment Controls,8097485312,10.5,132.0,15.5,30.3,23.9,,4.5,6,1.6,4.6
+304,SNDA,https://www.tradingview.com/symbols/SNDA/,True,True,STRONG UPTREND,8,39.27,44.39,30.65,-11.5,0.61,41.0,1.0,Healthcare,Medical Care Facilities,1886844672,137.1,,-25.4,,-23.8,2.2,5.8,6,1.5,4.6
+305,AIN,https://www.tradingview.com/symbols/AIN/,True,True,STRONG UPTREND,8,58.89,77.0,48.36,-23.5,0.95,68.0,1.4,Consumer Cyclical,Textile Manufacturing,1670776832,5.8,98.8,-4.2,,18.6,3.0,3.8,5,2.4,4.6
+306,TFII,https://www.tradingview.com/symbols/TFII/,True,True,STRONG UPTREND,8,139.52,167.14,96.62,-16.5,0.55,74.3,1.5,Industrials,Trucking,11467572224,12.4,41.0,4.1,34.3,17.7,,3.1,6,1.4,4.6
+307,FHN,https://www.tradingview.com/symbols/FHN/,True,True,STRONG UPTREND,8,24.68,26.43,21.1,-6.6,0.68,30.4,1.0,Financial Services,Banks - Regional,11692820480,9.0,20.0,30.2,11.9,10.7,2.32,,6,1.7,4.6
+308,BAX,https://www.tradingview.com/symbols/BAX/,True,True,STRONG UPTREND,8,26.41,30.0,15.72,-12.0,0.74,89.4,1.8,Healthcare,Medical Instruments & Supplies,13653864448,5.3,36.8,-9.3,,13.0,2.77,4.9,5,1.9,4.6
+309,PFS,https://www.tradingview.com/symbols/PFS/,True,True,STRONG UPTREND,8,23.69,25.25,19.48,-6.2,0.72,39.5,1.0,Financial Services,Banks - Regional,3089711872,3.8,9.0,35.0,9.9,9.1,2.0,5.8,6,1.8,4.6
+310,BKU,https://www.tradingview.com/symbols/BKU/,True,True,STRONG UPTREND,8,46.21,50.65,41.37,-8.8,0.75,15.1,1.0,Financial Services,Banks - Regional,3291642112,4.2,6.7,26.2,12.7,10.3,2.55,2.4,6,1.9,4.6
+311,NJR,https://www.tradingview.com/symbols/NJR/,True,True,STRONG UPTREND,8,54.84,60.86,51.64,-9.9,0.77,13.6,1.0,Utilities,Utilities - Regulated Gas,5564502016,16.8,,16.4,15.2,15.9,2.0,6.3,6,1.9,4.6
+312,ASB,https://www.tradingview.com/symbols/ASB/,True,True,STRONG UPTREND,8,30.76,32.46,23.66,-5.2,0.69,53.3,1.1,Financial Services,Banks - Regional,5809015808,23.5,-3.1,32.5,10.8,9.2,2.33,0.0,6,1.7,4.6
+313,LUV,https://www.tradingview.com/symbols/LUV/,True,True,STRONG UPTREND,8,39.89,53.13,35.57,-24.9,0.69,30.8,1.0,Industrials,Airlines,19514515456,16.4,20.5,2.8,24.9,8.1,2.52,6.0,6,1.7,4.6
+314,CII,https://www.tradingview.com/symbols/CII/,True,True,STRONG UPTREND,8,24.1,25.87,19.85,-6.8,1.05,40.5,1.0,Financial Services,Asset Management,987703616,-4.5,280.2,2542.4,4.7,,,6.5,5,2.6,4.6
+315,SKT,https://www.tradingview.com/symbols/SKT/,True,True,STRONG UPTREND,8,38.23,42.21,33.11,-9.4,0.69,35.0,1.0,Real Estate,REIT - Retail,4570086400,11.5,10.8,20.2,35.1,32.4,2.67,6.2,6,1.7,4.6
+316,ITGR,https://www.tradingview.com/symbols/ITGR/,True,True,STRONG UPTREND,10,125.21,126.14,77.05,-0.7,0.71,66.3,1.3,Healthcare,Medical Devices,4256144384,-2.6,-33.7,7.0,34.3,18.2,3.0,6.9,2,1.8,4.6
+317,LZB,https://www.tradingview.com/symbols/LZB/,True,True,STRONG UPTREND,8,33.65,44.9,31.05,-25.1,1.88,50.2,1.0,Consumer Cyclical,"Furnishings, Fixtures & Appliances",1347749888,-3.4,,3.9,17.1,12.0,2.0,3.4,3,4.7,4.6
+318,AYI,https://www.tradingview.com/symbols/AYI/,True,True,STRONG UPTREND,8,341.65,378.43,256.71,-9.7,0.61,58.5,1.2,Industrials,Electrical Equipment & Parts,10227479552,1.6,46.2,10.3,22.7,15.7,2.12,4.0,6,1.5,4.6
+319,FRT,https://www.tradingview.com/symbols/FRT/,True,True,STRONG UPTREND,8,117.25,128.21,100.23,-8.5,0.67,41.6,1.0,Real Estate,REIT - Retail,10249799680,7.2,-45.6,32.7,23.7,38.0,1.9,0.0,6,1.7,4.6
+320,HXL,https://www.tradingview.com/symbols/HXL/,True,True,STRONG UPTREND,8,94.11,111.55,75.99,-15.6,0.75,50.5,1.0,Industrials,Aerospace & Defense,7116923392,8.0,280.2,7.8,47.5,30.2,2.62,3.8,6,1.9,4.6
+321,IDA,https://www.tradingview.com/symbols/IDA/,True,True,STRONG UPTREND,8,140.11,153.97,133.76,-9.0,0.78,7.0,1.0,Utilities,Utilities - Regulated Electric,8104248832,4.2,1.7,18.8,23.3,20.1,1.67,8.1,6,2.0,4.6
+322,RAL,https://www.tradingview.com/symbols/RAL/,True,True,STRONG UPTREND,8,63.93,75.41,38.9,-15.2,0.61,134.9,2.7,Technology,Electronic Components,7073216000,12.8,21.4,-56.4,,19.3,2.09,3.3,4,1.5,4.6
+323,MGM,https://www.tradingview.com/symbols/MGM/,True,True,STRONG UPTREND,8,43.17,51.59,33.45,-16.3,0.47,66.8,1.3,Consumer Cyclical,Resorts & Casinos,11045097472,1.0,519.4,2.4,26.2,20.9,2.41,7.8,6,1.2,4.6
+324,VMI,https://www.tradingview.com/symbols/VMI/,True,True,STRONG UPTREND,8,481.67,584.94,378.78,-17.7,0.77,55.1,1.1,Industrials,Conglomerates,9298571264,6.5,,11.7,18.8,18.6,,2.0,5,1.9,4.5
+325,NNN,https://www.tradingview.com/symbols/NNN/,True,True,STRONG UPTREND,8,46.09,49.36,40.53,-6.6,0.85,24.5,1.0,Real Estate,REIT - Retail,8768538624,7.7,-3.7,40.4,22.7,21.9,2.94,5.1,5,2.1,4.5
+326,AIO,https://www.tradingview.com/symbols/AIO/,True,True,STRONG UPTREND,8,25.65,28.22,20.24,-9.1,0.79,55.6,1.1,Financial Services,Asset Management,883361344,,,,5.9,,,0.1,5,2.0,4.5
+327,PBI,https://www.tradingview.com/symbols/PBI/,True,True,STRONG UPTREND,8,16.17,18.96,9.57,-14.7,0.46,135.6,2.7,Industrials,Integrated Freight & Logistics,2216748800,-2.3,115.8,10.0,13.1,8.9,,0.0,4,1.2,4.5
+328,TKR,https://www.tradingview.com/symbols/TKR/,True,True,STRONG UPTREND,8,124.52,145.98,93.63,-14.7,0.9,82.9,1.7,Industrials,Tools & Accessories,8628842496,7.5,-63.4,5.4,33.7,17.1,2.17,3.8,4,2.2,4.5
+329,SYF,https://www.tradingview.com/symbols/SYF/,True,True,STRONG UPTREND,8,76.71,81.92,62.55,-6.4,0.91,30.8,1.0,N/A,N/A,24959197184,,,,7.9,7.3,,,5,2.3,4.5
+330,MSDL,https://www.tradingview.com/symbols/MSDL/,True,True,STRONG UPTREND,10,15.38,15.83,13.13,-2.8,0.77,25.3,1.0,Financial Services,Asset Management,1293536768,-10.8,-77.4,16.0,22.3,8.5,2.57,7.8,2,1.9,4.5
+331,R,https://www.tradingview.com/symbols/R/,True,True,STRONG UPTREND,8,247.85,284.25,184.77,-12.8,0.76,70.2,1.4,Industrials,Rental & Leasing Services,9504271360,5.0,8.6,3.9,20.2,14.0,,2.8,5,1.9,4.5
+332,SNA,https://www.tradingview.com/symbols/SNA/,True,True,STRONG UPTREND,8,391.27,420.41,350.39,-6.9,0.81,25.1,1.0,Industrials,Tools & Accessories,20239271936,4.2,5.1,19.6,19.9,18.3,,8.1,5,2.0,4.5
+333,KEY,https://www.tradingview.com/symbols/KEY/,True,True,STRONG UPTREND,8,21.85,24.07,18.55,-9.2,0.94,35.9,1.0,N/A,N/A,23316760576,,,,12.8,10.2,,,5,2.3,4.5
+334,EPR,https://www.tradingview.com/symbols/EPR/,True,True,STRONG UPTREND,8,61.22,64.66,47.06,-5.3,0.99,34.4,1.0,Real Estate,REIT - Specialty,4689998336,10.6,-13.2,35.6,19.6,19.7,2.5,11.0,5,2.5,4.5
+335,MCB,https://www.tradingview.com/symbols/MCB/,True,True,STRONG UPTREND,8,91.63,101.66,75.5,-9.9,0.86,36.5,1.0,Financial Services,Banks - Regional,1136008320,14.0,-12.5,27.8,11.7,8.0,,3.9,5,2.1,4.5
+336,UNM,https://www.tradingview.com/symbols/UNM/,True,True,STRONG UPTREND,8,86.95,94.55,68.21,-8.0,0.79,59.1,1.2,Financial Services,Insurance - Life,13764775936,0.3,-16.2,5.3,20.2,9.2,1.77,1.9,5,2.0,4.5
+337,CWT,https://www.tradingview.com/symbols/CWT/,True,False,UPTREND,6,50.02,53.46,41.29,-6.4,1.05,29.9,1.0,Utilities,Utilities - Regulated Water,3093191936,16.5,31.4,12.6,22.4,18.2,1.0,3.8,8,2.6,4.5
+338,ALK,https://www.tradingview.com/symbols/ALK/,True,True,STRONG UPTREND,8,40.18,56.43,33.03,-28.8,0.87,35.5,1.0,Industrials,Airlines,4484213248,9.7,,-1.2,,6.8,1.5,3.4,5,2.2,4.5
+339,VNO,https://www.tradingview.com/symbols/VNO/,True,True,STRONG UPTREND,8,38.66,41.6,24.57,-7.1,0.61,110.4,2.2,Real Estate,REIT - Office,7656567808,5.0,-97.8,3.6,1288.7,124.7,2.77,0.0,4,1.5,4.5
+340,GRC,https://www.tradingview.com/symbols/GRC/,True,True,STRONG UPTREND,8,77.85,92.56,56.7,-15.9,0.71,74.8,1.5,Industrials,Specialty Industrial Machinery,2056037504,3.9,22.5,8.9,32.8,24.6,2.0,2.8,5,1.8,4.5
+341,VVX,https://www.tradingview.com/symbols/VVX/,True,True,STRONG UPTREND,8,79.01,93.98,61.42,-15.9,0.59,47.2,1.0,Industrials,Aerospace & Defense,2476596736,16.5,15.7,1.9,27.2,11.4,2.42,2.3,6,1.5,4.5
+342,AVAL,https://www.tradingview.com/symbols/AVAL/,True,True,STRONG UPTREND,8,5.43,6.17,3.3,-11.9,0.73,64.0,1.3,Financial Services,Banks - Regional,6446353408,9.1,16.7,12.2,10.9,9.1,3.0,1.6,5,1.8,4.5
+343,SPB,https://www.tradingview.com/symbols/SPB/,True,True,STRONG UPTREND,8,86.16,99.06,68.41,-13.0,0.94,39.1,1.0,Consumer Defensive,Household & Personal Products,1981300608,7.7,,2.8,26.8,15.4,2.12,10.9,5,2.3,4.5
+344,VSTS,https://www.tradingview.com/symbols/VSTS/,True,True,STRONG UPTREND,8,12.82,16.9,7.03,-24.1,0.84,172.8,3.5,Industrials,Rental & Leasing Services,1694292480,-1.8,,-0.2,,16.5,3.0,5.9,2,2.1,4.5
+345,RCUS,https://www.tradingview.com/symbols/RCUS/,True,True,STRONG UPTREND,8,29.52,31.74,18.51,-7.0,1.17,72.3,1.4,Healthcare,Biotechnology,3712823808,-74.4,,,,-8.8,1.46,12.2,4,2.9,4.5
+346,BC,https://www.tradingview.com/symbols/BC/,True,True,STRONG UPTREND,8,81.06,88.59,66.68,-8.5,0.99,22.9,1.0,Consumer Cyclical,Recreational Vehicles,5252479488,7.7,87.5,-1.5,,15.0,2.1,0.0,5,2.5,4.5
+347,CALY,https://www.tradingview.com/symbols/CALY/,True,True,STRONG UPTREND,8,15.79,20.28,12.34,-22.1,0.72,72.7,1.5,Consumer Cyclical,Leisure,2818681344,2.0,262.1,-12.4,36.7,18.1,2.18,3.5,5,1.8,4.5
+348,AER,https://www.tradingview.com/symbols/AER/,True,True,STRONG UPTREND,8,146.79,158.38,129.67,-7.3,0.81,16.9,1.0,Industrials,Rental & Leasing Services,23073048576,14.9,-35.3,37.9,7.2,8.1,,1.1,5,2.0,4.5
+349,WTS,https://www.tradingview.com/symbols/WTS/,True,True,STRONG UPTREND,8,369.9,394.54,282.3,-6.2,0.43,50.3,1.0,Industrials,Specialty Industrial Machinery,12348390400,18.6,17.3,14.3,32.2,26.3,2.58,3.0,6,1.1,4.5
+350,TFX,https://www.tradingview.com/symbols/TFX/,True,True,STRONG UPTREND,8,134.96,144.64,102.56,-6.7,1.04,42.2,1.0,Healthcare,Medical Instruments & Supplies,5718578688,28.9,-17.3,-45.8,,12.3,2.54,7.0,4,2.6,4.4
+351,BANC,https://www.tradingview.com/symbols/BANC/,True,True,STRONG UPTREND,8,18.65,21.59,16.14,-13.6,0.64,34.9,1.0,Financial Services,Banks - Regional,2954766336,,,-3.2,,8.8,1.73,2.0,5,1.6,4.4
+352,IRT,https://www.tradingview.com/symbols/IRT/,True,True,STRONG UPTREND,8,16.63,17.7,14.44,-6.0,0.64,20.7,1.0,Real Estate,REIT - Residential,4019241472,3.0,-66.7,6.4,92.4,103.9,1.64,4.2,5,1.6,4.4
+353,FTV,https://www.tradingview.com/symbols/FTV/,True,True,STRONG UPTREND,8,59.4,64.56,53.43,-8.0,0.65,19.6,1.0,Technology,Scientific & Technical Instruments,17939814400,7.9,4.0,12.4,31.4,18.3,2.73,4.4,5,1.6,4.4
+354,DRI,https://www.tradingview.com/symbols/DRI/,True,True,STRONG UPTREND,8,217.95,229.76,185.41,-5.1,0.74,13.5,1.0,N/A,N/A,24746426368,,,,20.9,17.6,,,5,1.9,4.4
+355,PPG,https://www.tradingview.com/symbols/PPG/,True,True,STRONG UPTREND,8,112.44,125.56,94.85,-10.4,0.66,21.2,1.0,N/A,N/A,24995411968,,,,16.1,13.0,,,5,1.7,4.4
+356,ESS,https://www.tradingview.com/symbols/ESS/,True,True,STRONG UPTREND,8,287.71,303.35,233.85,-5.2,0.8,45.7,1.0,Real Estate,REIT - Residential,19832680448,3.1,-71.8,20.9,44.9,46.7,2.54,4.5,5,2.0,4.4
+357,LB,https://www.tradingview.com/symbols/LB/,True,False,UPTREND,6,87.03,90.75,59.59,-4.1,0.95,21.5,1.0,Energy,Oil & Gas Equipment & Services,6751983616,40.6,67.5,16.5,77.0,37.3,2.14,12.5,8,2.4,4.4
+358,UHAL,https://www.tradingview.com/symbols/UHAL/,True,True,STRONG UPTREND,8,71.55,76.45,41.95,-6.4,0.55,109.9,2.2,Industrials,Rental & Leasing Services,13987611648,3.2,-13.5,1.0,511.1,34.4,2.5,7.1,4,1.4,4.4
+359,HAE,https://www.tradingview.com/symbols/HAE/,True,False,UPTREND,6,108.22,109.56,51.0,-1.2,1.24,98.3,2.0,Healthcare,Medical Devices,4923691008,5.6,2.9,7.1,52.3,18.9,1.91,4.6,6,3.1,4.4
+360,MC,https://www.tradingview.com/symbols/MC/,True,True,STRONG UPTREND,8,66.87,71.94,50.06,-7.0,0.75,45.9,1.0,Financial Services,Capital Markets,4953789952,12.0,17.1,14.5,23.3,17.1,2.91,4.6,5,1.9,4.4
+361,EAT,https://www.tradingview.com/symbols/EAT/,True,False,UPTREND,6,233.1,253.71,124.96,-8.1,0.77,97.1,1.9,Consumer Cyclical,Restaurants,9997145088,5.1,29.9,8.4,21.4,16.1,1.77,5.1,7,1.9,4.4
+362,NBXG,https://www.tradingview.com/symbols/NBXG/,True,True,STRONG UPTREND,8,15.02,17.17,11.85,-12.5,0.68,55.0,1.1,Financial Services,Asset Management,1182997760,,,,3.4,,,0.2,5,1.7,4.4
+363,ABM,https://www.tradingview.com/symbols/ABM/,True,True,STRONG UPTREND,8,47.1,49.8,36.44,-5.4,0.62,45.3,1.0,Industrials,Specialty Business Services,2759161344,8.4,9.0,1.8,18.1,10.8,,4.5,5,1.6,4.4
+364,GRND,https://www.tradingview.com/symbols/GRND/,True,False,UPTREND,6,15.66,18.5,10.3,-15.4,0.76,70.9,1.4,Technology,Software - Application,2722030848,32.5,25.0,18.7,33.3,20.3,1.6,5.0,8,1.9,4.4
+365,KRG,https://www.tradingview.com/symbols/KRG/,True,True,STRONG UPTREND,8,26.27,29.92,23.57,-12.2,0.78,32.2,1.0,Real Estate,REIT - Retail,5390512640,-8.0,58.0,41.8,16.4,60.2,2.33,4.8,5,2.0,4.4
+366,UDR,https://www.tradingview.com/symbols/UDR/,True,True,STRONG UPTREND,8,37.69,41.69,32.82,-9.6,0.63,27.6,1.0,Real Estate,REIT - Residential,13845956608,-0.1,90.9,29.6,23.9,67.3,2.36,2.5,5,1.6,4.4
+367,TRNO,https://www.tradingview.com/symbols/TRNO/,True,True,STRONG UPTREND,8,68.4,78.94,58.49,-13.4,0.62,27.6,1.0,Real Estate,REIT - Industrial,7453569536,11.1,-40.2,77.3,18.4,38.8,2.26,6.8,5,1.6,4.4
+368,BIRK,https://www.tradingview.com/symbols/BIRK/,True,False,UPTREND,6,34.55,50.73,31.12,-31.9,2.11,26.0,1.0,Consumer Cyclical,Footwear & Accessories,5705110528,13.3,-13.0,14.8,16.3,12.4,1.64,6.4,5,5.3,4.4
+369,CTS,https://www.tradingview.com/symbols/CTS/,True,True,STRONG UPTREND,8,57.78,69.51,45.44,-16.9,0.52,66.1,1.3,Technology,Electronic Components,1649976960,7.0,6.5,12.4,24.2,19.4,,3.1,5,1.3,4.4
+370,LEA,https://www.tradingview.com/symbols/LEA/,True,True,STRONG UPTREND,8,125.43,150.0,112.5,-16.4,0.75,25.6,1.0,Consumer Cyclical,Auto Parts,8350472704,3.0,23.9,2.3,11.7,7.4,2.44,3.4,5,1.9,4.4
+371,KNX,https://www.tradingview.com/symbols/KNX/,True,True,STRONG UPTREND,8,69.41,82.86,51.51,-16.2,0.59,68.9,1.4,Industrials,Trucking,11296894976,12.6,23.8,0.6,257.1,17.3,,2.2,5,1.5,4.4
+372,MAA,https://www.tradingview.com/symbols/MAA/,True,True,STRONG UPTREND,8,132.06,142.76,117.48,-7.5,0.72,20.5,1.0,Real Estate,REIT - Residential,15710358528,1.0,13.7,18.2,38.6,40.3,2.54,3.9,5,1.8,4.4
+373,AVB,https://www.tradingview.com/symbols/AVB/,True,True,STRONG UPTREND,8,184.06,198.63,157.12,-7.3,0.53,37.8,1.0,N/A,N/A,26283393024,,,,25.2,36.8,,,5,1.3,4.3
+374,PEB,https://www.tradingview.com/symbols/PEB/,True,True,STRONG UPTREND,8,18.56,19.75,11.54,-6.0,0.56,112.8,2.3,Real Estate,REIT - Hotel & Motel,2094360832,-0.1,189.2,-3.1,,-55.7,2.81,5.8,3,1.4,4.3
+375,AAT,https://www.tradingview.com/symbols/AAT/,True,True,STRONG UPTREND,8,22.83,25.97,17.9,-12.1,0.63,70.6,1.4,Real Estate,REIT - Diversified,1771282688,1.4,-5.4,4.1,76.1,,,2.9,4,1.6,4.3
+376,ENR,https://www.tradingview.com/symbols/ENR/,True,True,STRONG UPTREND,8,20.99,22.94,15.49,-8.5,0.95,47.6,1.0,Industrials,Electrical Equipment & Parts,1437471616,1.2,-72.8,2.7,17.6,6.2,2.67,7.7,4,2.4,4.3
+377,AKR,https://www.tradingview.com/symbols/AKR/,True,False,UPTREND,6,21.03,23.03,18.38,-8.7,1.11,19.6,1.0,Real Estate,REIT - Retail,3066088192,13.4,400.1,13.2,60.1,63.7,1.29,12.7,7,2.8,4.3
+378,TTAM,https://www.tradingview.com/symbols/TTAM/,True,True,STRONG UPTREND,8,14.95,19.57,13.83,-23.6,0.86,8.2,1.0,Basic Materials,Building Materials,2756381440,9.6,-17.1,10.4,15.6,11.8,,11.0,4,2.1,4.3
+379,ABCB,https://www.tradingview.com/symbols/ABCB/,True,True,STRONG UPTREND,8,86.12,93.22,72.85,-7.6,0.59,36.5,1.0,Financial Services,Banks - Regional,5779275776,3.6,-51.9,31.8,15.6,12.3,2.29,4.8,5,1.5,4.3
+380,HGV,https://www.tradingview.com/symbols/HGV/,True,True,STRONG UPTREND,8,44.82,55.4,37.46,-19.1,0.91,30.4,1.0,Consumer Cyclical,Resorts & Casinos,3483596032,6.2,-40.0,3.2,25.5,8.0,2.36,5.2,4,2.3,4.3
+381,PHIN,https://www.tradingview.com/symbols/PHIN/,True,True,STRONG UPTREND,8,71.63,86.93,62.04,-17.6,0.85,33.7,1.0,Consumer Cyclical,Auto Parts,2624386048,5.6,-7.9,3.7,20.5,10.4,,9.8,4,2.1,4.3
+382,UGP,https://www.tradingview.com/symbols/UGP/,True,False,UPTREND,6,6.55,6.66,4.62,-1.7,1.06,28.9,1.0,Energy,Oil & Gas Refining & Marketing,6979811328,21.9,44.3,2.3,10.4,11.0,2.0,0.6,7,2.7,4.3
+383,TRN,https://www.tradingview.com/symbols/TRN/,True,True,STRONG UPTREND,8,29.74,38.31,28.53,-22.4,0.82,9.1,1.0,Industrials,Railroads,2369370624,-4.2,619.5,16.6,7.0,13.4,,4.7,4,2.0,4.3
+384,IVT,https://www.tradingview.com/symbols/IVT/,True,True,STRONG UPTREND,8,33.19,37.22,29.87,-10.8,0.47,34.9,1.0,Real Estate,REIT - Retail,2588103936,12.6,-98.6,4.8,174.7,-88.7,1.75,7.5,5,1.2,4.3
+385,AXTA,https://www.tradingview.com/symbols/AXTA/,True,True,STRONG UPTREND,8,35.5,38.61,24.94,-8.1,0.78,54.2,1.1,Basic Materials,Specialty Chemicals,7597709824,3.1,-18.0,6.8,21.8,12.4,,6.7,4,2.0,4.3
+386,ESI,https://www.tradingview.com/symbols/ESI/,True,False,UPTREND,6,35.54,49.25,29.4,-27.8,0.72,40.0,1.0,Basic Materials,Specialty Chemicals,8660774912,56.4,61.9,5.7,48.0,17.1,,1.3,8,1.8,4.3
+387,PSO,https://www.tradingview.com/symbols/PSO/,True,True,STRONG UPTREND,8,16.07,17.63,12.14,-8.8,0.68,66.2,1.3,Communication Services,Publishing,9668645888,3.3,-2.9,8.8,23.6,16.4,,3.1,4,1.7,4.3
+388,KIM,https://www.tradingview.com/symbols/KIM/,True,True,STRONG UPTREND,8,24.16,26.65,21.87,-9.3,0.59,27.8,1.0,Real Estate,REIT - Retail,16206271488,4.9,-5.8,27.8,28.1,27.0,2.33,7.8,5,1.5,4.3
+389,BFS,https://www.tradingview.com/symbols/BFS/,True,True,STRONG UPTREND,8,34.02,37.79,31.14,-10.0,0.98,22.7,1.0,Real Estate,REIT - Retail,1181480704,8.4,-26.7,11.5,35.1,,,0.2,4,2.5,4.3
+390,COLD,https://www.tradingview.com/symbols/COLD/,True,True,STRONG UPTREND,8,15.02,16.88,10.34,-11.0,0.68,71.0,1.4,Real Estate,REIT - Industrial,4308440064,1.8,,-17.4,,-71.5,2.47,5.9,4,1.7,4.3
+391,BXP,https://www.tradingview.com/symbols/BXP/,True,True,STRONG UPTREND,8,67.78,74.94,48.54,-9.6,0.76,70.8,1.4,Real Estate,REIT - Office,12259871744,3.7,-23.2,9.3,36.4,32.4,2.14,7.2,4,1.9,4.3
+392,PII,https://www.tradingview.com/symbols/PII/,True,True,STRONG UPTREND,8,64.43,77.98,46.69,-17.4,0.83,66.1,1.3,Consumer Cyclical,Recreational Vehicles,3666294016,8.8,,-3.5,,19.0,2.78,4.3,4,2.1,4.3
+393,PAY,https://www.tradingview.com/symbols/PAY/,True,False,UPTREND,6,38.42,45.31,20.11,-15.2,0.9,66.0,1.3,Technology,Software - Infrastructure,4838601216,28.8,81.8,6.2,58.2,35.9,,4.2,7,2.2,4.3
+394,YOU,https://www.tradingview.com/symbols/YOU/,True,False,UPTREND,6,42.9,69.07,31.87,-37.9,1.16,23.3,1.0,Technology,Software - Application,5825308672,26.6,87.0,14.8,29.0,17.2,2.4,9.9,7,2.9,4.3
+395,OC,https://www.tradingview.com/symbols/OC/,True,True,STRONG UPTREND,8,147.16,159.88,98.3,-8.0,0.61,74.6,1.5,Industrials,Building Products & Equipment,11632803840,0.3,-34.2,-6.8,,12.2,1.75,2.6,4,1.5,4.3
+396,IFF,https://www.tradingview.com/symbols/IFF/,True,True,STRONG UPTREND,8,83.39,89.32,64.76,-6.6,0.57,27.7,1.0,Basic Materials,Specialty Chemicals,21276956672,1.8,-91.6,2.6,,21.1,1.75,8.6,5,1.4,4.3
+397,VYX,https://www.tradingview.com/symbols/VYX/,True,True,STRONG UPTREND,8,7.65,10.14,6.02,-24.6,0.93,36.1,1.0,Technology,Information Technology Services,1056234752,-20.8,,3.0,27.3,7.5,1.67,14.5,4,2.3,4.3
+398,CBT,https://www.tradingview.com/symbols/CBT/,True,True,STRONG UPTREND,8,84.93,94.53,66.25,-10.2,0.67,56.8,1.1,Basic Materials,Specialty Chemicals,4385021440,6.4,-93.7,5.2,23.8,12.2,2.5,9.1,4,1.7,4.2
+399,IMAX,https://www.tradingview.com/symbols/IMAX/,True,False,UPTREND,6,52.74,54.5,32.71,-3.2,0.94,50.4,1.0,Communication Services,Entertainment,2892372992,12.2,35.0,9.8,72.2,25.8,1.55,5.2,7,2.3,4.2
+400,IHG,https://www.tradingview.com/symbols/IHG/,True,True,STRONG UPTREND,8,159.74,175.89,125.5,-9.2,0.74,54.8,1.1,Consumer Cyclical,Lodging,23564957696,5.6,-5.4,13.4,34.0,23.3,2.78,1.3,4,1.9,4.2
+401,AZZ,https://www.tradingview.com/symbols/AZZ/,True,True,STRONG UPTREND,8,139.43,161.93,118.05,-13.9,0.75,42.1,1.0,Industrials,Specialty Business Services,4190080512,6.3,-69.6,11.8,21.3,17.9,,2.7,4,1.9,4.2
+402,VVV,https://www.tradingview.com/symbols/VVV/,True,False,UPTREND,6,33.81,41.08,31.41,-17.7,0.89,18.0,1.0,Consumer Cyclical,Auto & Truck Dealerships,4311994880,24.1,15.7,5.2,41.7,16.9,1.67,6.1,7,2.2,4.2
+403,PNW,https://www.tradingview.com/symbols/PNW/,True,True,STRONG UPTREND,8,99.38,111.16,95.9,-10.6,0.77,9.6,1.0,Utilities,Utilities - Regulated Electric,12044580864,7.1,-9.5,11.5,19.1,17.8,2.56,8.5,4,1.9,4.2
+404,FHI,https://www.tradingview.com/symbols/FHI/,True,False,UPTREND,6,63.13,66.8,51.67,-5.5,0.85,23.4,1.0,Financial Services,Asset Management,4713303552,18.3,19.3,21.3,11.7,10.8,2.88,6.2,7,2.1,4.2
+405,CNK,https://www.tradingview.com/symbols/CNK/,True,False,UPTREND,6,36.89,38.98,24.93,-5.4,0.65,64.2,1.3,Communication Services,Entertainment,4275988224,15.5,88.6,6.4,20.6,14.1,2.0,2.9,7,1.6,4.2
+406,MNTN,https://www.tradingview.com/symbols/MNTN/,True,False,UPTREND,6,12.67,13.3,7.67,-4.7,0.86,23.8,1.0,Technology,Software - Application,947756032,20.6,,18.0,7.1,9.7,1.5,4.6,7,2.1,4.2
+407,H,https://www.tradingview.com/symbols/H/,True,True,STRONG UPTREND,8,179.48,206.86,137.42,-13.2,0.69,56.7,1.1,Consumer Cyclical,Lodging,16913608704,-6.6,,2.3,221.6,36.9,1.91,5.7,4,1.7,4.2
+408,WPC,https://www.tradingview.com/symbols/WPC/,True,False,UPTREND,6,72.01,77.22,65.13,-6.7,0.59,10.9,1.0,Real Estate,REIT - Diversified,16404400128,18.4,256.5,35.8,24.7,22.9,2.43,5.5,8,1.5,4.2
+409,PJT,https://www.tradingview.com/symbols/PJT/,True,False,UPTREND,6,170.79,179.99,127.53,-5.1,0.91,44.4,1.0,Financial Services,Capital Markets,7275175936,19.5,37.5,10.6,23.3,18.8,2.57,4.5,7,2.3,4.2
+410,OMF,https://www.tradingview.com/symbols/OMF/,True,True,STRONG UPTREND,8,61.7,66.35,44.2,-7.0,0.74,44.4,1.0,Financial Services,Credit Services,7098058752,-2.7,-5.9,25.9,9.3,7.2,1.94,4.8,4,1.9,4.2
+411,WOR,https://www.tradingview.com/symbols/WOR/,True,False,UPTREND,6,56.39,61.95,44.87,-9.0,0.87,25.3,1.0,Industrials,Metal Fabrication,2758981376,16.9,1134.1,11.3,18.0,13.6,2.25,3.6,7,2.2,4.2
+412,DEI,https://www.tradingview.com/symbols/DEI/,True,True,STRONG UPTREND,8,11.86,12.97,8.79,-8.6,0.51,64.4,1.3,Real Estate,REIT - Office,2384815616,1.6,,-2.3,,-112.6,2.92,14.1,4,1.3,4.2
+413,YMM,https://www.tradingview.com/symbols/YMM/,True,False,UPTREND,6,8.62,9.76,7.38,-11.7,0.95,8.8,1.0,Technology,Software - Application,9015608320,4.4,0.4,33.0,14.6,9.9,1.5,3.0,7,2.4,4.2
+414,RPC,https://www.tradingview.com/symbols/RPC/,True,False,UPTREND,6,8.63,9.51,6.76,-9.3,1.22,31.1,1.0,Financial Services,Asset Management,951357760,11.3,115.6,8.7,36.0,7.4,2.0,7.2,6,3.0,4.2
+415,GLAS,https://www.tradingview.com/symbols/GLAS/,True,True,STRONG UPTREND,8,9.52,13.93,7.2,-31.7,0.81,81.3,1.6,Healthcare,Drug Manufacturers - Specialty & Generic,853776128,-9.6,,-20.7,,42.3,1.33,0.7,3,2.0,4.2
+416,HG,https://www.tradingview.com/symbols/HG/,True,True,STRONG UPTREND,8,34.77,37.31,27.12,-6.8,0.66,46.1,1.0,Financial Services,Insurance - Reinsurance,2291018240,13.0,-20.7,19.6,6.1,7.3,2.29,3.7,4,1.7,4.2
+417,MAC,https://www.tradingview.com/symbols/MAC/,True,True,STRONG UPTREND,8,24.69,26.68,17.63,-7.5,0.51,73.1,1.5,Real Estate,REIT - Retail,7284299776,1.2,,-16.5,,617.2,2.06,9.3,4,1.3,4.2
+418,TREX,https://www.tradingview.com/symbols/TREX/,True,True,STRONG UPTREND,8,47.3,50.96,35.11,-7.2,0.61,57.0,1.1,Industrials,Building Products & Equipment,4818223616,7.8,-15.2,14.7,27.8,23.5,2.05,5.2,4,1.5,4.2
+419,EXP,https://www.tradingview.com/symbols/EXP/,True,True,STRONG UPTREND,8,202.92,245.53,171.79,-17.4,0.7,20.4,1.0,Basic Materials,Building Materials,6224636928,2.6,-12.5,17.3,16.0,14.2,2.8,3.8,4,1.8,4.2
+420,UE,https://www.tradingview.com/symbols/UE/,True,True,STRONG UPTREND,8,21.53,23.92,19.48,-10.0,0.79,28.3,1.0,Real Estate,REIT - Retail,2964404224,7.6,-69.3,13.9,40.6,42.5,2.14,4.2,4,2.0,4.2
+421,QTWO,https://www.tradingview.com/symbols/QTWO/,True,False,UPTREND,6,63.82,67.0,40.79,-4.7,0.77,40.6,1.0,Technology,Software - Application,3979476736,12.6,156.5,10.9,44.9,19.4,1.58,4.8,7,1.9,4.1
+422,GRBK,https://www.tradingview.com/symbols/GRBK/,True,True,STRONG UPTREND,8,70.87,83.18,60.97,-14.8,1.26,20.2,1.0,Consumer Cyclical,Residential Construction,3048168192,-8.7,-8.1,14.8,10.7,10.9,,0.0,2,3.1,4.1
+423,WHD,https://www.tradingview.com/symbols/WHD/,True,False,UPTREND,6,68.85,74.07,44.34,-7.0,0.7,53.5,1.1,Energy,Oil & Gas Equipment & Services,5520352768,64.3,18.9,12.0,57.9,19.0,,4.1,7,1.8,4.1
+424,TGB,https://www.tradingview.com/symbols/TGB/,True,False,UPTREND,6,8.69,9.08,5.48,-4.3,0.75,15.8,1.0,Basic Materials,Copper,3180742656,184.8,-13.3,1.6,434.5,11.0,1.29,1.5,7,1.9,4.1
+425,TNC,https://www.tradingview.com/symbols/TNC/,True,False,UPTREND,6,68.02,91.93,59.89,-26.0,1.49,52.4,1.0,Industrials,Specialty Industrial Machinery,1159693568,1.7,-59.3,1.5,65.4,12.1,1.67,7.3,5,3.7,4.1
+426,VOYA,https://www.tradingview.com/symbols/VOYA/,True,True,STRONG UPTREND,8,97.49,103.85,64.13,-6.1,0.71,103.1,2.1,Financial Services,Financial Conglomerates,8832238592,-4.3,-41.6,7.4,16.4,8.6,2.08,0.0,2,1.8,4.1
+427,EMA,https://www.tradingview.com/symbols/EMA/,True,True,STRONG UPTREND,8,51.78,54.95,49.16,-5.8,0.56,7.2,1.0,Utilities,Utilities - Regulated Electric,15904227328,1.2,-24.4,11.6,22.8,19.8,2.71,13.4,4,1.4,4.1
+428,TDC,https://www.tradingview.com/symbols/TDC/,True,False,UPTREND,6,27.57,37.52,23.86,-26.5,0.76,30.4,1.0,Technology,Software - Infrastructure,2564009984,0.5,433.3,27.1,5.8,9.5,2.88,6.9,7,1.9,4.1
+429,ARE,https://www.tradingview.com/symbols/ARE/,True,True,STRONG UPTREND,8,52.94,55.74,38.9,-5.0,1.21,16.1,1.0,Real Estate,REIT - Office,9110723584,-11.9,,-36.1,,-65.4,2.94,4.3,2,3.0,4.1
+430,PATH,https://www.tradingview.com/symbols/PATH/,True,False,UPTREND,6,15.92,16.82,9.2,-5.4,1.05,46.3,1.0,Technology,Software - Infrastructure,8248474624,17.3,,19.6,26.5,17.6,2.8,1.5,6,2.6,4.1
+431,RNG,https://www.tradingview.com/symbols/RNG/,True,False,UPTREND,6,65.58,68.45,32.93,-4.2,0.72,85.1,1.7,Technology,Software - Application,5476334080,5.9,221.4,4.3,52.5,11.9,,3.3,6,1.8,4.1
+432,CIB,https://www.tradingview.com/symbols/CIB/,True,False,UPTREND,6,98.65,100.74,60.69,-2.1,0.5,72.2,1.4,Financial Services,Banks - Regional,23297726464,26.0,53.2,17.6,9.8,8.6,2.82,2.7,7,1.2,4.1
+433,TDOC,https://www.tradingview.com/symbols/TDOC/,True,True,STRONG UPTREND,8,6.49,9.89,4.47,-34.4,0.71,111.5,2.2,Healthcare,Health Information Services,1179129216,-4.0,,-7.1,,-8.3,2.54,4.8,2,1.8,4.1
+434,DV,https://www.tradingview.com/symbols/DV/,True,False,UPTREND,6,13.31,13.35,8.6,-0.3,1.0,44.8,1.0,Communication Services,Advertising Agencies,2062884864,2.5,60.0,7.7,38.0,11.2,2.93,4.9,6,2.5,4.0
+435,PRKS,https://www.tradingview.com/symbols/PRKS/,True,True,STRONG UPTREND,8,44.81,50.0,28.77,-10.4,0.6,92.4,1.8,Consumer Cyclical,Leisure,2031744128,-1.4,-7.6,8.1,17.9,9.8,2.33,9.3,2,1.5,4.0
+436,TDAY,https://www.tradingview.com/symbols/TDAY/,True,True,STRONG UPTREND,8,6.52,9.21,5.74,-29.2,1.53,56.1,1.1,Communication Services,Publishing,957252928,-8.3,-85.4,-1.8,,21.7,2.17,13.6,1,3.8,4.0
+437,CW,https://www.tradingview.com/symbols/CW/,True,False,UPTREND,6,648.28,808.16,625.44,-19.8,1.23,12.3,1.0,N/A,N/A,23943862272,,,,44.6,37.8,,,5,3.1,4.0
+438,MAS,https://www.tradingview.com/symbols/MAS/,True,True,STRONG UPTREND,8,73.33,83.64,57.88,-12.3,0.69,49.9,1.0,Industrials,Building Products & Equipment,14459754496,-2.9,24.5,11.6,16.9,15.7,2.45,3.4,3,1.7,4.0
+439,FOR,https://www.tradingview.com/symbols/FOR/,True,True,STRONG UPTREND,8,28.88,32.06,23.96,-9.9,0.61,34.4,1.0,Real Estate,Real Estate - Development,1473389056,-3.0,22.3,9.9,8.7,9.6,,3.5,3,1.5,4.0
+440,SPNT,https://www.tradingview.com/symbols/SPNT/,True,True,STRONG UPTREND,8,23.6,26.48,19.69,-10.9,0.78,31.4,1.0,Financial Services,Insurance - Reinsurance,2741494528,-0.5,16.0,16.8,5.8,8.6,,6.1,3,2.0,4.0
+441,EQH,https://www.tradingview.com/symbols/EQH/,True,True,STRONG UPTREND,8,48.75,53.32,34.94,-8.6,0.45,65.6,1.3,Financial Services,Asset Management,13297332224,-29.8,,-8.7,,5.4,1.33,0.0,3,1.1,4.0
+442,SXI,https://www.tradingview.com/symbols/SXI/,True,False,UPTREND,6,309.42,363.52,230.49,-14.9,0.48,60.7,1.2,Industrials,Specialty Industrial Machinery,3750004992,2.8,37.2,11.7,35.6,26.1,1.4,3.8,7,1.2,4.0
+443,AMTB,https://www.tradingview.com/symbols/AMTB/,True,True,STRONG UPTREND,8,28.44,30.51,19.86,-6.8,0.93,65.8,1.3,Financial Services,Banks - Regional,1114559488,-7.9,-3.6,14.4,20.3,10.3,2.5,3.5,2,2.3,4.0
+444,KRC,https://www.tradingview.com/symbols/KRC/,True,True,STRONG UPTREND,8,36.76,40.85,26.89,-10.0,0.78,81.5,1.6,Real Estate,REIT - Office,4317188096,-6.0,-70.2,15.5,25.7,68.7,2.76,7.0,2,2.0,4.0
+445,CPT,https://www.tradingview.com/symbols/CPT/,True,True,STRONG UPTREND,8,107.92,119.81,94.62,-9.9,0.71,29.5,1.0,Real Estate,REIT - Residential,10850206720,-0.8,-75.7,20.6,35.5,99.0,2.58,3.9,3,1.8,4.0
+446,AEG,https://www.tradingview.com/symbols/AEG/,True,True,STRONG UPTREND,8,9.01,9.61,6.56,-6.2,0.85,71.1,1.4,Financial Services,Insurance - Diversified,13322330112,-13.7,-46.7,8.0,12.9,9.6,,0.7,2,2.1,4.0
+447,RL,https://www.tradingview.com/symbols/RL/,True,False,UPTREND,6,372.52,420.57,316.46,-11.4,0.67,28.2,1.0,Consumer Cyclical,Apparel Manufacturing,22195574784,14.0,21.6,11.8,23.5,17.8,1.53,5.3,6,1.7,3.9
+448,STC,https://www.tradingview.com/symbols/STC/,True,False,UPTREND,6,68.96,73.73,56.65,-6.5,0.61,15.3,1.0,Financial Services,Insurance - Property & Casualty,2104810880,24.3,7.1,4.1,15.1,9.5,,4.6,6,1.5,3.9
+449,GDDY,https://www.tradingview.com/symbols/GDDY/,True,False,UPTREND,6,98.19,106.0,71.59,-7.4,0.61,17.7,1.0,Technology,Software - Infrastructure,12435537920,6.6,29.8,17.8,14.6,8.9,,2.7,6,1.5,3.9
+450,EVR,https://www.tradingview.com/symbols/EVR/,True,False,UPTREND,6,287.09,381.47,265.19,-24.7,1.03,22.2,1.0,Financial Services,Capital Markets,11040842752,18.8,-1.7,15.8,16.2,12.7,2.0,2.7,5,2.6,3.9
+451,CVI,https://www.tradingview.com/symbols/CVI/,True,False,UPTREND,6,35.83,39.78,20.35,-9.9,0.67,38.1,1.0,Energy,Oil & Gas Refining & Marketing,3602011648,55.5,,0.8,51.9,16.4,4.17,5.7,6,1.7,3.9
+452,MHO,https://www.tradingview.com/symbols/MHO/,True,True,STRONG UPTREND,8,149.95,163.66,116.78,-8.4,0.72,43.5,1.0,Consumer Cyclical,Residential Construction,3791190528,-8.5,-31.7,7.4,12.6,10.3,,5.4,2,1.8,3.8
+453,MTH,https://www.tradingview.com/symbols/MTH/,True,True,STRONG UPTREND,8,71.05,85.38,57.65,-16.8,0.63,35.9,1.0,Consumer Cyclical,Residential Construction,4630619648,-13.8,-32.8,6.1,14.8,11.6,,4.6,2,1.6,3.8
+454,WY,https://www.tradingview.com/symbols/WY/,True,False,UPTREND,6,24.62,26.0,22.22,-5.3,0.9,6.1,1.0,Real Estate,REIT - Specialty,17744521216,-0.9,87.1,6.9,37.3,36.2,1.67,4.9,5,2.2,3.8
+455,KTB,https://www.tradingview.com/symbols/KTB/,True,False,UPTREND,6,78.99,88.96,61.22,-11.2,0.85,50.2,1.0,Consumer Cyclical,Apparel Manufacturing,4317089280,18.6,-11.4,7.8,16.0,12.0,2.0,7.4,5,2.1,3.8
+456,FSK,https://www.tradingview.com/symbols/FSK/,True,True,STRONG UPTREND,8,11.91,12.71,9.2,-6.3,0.62,29.1,1.0,Financial Services,Asset Management,3291212800,-27.1,,-28.5,,7.9,2.82,6.0,2,1.6,3.8
+457,PLOW,https://www.tradingview.com/symbols/PLOW/,True,False,UPTREND,6,41.11,55.0,38.68,-25.3,0.93,9.4,1.0,Consumer Cyclical,Auto Parts,948697344,10.5,-1.8,7.5,18.7,12.7,1.67,2.0,5,2.3,3.8
+458,VLRS,https://www.tradingview.com/symbols/VLRS/,True,False,UPTREND,6,6.84,10.01,6.12,-31.7,0.97,18.1,1.0,Industrials,Airlines,786267392,23.9,,-5.7,,-53.9,2.08,1.5,5,2.4,3.8
+459,MOH,https://www.tradingview.com/symbols/MOH/,True,True,STRONG UPTREND,8,196.94,244.89,131.2,-19.6,0.55,102.2,2.0,Healthcare,Healthcare Plans,10280267776,-5.7,-75.3,-0.0,1230.9,20.2,,1.9,1,1.4,3.8
+460,BBDC,https://www.tradingview.com/symbols/BBDC/,True,False,UPTREND,6,9.4,9.52,7.72,-1.3,1.23,20.2,1.0,Financial Services,Asset Management,984244608,-12.4,-10.4,32.7,11.5,9.3,1.83,5.4,4,3.1,3.8
+461,SW,https://www.tradingview.com/symbols/SW/,True,False,UPTREND,6,48.19,51.52,35.21,-6.5,0.82,35.4,1.0,N/A,N/A,25276758016,,,,51.3,14.3,,,5,2.0,3.8
+462,ROG,https://www.tradingview.com/symbols/ROG/,True,False,UPTREND,6,126.54,169.0,97.06,-25.1,0.66,68.9,1.4,Technology,Electronic Components,2261059328,6.9,,3.7,74.9,28.4,,1.9,5,1.7,3.8
+463,HR,https://www.tradingview.com/symbols/HR/,True,True,STRONG UPTREND,8,19.41,21.77,16.35,-10.8,0.72,39.8,1.0,Real Estate,REIT - Healthcare Facilities,6735226880,-4.3,,-7.6,,970.5,2.54,4.9,2,1.8,3.8
+464,GWRE,https://www.tradingview.com/symbols/GWRE/,True,False,UPTREND,6,181.79,185.7,102.3,-2.1,0.56,5.3,1.0,Technology,Software - Application,15135174656,26.9,-64.8,11.2,97.2,44.4,1.62,3.9,6,1.4,3.8
+465,GPK,https://www.tradingview.com/symbols/GPK/,True,True,STRONG UPTREND,8,11.63,12.28,8.7,-5.3,0.76,28.3,1.0,Consumer Cyclical,Packaging & Containers,3443312640,-0.7,-76.5,2.2,17.9,10.4,3.08,4.6,2,1.9,3.8
+466,CRL,https://www.tradingview.com/symbols/CRL/,True,False,UPTREND,6,291.45,299.32,146.2,-2.6,0.96,105.4,2.1,Healthcare,Diagnostics & Research,14038484992,-2.7,,-6.0,,23.0,1.75,4.0,3,2.4,3.7
+467,ARDT,https://www.tradingview.com/symbols/ARDT/,True,True,STRONG UPTREND,8,10.48,11.89,7.71,-11.9,0.49,36.3,1.0,Healthcare,Medical Care Facilities,1478161024,-1.4,-77.1,1.2,19.4,8.5,2.0,8.0,2,1.2,3.7
+468,BYD,https://www.tradingview.com/symbols/BYD/,True,False,UPTREND,6,80.95,91.41,76.5,-11.4,0.78,9.7,1.0,Consumer Cyclical,Resorts & Casinos,5881455616,,-4.9,44.3,3.6,10.4,2.33,4.1,5,2.0,3.7
+469,GVA,https://www.tradingview.com/symbols/GVA/,True,False,UPTREND,6,122.97,161.95,108.38,-24.1,0.66,9.7,1.0,Industrials,Engineering & Construction,5463175168,29.3,,-3.3,,15.4,,4.0,5,1.7,3.7
+470,ADT,https://www.tradingview.com/symbols/ADT/,True,False,UPTREND,6,7.37,8.01,6.15,-7.9,0.73,11.3,1.0,Industrials,Security & Protection Services,5384221696,2.0,1.7,11.9,10.2,7.5,2.5,4.1,5,1.8,3.7
+471,BWLP,https://www.tradingview.com/symbols/BWLP/,True,False,UPTREND,6,23.51,23.89,13.0,-1.6,0.77,74.1,1.5,Energy,Oil & Gas Midstream,3569161472,-2.7,260.0,10.1,9.9,,,1.5,4,1.9,3.7
+472,EG,https://www.tradingview.com/symbols/EG/,True,True,STRONG UPTREND,8,368.36,401.07,311.4,-8.2,0.6,32.6,1.0,Financial Services,Insurance - Reinsurance,14123929600,-11.3,-11.5,11.4,7.8,6.2,2.44,4.2,2,1.5,3.7
+473,AN,https://www.tradingview.com/symbols/AN/,True,False,UPTREND,6,200.09,235.81,176.62,-15.1,0.75,11.9,1.0,Consumer Cyclical,Auto & Truck Dealerships,6615136768,-0.6,138.5,2.8,9.3,8.1,1.79,4.4,5,1.9,3.7
+474,ENOV,https://www.tradingview.com/symbols/ENOV/,True,False,UPTREND,6,26.18,31.67,19.14,-17.3,0.69,20.9,1.0,Healthcare,Medical Devices,1509787392,3.2,,-48.0,,6.5,1.31,7.5,5,1.7,3.7
+475,YELP,https://www.tradingview.com/symbols/YELP/,True,False,UPTREND,6,23.6,29.59,19.6,-20.2,0.81,6.5,1.0,Communication Services,Internet Content & Information,1280621440,1.4,-14.9,8.6,11.4,6.4,2.9,8.4,4,2.0,3.6
+476,KRO,https://www.tradingview.com/symbols/KRO/,True,False,UPTREND,6,8.13,8.9,4.78,-8.7,0.82,50.7,1.0,Basic Materials,Specialty Chemicals,935742848,12.9,,-5.6,,13.1,3.0,3.6,4,2.0,3.6
+477,ATKR,https://www.tradingview.com/symbols/ATKR/,True,False,UPTREND,6,93.49,93.81,53.32,-0.3,0.88,82.2,1.6,Industrials,Electrical Equipment & Parts,3157395712,8.1,-98.4,-5.5,,14.6,,3.6,3,2.2,3.5
+478,LSPD,https://www.tradingview.com/symbols/LSPD/,True,False,UPTREND,6,10.39,11.09,7.83,-6.3,0.55,35.5,1.0,Technology,Software - Application,1343422848,5.8,,-7.8,,11.2,2.56,5.7,4,1.4,3.4
+479,EPC,https://www.tradingview.com/symbols/EPC/,True,False,UPTREND,6,27.56,29.95,15.62,-8.0,0.6,74.7,1.5,Consumer Defensive,Household & Personal Products,1270210560,1.7,-53.4,-4.2,,13.7,2.29,6.7,3,1.5,3.4
+480,MBC,https://www.tradingview.com/symbols/MBC/,True,False,UPTREND,6,9.14,11.51,6.61,-20.6,0.55,5.5,1.0,Consumer Cyclical,"Furnishings, Fixtures & Appliances",1859903232,11.5,,-3.5,,35.8,3.0,8.4,4,1.4,3.4
+481,FLR,https://www.tradingview.com/symbols/FLR/,True,False,UPTREND,6,52.16,57.93,41.6,-10.0,0.92,21.7,1.0,Industrials,Engineering & Construction,6975933952,8.8,-94.5,-12.8,,15.5,2.11,4.7,3,2.3,3.4
+482,WFG,https://www.tradingview.com/symbols/WFG/,True,False,UPTREND,6,68.92,73.43,58.08,-6.1,1.2,20.7,1.0,Basic Materials,Lumber & Wood Production,5396699648,-6.4,,-23.0,,28.3,2.0,10.3,2,3.0,3.3
+483,BIO,https://www.tradingview.com/symbols/BIO/,True,False,UPTREND,6,376.46,380.71,236.73,-1.1,0.72,49.2,1.0,Healthcare,Medical Devices,10065853440,-0.1,18.7,8.6,45.9,37.5,3.0,,3,1.8,3.3
+484,NGVT,https://www.tradingview.com/symbols/NGVT/,True,False,UPTREND,6,69.31,79.29,62.9,-12.6,0.7,15.9,1.0,Basic Materials,Specialty Chemicals,2382733568,-5.2,,4.7,97.6,11.5,,5.3,3,1.8,3.3
+485,REXR,https://www.tradingview.com/symbols/REXR/,True,False,UPTREND,6,37.05,39.67,31.48,-6.6,0.91,11.3,1.0,Real Estate,REIT - Industrial,8470906880,-1.6,,-39.2,,37.5,2.61,2.8,2,2.3,3.2
+486,PRGO,https://www.tradingview.com/symbols/PRGO/,True,False,UPTREND,6,13.7,14.33,9.0,-4.4,0.66,14.7,1.0,Healthcare,Drug Manufacturers - Specialty & Generic,1895638528,-3.2,,-41.9,,5.7,2.4,7.6,2,1.7,3.1
+487,WPP,https://www.tradingview.com/symbols/WPP/,True,False,UPTREND,6,26.27,27.78,14.41,-5.4,0.73,74.4,1.5,Communication Services,Advertising Agencies,5666568192,-4.4,-57.5,-1.8,,7.5,3.33,4.7,1,1.8,3.0
+488,GSBD,https://www.tradingview.com/symbols/GSBD/,True,False,UPTREND,6,9.92,9.98,8.19,-0.6,0.9,15.1,1.0,Financial Services,Asset Management,1116685184,-8.0,-37.2,17.2,19.1,8.7,3.6,7.8,1,2.2,3.0
