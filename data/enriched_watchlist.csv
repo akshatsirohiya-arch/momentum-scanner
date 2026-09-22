@@ -1,6 +1,2 @@
 Rank,Ticker,Chart,hh,hl,trend_structure,trend_score,current_price,high_6m,low_6m,pct_from_6m_high,RVOL,Velocity %,momentum_score,sector,industry,market_cap,rev_growth_pct,earnings_growth_pct,profit_margin_pct,trailing_pe,forward_pe,analyst_rec,short_ratio,fund_score,rvol_score,composite
-1,BRK-A,https://www.tradingview.com/symbols/BRK-A/,True,True,STRONG UPTREND,8,763600.0,806103.0,698000.0,-5.3,1.4,17.6,1.0,Financial Services,Insurance - Diversified,1089764130816,10.0,107.8,22.3,12.8,22.8,,1.1,7,3.5,5.2
-2,MOG-B,https://www.tradingview.com/symbols/MOG-B/,True,True,STRONG UPTREND,8,362.0,450.0,294.42,-19.6,0.45,67.2,1.3,Industrials,Aerospace & Defense,11464963072,15.2,159.0,8.7,30.8,,,0.9,7,1.1,4.8
-3,WLYB,https://www.tradingview.com/symbols/WLYB/,True,True,STRONG UPTREND,8,46.68,55.51,32.97,-15.9,1.75,78.5,1.6,Communication Services,Publishing,2365925888,-2.6,,11.9,12.6,,,0.5,3,4.4,4.7
-4,BIO-B,https://www.tradingview.com/symbols/BIO-B/,True,True,STRONG UPTREND,10,365.08,365.08,244.54,0.0,0.0,64.7,1.3,Healthcare,Medical Devices,9761572864,-0.1,18.7,8.6,44.5,,,0.2,3,1.0,4.6
-5,UHAL-B,https://www.tradingview.com/symbols/UHAL-B/,True,True,STRONG UPTREND,8,56.68,66.84,39.55,-15.2,1.02,81.6,1.6,Industrials,Rental & Leasing Services,11080611840,3.2,-13.5,1.0,404.9,25.8,,3.6,4,2.5,4.5
+1,AGM-A,https://www.tradingview.com/symbols/AGM-A/,True,True,STRONG UPTREND,8,150.0,174.2,114.54,-13.9,0.62,62.5,1.2,Financial Services,Credit Services,1627981440,24.9,20.8,56.0,8.2,,,0.6,7,1.6,4.8
