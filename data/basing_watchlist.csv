@@ -1,5 +1,8 @@
 Rank,Ticker,Chart,hh,hl,trend_structure,trend_score,current_price,high_6m,low_6m,pct_from_6m_high,RVOL,Velocity %,momentum_score,sector,industry,market_cap,rev_growth_pct,earnings_growth_pct,profit_margin_pct,trailing_pe,forward_pe,analyst_rec,short_ratio,fund_score,rvol_score,composite
-1,MTB-PJ,https://www.tradingview.com/symbols/MTB-PJ/,False,True,BASING,4,25.62,26.5,24.63,-3.3,1.69,7.1,1,Financial Services,Banks - Regional,,6.2,25.5,32.1,,,,8.8,7,4.2,3.9
-2,MFA-PB,https://www.tradingview.com/symbols/MFA-PB/,False,True,BASING,4,19.55,20.47,18.19,-4.5,1.29,7.9,1,Real Estate,REIT - Mortgage,,20.2,61.9,49.0,,,,0.9,8,3.2,3.9
-3,PNFP-PB,https://www.tradingview.com/symbols/PNFP-PB/,False,True,BASING,4,25.84,26.62,24.34,-2.9,0.47,8.9,1,Financial Services,Banks - Regional,,137.0,3.5,24.9,,,,0.5,8,1.2,3.5
-4,CHMI-PA,https://www.tradingview.com/symbols/CHMI-PA/,False,True,BASING,4,21.65,22.7,19.73,-4.6,0.63,23.0,1,Real Estate,REIT - Mortgage,,27.6,,38.6,39.3,,,0.5,7,1.6,3.4
+1,AEF,https://www.tradingview.com/symbols/AEF/,False,True,BASING,4,9.83,10.07,6.72,-2.4,1.27,38.8,1,Financial Services,Asset Management,399112000.0,24.8,248.1,2638.3,2.0,,,0.9,8,3.2,3.9
+2,MFA-PB,https://www.tradingview.com/symbols/MFA-PB/,False,True,BASING,4,19.41,20.47,18.19,-5.2,1.19,7.6,1,Real Estate,REIT - Mortgage,,20.2,61.9,49.0,,,,0.9,8,3.0,3.8
+3,MTB-PJ,https://www.tradingview.com/symbols/MTB-PJ/,False,True,BASING,4,25.52,26.5,24.63,-3.7,1.3,6.9,1,Financial Services,Banks - Regional,,6.2,25.5,32.1,,,,8.8,7,3.2,3.7
+4,GUT,https://www.tradingview.com/symbols/GUT/,False,True,BASING,4,6.07,6.91,5.57,-12.1,1.09,23.3,1,Financial Services,Asset Management,546470848.0,7.0,26.8,470.5,9.8,,,13.4,7,2.7,3.6
+5,PNFP-PB,https://www.tradingview.com/symbols/PNFP-PB/,False,True,BASING,4,25.81,26.62,24.34,-3.1,0.33,8.8,1,Financial Services,Banks - Regional,,137.0,3.5,24.9,,,,0.5,8,1.0,3.5
+6,CHMI-PA,https://www.tradingview.com/symbols/CHMI-PA/,False,True,BASING,4,21.76,22.7,19.73,-4.1,0.48,22.6,1,Real Estate,REIT - Mortgage,,27.6,,38.6,39.5,,,0.5,7,1.2,3.3
+7,CTO-PA,https://www.tradingview.com/symbols/CTO-PA/,False,True,BASING,4,20.11,21.85,18.7,-8.0,0.42,12.5,1,Real Estate,REIT - Diversified,,16.5,,32.6,6.3,,,2.0,7,1.1,3.3
