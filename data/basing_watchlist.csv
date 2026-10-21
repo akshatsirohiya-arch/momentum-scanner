@@ -1,4 +1,6 @@
 Rank,Ticker,Chart,hh,hl,trend_structure,trend_score,current_price,high_6m,low_6m,pct_from_6m_high,RVOL,Velocity %,momentum_score,sector,industry,market_cap,rev_growth_pct,earnings_growth_pct,profit_margin_pct,trailing_pe,forward_pe,analyst_rec,short_ratio,fund_score,rvol_score,composite
-1,AMG,https://www.tradingview.com/symbols/AMG/,False,True,BASING,4,379.01,395.0,270.33,-4.0,0.96,53.0,1.1,Financial Services,Asset Management,9801172992,29.9,148.2,37.7,13.3,8.8,1.43,3.3,9,2.4,4.0
-2,CHMI-PB,https://www.tradingview.com/symbols/CHMI-PB/,False,True,BASING,4,22.8,23.91,21.67,-4.7,1.39,11.7,1.0,Real Estate,REIT - Mortgage,285011392,27.6,,38.6,41.4,,,3.1,7,3.5,3.7
-3,EMF,https://www.tradingview.com/symbols/EMF/,False,True,BASING,4,21.75,24.27,18.96,-10.4,0.7,13.9,1.0,Financial Services,Asset Management,325116768,15.2,1056.1,2034.9,2.3,,,0.8,8,1.8,3.6
+1,AMG,https://www.tradingview.com/symbols/AMG/,False,True,BASING,4,388.75,395.0,270.33,-1.6,0.99,51.7,1.0,Financial Services,Asset Management,10053048320.0,29.9,148.2,37.7,13.6,9.0,1.43,3.3,9,2.5,3.9
+2,DSX-PB,https://www.tradingview.com/symbols/DSX-PB/,False,True,BASING,4,26.55,27.38,24.97,-3.0,1.55,6.8,1.0,Industrials,Marine Shipping,,4.7,466.0,27.9,28.2,,,1.4,7,3.9,3.8
+3,HL-PB,https://www.tradingview.com/symbols/HL-PB/,False,True,BASING,4,67.84,76.68,61.84,-11.5,0.0,16.4,1.0,Basic Materials,Other Precious Metals & Mining,,52.4,92.9,19.2,2261.3,,,18.4,8,1.0,3.5
+4,TY,https://www.tradingview.com/symbols/TY/,False,True,BASING,4,34.49,36.24,32.59,-4.8,0.78,10.1,1.0,Financial Services,Asset Management,1842542976.0,2.7,99.5,481.2,5.4,,,23.0,7,2.0,3.4
+5,AGM-A,https://www.tradingview.com/symbols/AGM-A/,False,True,BASING,4,140.87,174.2,130.69,-19.1,0.0,31.4,1.0,Financial Services,Credit Services,1528891648.0,24.9,20.8,56.0,7.7,,,0.6,7,1.0,3.2
