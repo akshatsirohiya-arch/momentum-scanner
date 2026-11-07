@@ -1,26 +1,28 @@
 Rank,Ticker,Chart,hh,hl,trend_structure,trend_score,current_price,high_6m,low_6m,pct_from_6m_high,RVOL,Velocity %,momentum_score,sector,industry,market_cap,rev_growth_pct,earnings_growth_pct,profit_margin_pct,trailing_pe,forward_pe,analyst_rec,short_ratio,fund_score,rvol_score,composite
-1,TPC,https://www.tradingview.com/symbols/TPC/,False,True,BASING,4,81.85,102.2,68.54,-19.9,2.06,20.0,1.0,Industrials,Engineering & Construction,4302781952.0,19.2,224.7,2.1,35.3,13.5,1.0,4.3,8,5.2,4.3
-2,OPHC,https://www.tradingview.com/symbols/OPHC/,False,True,BASING,4,8.68,10.68,5.36,-18.7,0.79,136.1,2.7,Financial Services,Banks - Regional,109631512.0,56.0,86.7,36.0,10.0,6.4,,1.3,9,2.0,4.3
-3,TREX,https://www.tradingview.com/symbols/TREX/,False,True,BASING,4,56.01,60.21,35.69,-7.0,2.32,31.1,1.0,Industrials,Building Products & Equipment,5637329920.0,26.0,7.5,13.9,32.4,27.7,1.84,6.6,7,5.8,4.2
-4,HMY,https://www.tradingview.com/symbols/HMY/,False,True,BASING,4,16.9,23.04,13.8,-26.7,1.36,19.7,1.0,Basic Materials,Gold,10596866048.0,49.2,198.8,29.6,6.2,5.1,2.33,3.0,9,3.4,4.1
-5,WHD,https://www.tradingview.com/symbols/WHD/,False,True,BASING,4,55.01,73.91,48.42,-25.6,1.23,37.5,1.0,Energy,Oil & Gas Equipment & Services,4442927616.0,63.2,45.4,12.0,37.4,15.3,2.25,4.0,8,3.1,3.9
-6,ITT,https://www.tradingview.com/symbols/ITT/,False,True,BASING,4,195.92,229.88,181.5,-14.8,1.63,8.4,1.0,Industrials,Specialty Industrial Machinery,17601417216.0,51.5,-37.5,8.9,38.3,20.4,1.36,7.7,7,4.1,3.9
-7,ASC,https://www.tradingview.com/symbols/ASC/,False,True,BASING,4,17.09,21.35,13.19,-20.0,1.38,44.3,1.0,Industrials,Marine Shipping,697316736.0,8.0,34.1,30.1,6.4,5.1,1.0,4.0,8,3.4,3.9
-8,SB-PC,https://www.tradingview.com/symbols/SB-PC/,False,True,BASING,4,25.52,26.15,24.64,-2.4,1.29,5.1,1.0,Industrials,Marine Shipping,,33.0,,28.3,16.9,,,10.3,8,3.2,3.9
-9,OBE,https://www.tradingview.com/symbols/OBE/,False,True,BASING,4,9.24,13.85,7.82,-33.3,1.2,7.7,1.0,Energy,Oil & Gas E&P,616544256.0,41.7,190.5,5.1,30.8,4.6,2.2,11.3,8,3.0,3.9
-10,TP,https://www.tradingview.com/symbols/TP/,False,True,BASING,4,8.32,12.14,6.1,-31.5,0.64,48.6,1.0,Technology,Software - Infrastructure,106366928.0,90.3,522.8,13.4,14.6,11.1,1.0,0.5,9,1.6,3.8
-11,BETA,https://www.tradingview.com/symbols/BETA/,False,True,BASING,4,24.05,27.42,14.31,-12.3,1.0,59.5,1.2,Industrials,Aerospace & Defense,5650862080.0,98.2,,,,-10.7,1.33,4.2,8,2.5,3.8
-12,ADX,https://www.tradingview.com/symbols/ADX/,False,True,BASING,4,24.26,26.56,23.79,-8.7,1.53,12.5,1.0,Financial Services,Asset Management,3030732032.0,9.4,54.2,1747.0,5.0,,,5.7,7,3.8,3.8
-13,STNG,https://www.tradingview.com/symbols/STNG/,False,True,BASING,4,80.74,95.6,67.61,-15.5,1.04,23.7,1.0,Energy,Oil & Gas Midstream,4124106496.0,10.4,165.9,77.1,4.2,8.8,1.6,1.7,8,2.6,3.8
-14,SSL,https://www.tradingview.com/symbols/SSL/,False,True,BASING,4,15.19,18.19,9.41,-16.5,1.13,59.1,1.2,Basic Materials,Specialty Chemicals,9737362432.0,17.9,447.5,4.5,13.7,5.3,,3.5,7,2.8,3.7
-15,AGM,https://www.tradingview.com/symbols/AGM/,False,True,BASING,4,197.97,246.53,168.07,-19.7,1.29,42.7,1.0,Financial Services,Credit Services,2148610048.0,24.9,20.8,56.0,10.8,8.6,,0.1,7,3.2,3.7
-16,GEF,https://www.tradingview.com/symbols/GEF/,False,True,BASING,4,73.38,89.89,59.57,-18.4,1.26,60.5,1.2,Consumer Cyclical,Packaging & Containers,4171517952.0,63.1,,5.9,33.2,14.2,2.6,1.1,7,3.1,3.7
-17,BB,https://www.tradingview.com/symbols/BB/,False,True,BASING,4,8.37,13.59,5.36,-38.4,1.13,10.1,1.0,Technology,Software - Infrastructure,4913459712.0,26.0,150.0,13.1,64.4,35.5,2.88,1.9,7,2.8,3.6
-18,FTK,https://www.tradingview.com/symbols/FTK/,False,True,BASING,4,22.16,39.67,15.02,-44.1,1.02,61.7,1.2,Energy,Oil & Gas Equipment & Services,802608320.0,104.1,-35.8,8.8,28.4,23.8,1.0,8.8,7,2.5,3.6
-19,CSW,https://www.tradingview.com/symbols/CSW/,False,True,BASING,4,276.65,355.12,250.95,-22.1,1.06,22.4,1.0,Industrials,Specialty Industrial Machinery,4507221504.0,30.5,20.3,10.2,35.5,20.3,2.43,8.7,7,2.7,3.6
-20,WTTR,https://www.tradingview.com/symbols/WTTR/,False,True,BASING,4,15.44,22.47,15.43,-31.3,1.1,9.5,1.0,Energy,Oil & Gas Equipment & Services,2203809280.0,8.7,62.0,2.2,55.1,27.9,1.43,4.2,7,2.8,3.6
-21,MSGE,https://www.tradingview.com/symbols/MSGE/,False,True,BASING,4,75.4,90.41,59.85,-16.6,1.02,30.4,1.0,Communication Services,Entertainment,3575901696.0,37.2,,8.6,37.1,26.0,2.2,4.2,7,2.5,3.6
-22,SMBK,https://www.tradingview.com/symbols/SMBK/,False,True,BASING,4,47.95,54.14,39.69,-11.4,0.92,43.1,1.0,Financial Services,Banks - Regional,819871744.0,11.8,35.8,29.7,13.1,11.6,2.5,5.2,7,2.3,3.5
-23,PATH,https://www.tradingview.com/symbols/PATH/,False,True,BASING,4,13.01,18.83,9.2,-30.9,0.44,68.4,1.4,Technology,Software - Infrastructure,6780232192.0,13.4,2280.8,21.0,19.4,14.1,2.85,2.6,7,1.1,3.4
-24,GENC,https://www.tradingview.com/symbols/GENC/,False,True,BASING,4,16.72,20.19,14.01,-17.2,0.62,51.5,1.0,Industrials,Farm & Heavy Construction Machinery,245076768.0,25.3,48.5,13.5,16.4,19.7,,1.9,7,1.6,3.4
-25,OOMA,https://www.tradingview.com/symbols/OOMA/,False,True,BASING,4,17.56,26.19,16.25,-33.0,0.6,30.5,1.0,Technology,Software - Application,484656000.0,25.4,150.0,3.6,45.0,11.7,,3.8,7,1.5,3.4
+1,GFI,https://www.tradingview.com/symbols/GFI/,False,True,BASING,4,39.17,48.01,30.42,-18.4,1.22,5.4,1.0,Basic Materials,Gold,34896416768.0,78.9,81.4,38.7,8.0,8.0,1.88,1.3,10,3.0,4.3
+2,OPHC,https://www.tradingview.com/symbols/OPHC/,False,True,BASING,4,8.83,10.68,5.36,-17.3,0.81,135.1,2.7,Financial Services,Banks - Regional,111526064.0,56.0,86.7,36.0,10.1,6.5,,1.3,9,2.0,4.3
+3,CLH,https://www.tradingview.com/symbols/CLH/,False,True,BASING,4,284.1,335.94,274.4,-15.4,1.95,18.9,1.0,Industrials,Waste Management,14980547584.0,20.7,77.8,8.1,28.5,29.0,1.47,3.0,8,4.9,4.2
+4,TREX,https://www.tradingview.com/symbols/TREX/,False,True,BASING,4,54.74,60.21,35.69,-9.1,2.38,31.8,1.0,Industrials,Building Products & Equipment,5470545920.0,26.0,7.5,13.9,31.6,26.7,1.84,6.6,7,5.9,4.2
+5,NUE,https://www.tradingview.com/symbols/NUE/,False,True,BASING,4,244.97,287.7,214.1,-14.9,1.48,20.7,1.0,Basic Materials,Steel,55577735168.0,32.0,120.5,9.3,15.6,11.4,1.65,3.9,9,3.7,4.2
+6,HMY,https://www.tradingview.com/symbols/HMY/,False,True,BASING,4,17.17,23.04,13.8,-25.5,1.22,20.0,1.0,Basic Materials,Gold,10766166016.0,49.2,198.8,29.6,6.3,5.2,2.33,3.0,9,3.0,4.1
+7,RS,https://www.tradingview.com/symbols/RS/,False,True,BASING,4,417.0,454.93,349.51,-8.3,1.24,21.4,1.0,Basic Materials,Steel,21242777600.0,42.8,118.4,6.4,19.4,16.2,2.67,4.3,8,3.1,3.9
+8,WTS,https://www.tradingview.com/symbols/WTS/,False,True,BASING,4,346.14,393.86,290.52,-12.1,1.74,30.6,1.0,Industrials,Specialty Industrial Machinery,11553746944.0,19.0,77.1,16.0,25.9,24.7,,3.6,7,4.3,3.9
+9,AME,https://www.tradingview.com/symbols/AME/,False,True,BASING,4,228.67,260.78,219.35,-12.3,1.63,16.8,1.0,Industrials,Specialty Industrial Machinery,52438147072.0,17.3,15.6,19.9,32.3,23.8,1.75,2.6,7,4.1,3.9
+10,SB-PC,https://www.tradingview.com/symbols/SB-PC/,False,True,BASING,4,26.06,26.15,24.64,-0.3,1.37,5.0,1.0,Industrials,Marine Shipping,,33.0,,28.3,17.3,,,10.3,8,3.4,3.9
+11,ITT,https://www.tradingview.com/symbols/ITT/,False,True,BASING,4,205.55,229.88,181.5,-10.6,1.78,9.4,1.0,Industrials,Specialty Industrial Machinery,18335059968.0,44.2,-14.8,8.1,42.3,21.4,1.36,7.7,7,4.5,3.9
+12,ADX,https://www.tradingview.com/symbols/ADX/,False,True,BASING,4,24.46,26.56,23.79,-7.9,1.48,11.7,1.0,Financial Services,Asset Management,3055717376.0,9.4,54.2,1747.0,5.0,,,5.7,7,3.7,3.8
+13,J,https://www.tradingview.com/symbols/J/,False,True,BASING,4,148.9,162.0,105.09,-8.1,1.47,54.9,1.1,Industrials,Engineering & Construction,17427048448.0,34.5,-25.4,2.4,49.5,18.1,1.94,5.0,7,3.7,3.8
+14,AVNT,https://www.tradingview.com/symbols/AVNT/,False,True,BASING,4,45.47,49.08,31.78,-7.4,1.41,49.4,1.0,Basic Materials,Specialty Chemicals,4171683584.0,10.5,29.3,5.3,23.3,12.7,1.75,5.1,7,3.5,3.8
+15,FTK,https://www.tradingview.com/symbols/FTK/,False,True,BASING,4,24.45,39.67,15.71,-38.4,1.12,57.6,1.2,Energy,Oil & Gas Equipment & Services,885549376.0,104.1,-35.8,8.8,31.3,22.9,1.0,8.8,7,2.8,3.7
+16,GRMN,https://www.tradingview.com/symbols/GRMN/,False,True,BASING,4,285.57,313.07,222.69,-8.8,1.27,52.3,1.0,Technology,Scientific & Technical Instruments,55027998720.0,12.2,34.6,25.6,27.4,24.9,2.44,3.9,7,3.2,3.7
+17,MLR,https://www.tradingview.com/symbols/MLR/,False,True,BASING,4,46.32,59.48,44.23,-22.1,1.23,26.4,1.0,Consumer Cyclical,Auto Parts,523590080.0,18.8,96.8,2.2,30.7,16.7,,5.8,7,3.1,3.7
+18,AU,https://www.tradingview.com/symbols/AU/,False,True,BASING,4,92.99,123.39,72.94,-24.6,1.3,14.2,1.0,Basic Materials,Gold,47031480320.0,8.4,17.6,32.6,12.1,10.2,1.78,1.5,7,3.2,3.7
+19,CF,https://www.tradingview.com/symbols/CF/,False,True,BASING,4,119.39,141.66,100.18,-15.7,1.21,13.0,1.0,Basic Materials,Agricultural Inputs,17753292800.0,12.1,31.1,27.5,8.4,10.5,2.86,3.3,7,3.0,3.7
+20,STNG,https://www.tradingview.com/symbols/STNG/,False,True,BASING,4,80.76,95.6,67.61,-15.5,0.9,24.0,1.0,Energy,Oil & Gas Midstream,4125128192.0,10.4,165.9,77.1,4.2,8.8,1.6,1.7,8,2.2,3.7
+21,GEF,https://www.tradingview.com/symbols/GEF/,False,True,BASING,4,72.51,89.89,59.57,-19.3,1.23,58.9,1.2,Consumer Cyclical,Packaging & Containers,4122060288.0,63.1,,5.9,32.8,14.5,2.6,1.1,7,3.1,3.7
+22,SSL,https://www.tradingview.com/symbols/SSL/,False,True,BASING,4,14.83,18.19,9.41,-18.5,0.94,60.8,1.2,Basic Materials,Specialty Chemicals,9506588672.0,17.9,447.5,4.5,13.4,5.1,,3.5,7,2.3,3.6
+23,TEL,https://www.tradingview.com/symbols/TEL/,False,True,BASING,4,207.01,230.0,189.53,-10.0,1.06,10.4,1.0,Technology,Electronic Components,59515486208.0,11.9,39.1,16.4,18.7,13.6,1.68,3.4,7,2.7,3.6
+24,BB,https://www.tradingview.com/symbols/BB/,False,True,BASING,4,8.74,13.59,5.83,-35.7,1.13,6.8,1.0,Technology,Software - Infrastructure,5130661888.0,26.0,150.0,13.1,67.2,37.1,2.88,1.9,7,2.8,3.6
+25,SMBK,https://www.tradingview.com/symbols/SMBK/,False,True,BASING,4,47.73,54.14,39.69,-11.8,0.94,41.8,1.0,Financial Services,Banks - Regional,816110080.0,11.8,35.8,29.7,13.0,11.5,2.5,5.2,7,2.3,3.5
+26,CHT,https://www.tradingview.com/symbols/CHT/,False,True,BASING,4,49.85,50.15,41.14,-0.6,0.64,27.4,1.0,Communication Services,Telecom Services,38670868480.0,16.7,29.1,16.6,30.4,31.8,,4.5,7,1.6,3.4
+27,GENC,https://www.tradingview.com/symbols/GENC/,False,True,BASING,4,17.0,20.19,14.01,-15.8,0.64,51.0,1.0,Industrials,Farm & Heavy Construction Machinery,249180928.0,25.3,48.5,13.5,16.7,20.0,,1.9,7,1.6,3.4
