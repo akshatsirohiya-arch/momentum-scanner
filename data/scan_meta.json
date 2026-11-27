@@ -1,11 +1,11 @@
 {
-  "scan_date": "November 26, 2026",
-  "scan_time": "04:35",
+  "scan_date": "November 27, 2026",
+  "scan_time": "04:40",
   "universe_size": 3257,
-  "valid_tickers": 3134,
-  "prefiltered": 573,
-  "main_count": 0,
-  "basing_count": 0,
-  "spec_count": 0,
-  "elapsed_seconds": 106.7
+  "valid_tickers": 3132,
+  "prefiltered": 574,
+  "main_count": 368,
+  "basing_count": 22,
+  "spec_count": 34,
+  "elapsed_seconds": 181.0
 }
